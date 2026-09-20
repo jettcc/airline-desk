@@ -17,7 +17,8 @@ playwright-report/
 *.tsbuildinfo
 deliverables/
 
-# Public repository: never commit credentials or private archives.
+# Private credentials and archives stay ignored.
+# The owner-authorized public demo .env.rightcodes.local is explicitly tracked.
 .env
 .env.*
 !.env.example

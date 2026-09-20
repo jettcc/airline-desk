@@ -8,7 +8,7 @@
 
 ## 启动
 
-**面试官一键启动：** macOS双击 [Start.command](Start.command)，或在macOS/Linux终端运行 `bash start.sh`。需要Python3.10+和npm；脚本会准备Node24、安装依赖、构建、打开网页，默认开启服务试用。重复启动保留数据；Ctrl+C停止。原作业模式可用 `bash start.sh --classic`。**此公开仓库不含 API Key。** 使用聊天前，复制 [.env.example](.env.example) 为 `.env.rightcodes.local`，填入你自己的 Right Codes Key，并设置权限 `0600`。也可以先启动体验页面和本地模拟流程。详见 [简短交付说明](docs/DELIVERY_REPORT.md)。
+**面试官一键启动：** macOS双击 [Start.command](Start.command)，或在macOS/Linux终端运行 `bash start.sh`。需要Python3.10+和npm；脚本会准备Node24、安装依赖、构建、打开网页，默认开启服务试用。重复启动保留数据；Ctrl+C停止。原作业模式可用 `bash start.sh --classic`。**仓库已按所有者授权附带演示 Key，可直接启动体验。** 所有者已将供应商额度上限调整为 **3 美元**；剩余额度未知，预算配置不负责限制扣费。详见 [简短交付说明](docs/DELIVERY_REPORT.md)。
 
 以下为手动启动方式：
 
@@ -25,7 +25,7 @@ npm start
 
 打开 [http://127.0.0.1:3000](http://127.0.0.1:3000)。第一次初始化创建未来的样例航班；重启保留账号、客票和处理记录。
 
-自然语言助手使用 Right Codes 的 `gpt-5.6-sol`，BaseURL 为 `https://www.rightapi.ai/codex/v1`。本公开仓库不附带凭据；如需配置或更换模型 Key，复制 [.env.example](.env.example) 为 `.env.rightcodes.local`，填写Key并设置权限 `0600`。未配置模型时网页和规则/接口测试仍可用，聊天明确提示不可用。`npm run doctor` 可检查环境与配置，不调用收费模型。
+自然语言助手使用 Right Codes 的 `gpt-5.6-sol`，BaseURL 为 `https://www.rightapi.ai/codex/v1`。仓库附带所有者授权公开的演示配置 `.env.rightcodes.local`。演示额度耗尽或 Key 失效时，可参照 [.env.example](.env.example) 在本地替换 Key，并设置权限 `0600`；请勿把自己的私用 Key 提交回仓库。未配置模型时网页和规则/接口测试仍可用，聊天明确提示不可用。`npm run doctor` 可检查环境与配置，不调用收费模型。
 
 ## 先体验这三个任务
 
@@ -52,7 +52,7 @@ npm test
 npx playwright install chromium --only-shell
 npm run test:browser
 .venv/bin/python scripts/validate_m1.py
-# 以下调用收费模型；需要自己的有效凭据
+# 以下调用收费模型，会消耗所配置 Key 的额度
 npm run acceptance
 npm run acceptance -- --suite=dialogue
 # 可选服务试用的真实模型查询场景
