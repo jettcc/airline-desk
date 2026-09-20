@@ -1,0 +1,347 @@
+[
+  {
+    "actual_status": "FOUND",
+    "candidate_ids": [],
+    "case": "K01",
+    "expected_status": "FOUND",
+    "input": {
+      "airline": "BHA",
+      "compare": false,
+      "question": "改签",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [
+      "BHA:2.1",
+      "BHA:2.2",
+      "BHA:Appendix A"
+    ],
+    "result": "PASS",
+    "retrieved_source_ids": [
+      "BHA:1",
+      "BHA:1.1",
+      "BHA:2",
+      "BHA:2.1",
+      "BHA:2.2",
+      "BHA:2.3",
+      "BHA:3.1",
+      "BHA:3.2",
+      "BHA:5",
+      "BHA:6",
+      "BHA:6.1",
+      "BHA:6.2",
+      "BHA:6.3",
+      "BHA:8",
+      "BHA:8.1",
+      "BHA:9",
+      "BHA:Appendix A"
+    ],
+    "trace": {
+      "lexical_candidate_ids": [],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "FOUND",
+    "candidate_ids": [],
+    "case": "K02",
+    "expected_status": "FOUND",
+    "input": {
+      "airline": "NSA",
+      "compare": false,
+      "question": "退票",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [
+      "NSA:3.1",
+      "NSA:3.2",
+      "NSA:6.2"
+    ],
+    "result": "PASS",
+    "retrieved_source_ids": [
+      "NSA:1",
+      "NSA:1.1",
+      "NSA:2.2",
+      "NSA:3",
+      "NSA:3.1",
+      "NSA:3.2",
+      "NSA:4",
+      "NSA:5",
+      "NSA:6",
+      "NSA:6.1",
+      "NSA:6.2",
+      "NSA:6.3",
+      "NSA:8",
+      "NSA:8.1",
+      "NSA:9",
+      "NSA:9.1"
+    ],
+    "trace": {
+      "lexical_candidate_ids": [],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "FOUND",
+    "candidate_ids": [],
+    "case": "K03",
+    "expected_status": "FOUND",
+    "input": {
+      "airline": "STA",
+      "compare": false,
+      "question": "行李",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [
+      "STA:7",
+      "STA:7.1",
+      "STA:7.3"
+    ],
+    "result": "PASS",
+    "retrieved_source_ids": [
+      "STA:1",
+      "STA:2",
+      "STA:3.2",
+      "STA:7",
+      "STA:7.1",
+      "STA:7.2",
+      "STA:7.3",
+      "STA:9"
+    ],
+    "trace": {
+      "lexical_candidate_ids": [],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "FOUND",
+    "candidate_ids": [],
+    "case": "K04",
+    "expected_status": "FOUND",
+    "input": {
+      "airline": null,
+      "compare": true,
+      "question": "行李",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [
+      "NSA:7",
+      "BHA:7",
+      "STA:7"
+    ],
+    "result": "PASS",
+    "retrieved_source_ids": [
+      "BHA:1",
+      "BHA:2",
+      "BHA:3.2",
+      "BHA:7",
+      "BHA:7.1",
+      "BHA:7.2",
+      "BHA:7.3",
+      "BHA:9",
+      "NSA:1",
+      "NSA:2",
+      "NSA:3.2",
+      "NSA:7",
+      "NSA:7.1",
+      "NSA:7.2",
+      "NSA:7.3",
+      "NSA:9",
+      "STA:1",
+      "STA:2",
+      "STA:3.2",
+      "STA:7",
+      "STA:7.1",
+      "STA:7.2",
+      "STA:7.3",
+      "STA:9"
+    ],
+    "trace": {
+      "lexical_candidate_ids": [],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "NEEDS_CONTEXT",
+    "candidate_ids": [],
+    "case": "K05",
+    "expected_status": "NEEDS_CONTEXT",
+    "input": {
+      "airline": null,
+      "compare": false,
+      "question": "退票",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [],
+    "result": "PASS",
+    "retrieved_source_ids": [],
+    "trace": {
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "NO_EVIDENCE",
+    "candidate_ids": [],
+    "case": "K06",
+    "expected_status": "NO_EVIDENCE",
+    "input": {
+      "airline": "BHA",
+      "compare": false,
+      "question": "宠物可以托运行李吗",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [
+      "BHA:10"
+    ],
+    "result": "PASS",
+    "retrieved_source_ids": [
+      "BHA:1",
+      "BHA:2",
+      "BHA:3.2",
+      "BHA:7",
+      "BHA:7.1",
+      "BHA:7.2",
+      "BHA:7.3",
+      "BHA:9",
+      "BHA:10"
+    ],
+    "trace": {
+      "lexical_candidate_ids": [],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "UNSUPPORTED_PERIOD",
+    "candidate_ids": [],
+    "case": "K07",
+    "expected_status": "UNSUPPORTED_PERIOD",
+    "input": {
+      "airline": "BHA",
+      "compare": false,
+      "question": "改签",
+      "request_at": "2026-06-30T23:59:59Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [],
+    "result": "PASS",
+    "retrieved_source_ids": [],
+    "trace": {
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "NO_EVIDENCE",
+    "candidate_ids": [
+      "NSA:document",
+      "NSA:2.2",
+      "NSA:5",
+      "NSA:7.2",
+      "NSA:8",
+      "NSA:8.1",
+      "NSA:9.1",
+      "NSA:10"
+    ],
+    "case": "K08",
+    "expected_status": "NO_EVIDENCE",
+    "input": {
+      "airline": "NSA",
+      "compare": false,
+      "question": "service-desk",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [],
+    "result": "PASS",
+    "retrieved_source_ids": [],
+    "trace": {
+      "lexical_candidate_ids": [
+        "NSA:8.1",
+        "NSA:10",
+        "NSA:7.2",
+        "NSA:8",
+        "NSA:9.1",
+        "NSA:5",
+        "NSA:2.2",
+        "NSA:document"
+      ],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "FOUND",
+    "candidate_ids": [],
+    "case": "K09",
+    "expected_status": "FOUND",
+    "input": {
+      "airline": "STA",
+      "compare": false,
+      "question": "降价与税费可以轧差抵扣吗",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [
+      "STA:2.2",
+      "STA:3.1"
+    ],
+    "result": "PASS",
+    "retrieved_source_ids": [
+      "STA:1",
+      "STA:1.1",
+      "STA:2",
+      "STA:2.1",
+      "STA:2.2",
+      "STA:2.3",
+      "STA:3",
+      "STA:3.1",
+      "STA:3.2",
+      "STA:4",
+      "STA:5",
+      "STA:6",
+      "STA:6.1",
+      "STA:6.2",
+      "STA:6.3",
+      "STA:8",
+      "STA:8.1",
+      "STA:9",
+      "STA:9.1"
+    ],
+    "trace": {
+      "lexical_candidate_ids": [],
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  },
+  {
+    "actual_status": "NEEDS_CONTEXT",
+    "candidate_ids": [],
+    "case": "K10",
+    "expected_status": "NEEDS_CONTEXT",
+    "input": {
+      "airline": "BHA",
+      "compare": false,
+      "question": "Northstar refund",
+      "request_at": "2026-09-18T00:00:00Z"
+    },
+    "release_id": "404f665e46351af9b4c4e50b",
+    "required_source_ids": [],
+    "result": "PASS",
+    "retrieved_source_ids": [],
+    "trace": {
+      "method": "section_relations_plus_fts5",
+      "source": "reviewed_local_pdfs"
+    }
+  }
+]

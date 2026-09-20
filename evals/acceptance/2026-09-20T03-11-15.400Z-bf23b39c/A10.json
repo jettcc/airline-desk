@@ -1,0 +1,1582 @@
+{
+  "id": "A10",
+  "status": "PASS",
+  "expected": "COMMIT then lost response; recover by original key, same quote new key and refresh all return one operation",
+  "elapsed_ms": 9464,
+  "steps": [
+    {
+      "input": "请为 CANCEL-NSA-A 计算整票取消方案，先给报价。",
+      "state": "COMPLETED",
+      "response": {
+        "language": "zh",
+        "cards": [
+          {
+            "kind": "quote",
+            "data": {
+              "id": "quote_00a93a89-e344-40c2-aa91-391907ee7350",
+              "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+              "intent_version": 3,
+              "request": {
+                "action": "CANCEL",
+                "targets": [
+                  {
+                    "ticket_id": "CANCEL-NSA-A",
+                    "replacements": [],
+                    "segment_ids": []
+                  }
+                ]
+              },
+              "decision": {
+                "status": "ALLOWED",
+                "reasons": [
+                  "POLICY_APPLIED"
+                ],
+                "known_rights": [],
+                "lines": [
+                  {
+                    "ticket_id": "CANCEL-NSA-A",
+                    "segment_id": null,
+                    "entitlement_id": "CANCEL-NSA-A:fare",
+                    "kind": "FARE",
+                    "direction": "CREDIT",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "units": "60",
+                      "nanos": 0
+                    },
+                    "rule_id": "NSA:3",
+                    "payment_ref": null
+                  },
+                  {
+                    "ticket_id": "CANCEL-NSA-A",
+                    "segment_id": null,
+                    "entitlement_id": "CANCEL-NSA-A:fare-loss",
+                    "kind": "CANCELLATION_FEE",
+                    "direction": "FORFEIT",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "units": "40",
+                      "nanos": 0
+                    },
+                    "rule_id": "NSA:3",
+                    "payment_ref": "PAY-CANCEL-NSA-A"
+                  },
+                  {
+                    "ticket_id": "CANCEL-NSA-A",
+                    "segment_id": "CANCEL-NSA-A-S1",
+                    "entitlement_id": "CANCEL-NSA-A-S1:tax",
+                    "kind": "TAX",
+                    "direction": "REFUND",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "units": "20",
+                      "nanos": 0
+                    },
+                    "rule_id": "NSA:3.2",
+                    "payment_ref": "PAY-CANCEL-NSA-A"
+                  },
+                  {
+                    "ticket_id": "CANCEL-NSA-A",
+                    "segment_id": "CANCEL-NSA-A-S1",
+                    "entitlement_id": "CANCEL-SEAT",
+                    "kind": "EXTRA",
+                    "direction": "FORFEIT",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "units": "10",
+                      "nanos": 0
+                    },
+                    "rule_id": "NSA:3.2",
+                    "payment_ref": "PAY-CANCEL-NSA-A"
+                  }
+                ],
+                "totals": {
+                  "collect": {
+                    "currencyCode": "USD",
+                    "units": "0",
+                    "nanos": 0
+                  },
+                  "refund": {
+                    "currencyCode": "USD",
+                    "units": "20",
+                    "nanos": 0
+                  },
+                  "credit": {
+                    "currencyCode": "USD",
+                    "units": "60",
+                    "nanos": 0
+                  },
+                  "forfeit": {
+                    "currencyCode": "USD",
+                    "units": "50",
+                    "nanos": 0
+                  }
+                },
+                "sources": [
+                  {
+                    "airline": "NSA",
+                    "section": "3",
+                    "page": 3,
+                    "rule_id": "NSA:3"
+                  },
+                  {
+                    "airline": "NSA",
+                    "section": "3.1",
+                    "page": 3,
+                    "rule_id": "NSA:3.1"
+                  },
+                  {
+                    "airline": "NSA",
+                    "section": "3.2",
+                    "page": 3,
+                    "rule_id": "NSA:3.2"
+                  },
+                  {
+                    "airline": "NSA",
+                    "section": "5",
+                    "page": 3,
+                    "rule_id": "NSA:5"
+                  },
+                  {
+                    "airline": "NSA",
+                    "section": "1.1",
+                    "page": 1,
+                    "rule_id": "NSA:1.1"
+                  },
+                  {
+                    "airline": "NSA",
+                    "section": "8",
+                    "page": 6,
+                    "rule_id": "NSA:8"
+                  }
+                ]
+              },
+              "ticket_versions": {
+                "CANCEL-NSA-A": 1
+              },
+              "offer_versions": {},
+              "bundle_id": "a4867b9552b0bd5d6aca7e61",
+              "created_at_ms": 1789689600000,
+              "expires_at_ms": 1789689900000,
+              "status": "ACTIVE",
+              "display": {
+                "tickets": [
+                  {
+                    "id": "CANCEL-NSA-A",
+                    "booking_id": "CANCEL-NSA",
+                    "traveler_id": "traveler-alice",
+                    "traveler_name": "林怡",
+                    "airline": "NSA",
+                    "fare_type": "Standard",
+                    "original_issued_at_ms": 1782864000000,
+                    "version": 1,
+                    "channel": "DIRECT",
+                    "state": "ACTIVE",
+                    "historical_value_unclear": false,
+                    "disruption": null,
+                    "extras": [
+                      {
+                        "id": "CANCEL-SEAT",
+                        "segment_id": "CANCEL-NSA-A-S1",
+                        "type": "SEAT",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "units": "10",
+                          "nanos": 0
+                        },
+                        "used": false,
+                        "refunded": false
+                      }
+                    ],
+                    "segments": [
+                      {
+                        "id": "CANCEL-NSA-A-S1",
+                        "flight_id": "CANCEL-NSA-A-F1",
+                        "origin": "AST",
+                        "destination": "BAY",
+                        "domestic": true,
+                        "original_departure_at_ms": 1789797600000,
+                        "departure_at_ms": 1789797600000,
+                        "arrival_at_ms": 1789804800000,
+                        "state": "UNUSED",
+                        "fare": {
+                          "currencyCode": "USD",
+                          "units": "100",
+                          "nanos": 0
+                        },
+                        "tax": {
+                          "currencyCode": "USD",
+                          "units": "20",
+                          "nanos": 0
+                        },
+                        "tax_refunded": false,
+                        "payment_ref": "PAY-CANCEL-NSA-A"
+                      }
+                    ]
+                  }
+                ],
+                "offers": []
+              }
+            }
+          }
+        ],
+        "model_mode": "real",
+        "elapsed_ms": 8492
+      }
+    },
+    {
+      "page_text": "航旅服务助手\ngpt-5.6-sol\nUTC\nAsia/Shanghai\nAmerica/New_York\nEN\n○\n林怡 · 旅客\nAIRLINE DESK / 让每一步都有依据\n演示使用冻结时钟: 2026-09-18T00:00:00.000Z\n请为 CANCEL-NSA-A 计算整票取消方案，先给报价。\n↗\nAirline Desk\n待确认 · 尚未执行\n取消并按明细处理\nCANCEL-NSA-A · 林怡 · Standard\n应收\n$0.00 USD\n原路应退\n$20.00 USD\n本人旅行额度\n$60.00 USD\n不退部分\n$50.00 USD\n票价\nCANCEL-NSA-A\n本人旅行额度 $60.00\n取消费扣除\nCANCEL-NSA-A\n模拟原支付渠道 · •• CANCEL-NSA-A\n不退部分 $40.00\n政府税\nCANCEL-NSA-A · CANCEL-NSA-A-S1\n模拟原支付渠道 · •• CANCEL-NSA-A\n原路应退 $20.00\n附加服务\nCANCEL-NSA-A · CANCEL-NSA-A-S1\n模拟原支付渠道 · •• CANCEL-NSA-A\n不退部分 $10.00\n\n有效至 2026/09/18 00:05 UTC · 已失效或已有后续处理\n\n↗ NSA · 第3页\n↗ NSA · 第1页\n↗ NSA · 第6页\n\n模拟办理。确认时会重新校验政策、权限、客票和座位；报价不锁座，也不保留政策时间窗口。\n\n确认取消并按明细处理\n↗\nAirline Desk\n✓ 模拟办理已完成\n取消并按明细处理\n\noperation_c12c5840-3cdc-41fc-9810-d396c3bc73c8\n\n2026/09/18 00:00 UTC · CANCEL-NSA-A\n\n办理后的客票\n应收\n$0.00 USD\n原路应退\n$20.00 USD\n本人旅行额度\n$60.00 USD\n不退部分\n$50.00 USD\n查看资金明细\n本人旅行额度 $60.00 · NSA\n签发 2026/09/18 00:00 UTC\n到期 2027/09/18 00:00 UTC\n\n仅限本人及该航司；兑换和新行程起飞均须在到期前。本期记录额度，不提供兑换功能。\n\n↗ NSA · 第3页\n↗ NSA · 第1页\n↗ NSA · 第6页\n↑\n\n公开咨询无需登录 · 涉及个人客票时核验身份 · 所有资金处理均为模拟"
+    }
+  ],
+  "model": {
+    "mode": "real",
+    "name": "gpt-5.6-sol",
+    "base_url": "https://www.rightapi.ai/codex/v1"
+  },
+  "trace_status": "COMPLETE",
+  "traces": [
+    {
+      "id": "trace_f395f331-909f-47b6-ba8f-9ca98b36b8a7",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "turn_started",
+      "mode": "real",
+      "model": "gpt-5.6-sol",
+      "skills_version": "b7846ab1fcba6350428cafaf",
+      "request_hash": "a474d32180005dbc5cce4ce6053a30bd8963408b15cb2f1194771990c9ac0f97",
+      "sequence": 1
+    },
+    {
+      "id": "trace_3c455d2d-499b-4c05-99c6-27500cf6c905",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "model_response",
+      "model": "gpt-5.6-sol",
+      "response_id": "resp_0ff65bfb980023d4016aaf4f8aeaf087d0953443c8b7276682",
+      "usage": {
+        "input_tokens": 4642,
+        "output_tokens": 42,
+        "total_tokens": 4684
+      },
+      "attempts": 1,
+      "elapsed_ms": 4282,
+      "sequence": 2
+    },
+    {
+      "id": "trace_e8b7d78a-7e17-4604-83b2-9e7ee966650b",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "tool_started",
+      "tool": "get_booking",
+      "call_id": "call_yJu15GFe1UYleeJJolY1Cfpq",
+      "input_hash": "42030aa3d694a328d6962fc857d5837811129401d9fe61649e31001073f79c34",
+      "sequence": 3
+    },
+    {
+      "id": "trace_ae1e26e2-430c-4ce2-b129-c220593f8efd",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "tool_result",
+      "call_id": "call_yJu15GFe1UYleeJJolY1Cfpq",
+      "tool": "get_booking",
+      "input_hash": "42030aa3d694a328d6962fc857d5837811129401d9fe61649e31001073f79c34",
+      "targets": [
+        "CANCEL-NSA-A"
+      ],
+      "status": "READ",
+      "sources": [],
+      "sequence": 4
+    },
+    {
+      "id": "trace_4d0af7e8-2934-42ed-ace5-0f4ea466ea87",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "model_response",
+      "model": "gpt-5.6-sol",
+      "response_id": "resp_0ff65bfb980023d4016aaf4f8f3e9487d0abdc842cbbfa1cb4",
+      "usage": {
+        "input_tokens": 5130,
+        "output_tokens": 72,
+        "total_tokens": 5202
+      },
+      "attempts": 1,
+      "elapsed_ms": 4207,
+      "sequence": 5
+    },
+    {
+      "id": "trace_6da1dd35-7b5b-4f25-b878-51ff74b49bf8",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "tool_started",
+      "tool": "quote_operation",
+      "call_id": "call_loVdlHWe0fA9VBWHx6DopkMP",
+      "input_hash": "6d77d1db4734a463b7b9c695be872fe3bf42e8eadc893ea01257dd38b957ddc1",
+      "sequence": 6
+    },
+    {
+      "id": "trace_b36476b5-a19b-4fb4-a76c-d313b6c70866",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "tool_result",
+      "call_id": "call_loVdlHWe0fA9VBWHx6DopkMP",
+      "tool": "quote_operation",
+      "input_hash": "6d77d1db4734a463b7b9c695be872fe3bf42e8eadc893ea01257dd38b957ddc1",
+      "targets": [
+        "CANCEL-NSA-A"
+      ],
+      "status": "AWAITING_CONFIRMATION",
+      "quote_id": "quote_00a93a89-e344-40c2-aa91-391907ee7350",
+      "sources": [
+        {
+          "airline": "NSA",
+          "section": "3",
+          "page": 3,
+          "rule_id": "NSA:3"
+        },
+        {
+          "airline": "NSA",
+          "section": "3.1",
+          "page": 3,
+          "rule_id": "NSA:3.1"
+        },
+        {
+          "airline": "NSA",
+          "section": "3.2",
+          "page": 3,
+          "rule_id": "NSA:3.2"
+        },
+        {
+          "airline": "NSA",
+          "section": "5",
+          "page": 3,
+          "rule_id": "NSA:5"
+        },
+        {
+          "airline": "NSA",
+          "section": "1.1",
+          "page": 1,
+          "rule_id": "NSA:1.1"
+        },
+        {
+          "airline": "NSA",
+          "section": "8",
+          "page": 6,
+          "rule_id": "NSA:8"
+        }
+      ],
+      "sequence": 7
+    },
+    {
+      "id": "trace_b5e59c99-6c54-4fbd-8b4c-b305cda5928e",
+      "conversation_id": "conversation_bd580a2a-ae77-4c41-a0a9-0b2d96926dd6",
+      "turn_id": "turn_476a8dd8-db17-46fc-876f-d2864f869839",
+      "created_at_ms": 1789689600000,
+      "event": "turn_finished",
+      "state": "COMPLETED",
+      "elapsed_ms": 8492,
+      "sequence": 8
+    }
+  ],
+  "persisted": {
+    "tickets": [
+      {
+        "id": "NSA-A",
+        "booking_id": "DEMO-NSA",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "NSA-A-S1",
+            "flight_id": "NSA-ORIGINAL-1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-A"
+          },
+          {
+            "id": "NSA-A-S2",
+            "flight_id": "NSA-ORIGINAL-2",
+            "origin": "BAY",
+            "destination": "AST",
+            "domestic": true,
+            "original_departure_at_ms": 1790035200000,
+            "departure_at_ms": 1790035200000,
+            "arrival_at_ms": 1790042400000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-A"
+          }
+        ]
+      },
+      {
+        "id": "NSA-B",
+        "booking_id": "DEMO-NSA",
+        "traveler_id": "traveler-bob",
+        "traveler_name": "陈平",
+        "airline": "NSA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "NSA-B-S1",
+            "flight_id": "NSA-ORIGINAL-1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-B"
+          },
+          {
+            "id": "NSA-B-S2",
+            "flight_id": "NSA-ORIGINAL-2",
+            "origin": "BAY",
+            "destination": "AST",
+            "domestic": true,
+            "original_departure_at_ms": 1790035200000,
+            "departure_at_ms": 1790035200000,
+            "arrival_at_ms": 1790042400000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-B"
+          }
+        ]
+      },
+      {
+        "id": "CANCEL-NSA-A",
+        "booking_id": "CANCEL-NSA",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 2,
+        "channel": "DIRECT",
+        "state": "CANCELLED",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [
+          {
+            "id": "CANCEL-SEAT",
+            "segment_id": "CANCEL-NSA-A-S1",
+            "type": "SEAT",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "10",
+              "nanos": 0
+            },
+            "used": false,
+            "refunded": false
+          }
+        ],
+        "segments": [
+          {
+            "id": "CANCEL-NSA-A-S1",
+            "flight_id": "CANCEL-NSA-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": true,
+            "payment_ref": "PAY-CANCEL-NSA-A"
+          }
+        ]
+      },
+      {
+        "id": "BHA-OLD-A",
+        "booking_id": "BHA-OLD",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "BHA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782863999999,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "BHA-OLD-A-S1",
+            "flight_id": "BHA-OLD-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-BHA-OLD-A"
+          }
+        ]
+      },
+      {
+        "id": "BHA-NEW-A",
+        "booking_id": "BHA-NEW",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "BHA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "BHA-NEW-A-S1",
+            "flight_id": "BHA-NEW-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-BHA-NEW-A"
+          }
+        ]
+      },
+      {
+        "id": "STA-MIX-A",
+        "booking_id": "STA-MIX",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "STA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "STA-MIX-A-S1",
+            "flight_id": "STA-MIX-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-STA-MIX-A"
+          },
+          {
+            "id": "STA-MIX-A-S2",
+            "flight_id": "STA-MIX-A-F2",
+            "origin": "BAY",
+            "destination": "LUM",
+            "domestic": false,
+            "original_departure_at_ms": 1789819200000,
+            "departure_at_ms": 1789819200000,
+            "arrival_at_ms": 1789830000000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-STA-MIX-A"
+          }
+        ]
+      },
+      {
+        "id": "BHA-DISRUPT-A",
+        "booking_id": "BHA-DISRUPT",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "BHA",
+        "fare_type": "Basic",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": {
+          "id": "EVENT-BHA-180",
+          "segment_id": "BHA-DISRUPT-A-S1",
+          "kind": "SCHEDULE_CHANGE",
+          "notified_at_ms": 1789686000000,
+          "new_departure_at_ms": 1789808400000,
+          "consumed": false
+        },
+        "extras": [
+          {
+            "id": "DISRUPT-BAG",
+            "segment_id": "BHA-DISRUPT-A-S1",
+            "type": "BAG",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "40",
+              "nanos": 0
+            },
+            "used": false,
+            "refunded": false
+          },
+          {
+            "id": "DISRUPT-SEAT",
+            "segment_id": "BHA-DISRUPT-A-S1",
+            "type": "SEAT",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "10",
+              "nanos": 0
+            },
+            "used": false,
+            "refunded": false
+          }
+        ],
+        "segments": [
+          {
+            "id": "BHA-DISRUPT-A-S1",
+            "flight_id": "BHA-DISRUPT-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789808400000,
+            "arrival_at_ms": 1789815600000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "200",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "30",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-BHA-DISRUPT-A"
+          }
+        ]
+      },
+      {
+        "id": "NSA-PARTIAL-A",
+        "booking_id": "NSA-PARTIAL",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": {
+          "id": "EVENT-PARTIAL",
+          "segment_id": "NSA-PARTIAL-A-S2",
+          "kind": "CANCELLED",
+          "notified_at_ms": 1789686000000,
+          "new_departure_at_ms": 1789804800000,
+          "consumed": false
+        },
+        "extras": [],
+        "segments": [
+          {
+            "id": "NSA-PARTIAL-A-S1",
+            "flight_id": "NSA-PARTIAL-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789603200000,
+            "departure_at_ms": 1789603200000,
+            "arrival_at_ms": 1789610400000,
+            "state": "USED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-PARTIAL-A"
+          },
+          {
+            "id": "NSA-PARTIAL-A-S2",
+            "flight_id": "PART-RETURN-F1",
+            "origin": "BAY",
+            "destination": "AST",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-PART-RETURN"
+          }
+        ]
+      },
+      {
+        "id": "STA-MISSED-A",
+        "booking_id": "STA-MISSED",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "STA",
+        "fare_type": "Flex",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "SUSPENDED",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "STA-MISSED-A-S1",
+            "flight_id": "STA-MISSED-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789686000000,
+            "departure_at_ms": 1789686000000,
+            "arrival_at_ms": 1789693200000,
+            "state": "NO_SHOW",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-STA-MISSED-A"
+          }
+        ]
+      },
+      {
+        "id": "AGENT-NSA-A",
+        "booking_id": "AGENCY-NSA",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Flex",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "AGENT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "AGENT-NSA-A-S1",
+            "flight_id": "AGENT-NSA-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-AGENT-NSA-A"
+          }
+        ]
+      },
+      {
+        "id": "NSA-BASIC-A",
+        "booking_id": "NSA-BASIC",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Basic",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "NSA-BASIC-A-S1",
+            "flight_id": "NSA-BASIC-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-BASIC-A"
+          }
+        ]
+      },
+      {
+        "id": "NSA-STANDARD-A",
+        "booking_id": "NSA-STANDARD",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "NSA-STANDARD-A-S1",
+            "flight_id": "NSA-STANDARD-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-STANDARD-A"
+          }
+        ]
+      },
+      {
+        "id": "NSA-FLEX-A",
+        "booking_id": "NSA-FLEX",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "NSA",
+        "fare_type": "Flex",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "NSA-FLEX-A-S1",
+            "flight_id": "NSA-FLEX-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-NSA-FLEX-A"
+          }
+        ]
+      },
+      {
+        "id": "BHA-BASIC-A",
+        "booking_id": "BHA-BASIC",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "BHA",
+        "fare_type": "Basic",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "BHA-BASIC-A-S1",
+            "flight_id": "BHA-BASIC-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-BHA-BASIC-A"
+          }
+        ]
+      },
+      {
+        "id": "BHA-STANDARD-A",
+        "booking_id": "BHA-STANDARD",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "BHA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "BHA-STANDARD-A-S1",
+            "flight_id": "BHA-STANDARD-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-BHA-STANDARD-A"
+          }
+        ]
+      },
+      {
+        "id": "BHA-FLEX-A",
+        "booking_id": "BHA-FLEX",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "BHA",
+        "fare_type": "Flex",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "BHA-FLEX-A-S1",
+            "flight_id": "BHA-FLEX-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-BHA-FLEX-A"
+          }
+        ]
+      },
+      {
+        "id": "STA-BASIC-A",
+        "booking_id": "STA-BASIC",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "STA",
+        "fare_type": "Basic",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "STA-BASIC-A-S1",
+            "flight_id": "STA-BASIC-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-STA-BASIC-A"
+          }
+        ]
+      },
+      {
+        "id": "STA-STANDARD-A",
+        "booking_id": "STA-STANDARD",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "STA",
+        "fare_type": "Standard",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "STA-STANDARD-A-S1",
+            "flight_id": "STA-STANDARD-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-STA-STANDARD-A"
+          }
+        ]
+      },
+      {
+        "id": "STA-FLEX-A",
+        "booking_id": "STA-FLEX",
+        "traveler_id": "traveler-alice",
+        "traveler_name": "林怡",
+        "airline": "STA",
+        "fare_type": "Flex",
+        "original_issued_at_ms": 1782864000000,
+        "version": 1,
+        "channel": "DIRECT",
+        "state": "ACTIVE",
+        "historical_value_unclear": false,
+        "disruption": null,
+        "extras": [],
+        "segments": [
+          {
+            "id": "STA-FLEX-A-S1",
+            "flight_id": "STA-FLEX-A-F1",
+            "origin": "AST",
+            "destination": "BAY",
+            "domestic": true,
+            "original_departure_at_ms": 1789797600000,
+            "departure_at_ms": 1789797600000,
+            "arrival_at_ms": 1789804800000,
+            "state": "UNUSED",
+            "fare": {
+              "currencyCode": "USD",
+              "units": "100",
+              "nanos": 0
+            },
+            "tax": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "tax_refunded": false,
+            "payment_ref": "PAY-STA-FLEX-A"
+          }
+        ]
+      }
+    ],
+    "operations": [
+      {
+        "id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "quote_id": "quote_00a93a89-e344-40c2-aa91-391907ee7350",
+        "action": "CANCEL",
+        "bundle_id": "a4867b9552b0bd5d6aca7e61",
+        "created_at_ms": 1789689600000,
+        "received_at_ms": 1789689600000,
+        "lines": [
+          {
+            "ticket_id": "CANCEL-NSA-A",
+            "segment_id": null,
+            "entitlement_id": "CANCEL-NSA-A:fare",
+            "kind": "FARE",
+            "direction": "CREDIT",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "60",
+              "nanos": 0
+            },
+            "rule_id": "NSA:3",
+            "payment_ref": null
+          },
+          {
+            "ticket_id": "CANCEL-NSA-A",
+            "segment_id": null,
+            "entitlement_id": "CANCEL-NSA-A:fare-loss",
+            "kind": "CANCELLATION_FEE",
+            "direction": "FORFEIT",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "40",
+              "nanos": 0
+            },
+            "rule_id": "NSA:3",
+            "payment_ref": "PAY-CANCEL-NSA-A"
+          },
+          {
+            "ticket_id": "CANCEL-NSA-A",
+            "segment_id": "CANCEL-NSA-A-S1",
+            "entitlement_id": "CANCEL-NSA-A-S1:tax",
+            "kind": "TAX",
+            "direction": "REFUND",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "20",
+              "nanos": 0
+            },
+            "rule_id": "NSA:3.2",
+            "payment_ref": "PAY-CANCEL-NSA-A"
+          },
+          {
+            "ticket_id": "CANCEL-NSA-A",
+            "segment_id": "CANCEL-NSA-A-S1",
+            "entitlement_id": "CANCEL-SEAT",
+            "kind": "EXTRA",
+            "direction": "FORFEIT",
+            "amount": {
+              "currencyCode": "USD",
+              "units": "10",
+              "nanos": 0
+            },
+            "rule_id": "NSA:3.2",
+            "payment_ref": "PAY-CANCEL-NSA-A"
+          }
+        ],
+        "totals": {
+          "collect": {
+            "currencyCode": "USD",
+            "units": "0",
+            "nanos": 0
+          },
+          "refund": {
+            "currencyCode": "USD",
+            "units": "20",
+            "nanos": 0
+          },
+          "credit": {
+            "currencyCode": "USD",
+            "units": "60",
+            "nanos": 0
+          },
+          "forfeit": {
+            "currencyCode": "USD",
+            "units": "50",
+            "nanos": 0
+          }
+        },
+        "tickets": [
+          {
+            "id": "CANCEL-NSA-A",
+            "booking_id": "CANCEL-NSA",
+            "traveler_id": "traveler-alice",
+            "traveler_name": "林怡",
+            "airline": "NSA",
+            "fare_type": "Standard",
+            "original_issued_at_ms": 1782864000000,
+            "version": 2,
+            "channel": "DIRECT",
+            "state": "CANCELLED",
+            "historical_value_unclear": false,
+            "disruption": null,
+            "extras": [
+              {
+                "id": "CANCEL-SEAT",
+                "segment_id": "CANCEL-NSA-A-S1",
+                "type": "SEAT",
+                "amount": {
+                  "currencyCode": "USD",
+                  "units": "10",
+                  "nanos": 0
+                },
+                "used": false,
+                "refunded": false
+              }
+            ],
+            "segments": [
+              {
+                "id": "CANCEL-NSA-A-S1",
+                "flight_id": "CANCEL-NSA-A-F1",
+                "origin": "AST",
+                "destination": "BAY",
+                "domestic": true,
+                "original_departure_at_ms": 1789797600000,
+                "departure_at_ms": 1789797600000,
+                "arrival_at_ms": 1789804800000,
+                "state": "UNUSED",
+                "fare": {
+                  "currencyCode": "USD",
+                  "units": "100",
+                  "nanos": 0
+                },
+                "tax": {
+                  "currencyCode": "USD",
+                  "units": "20",
+                  "nanos": 0
+                },
+                "tax_refunded": true,
+                "payment_ref": "PAY-CANCEL-NSA-A"
+              }
+            ]
+          }
+        ],
+        "before_versions": {
+          "CANCEL-NSA-A": 1
+        },
+        "sources": [
+          {
+            "airline": "NSA",
+            "section": "3",
+            "page": 3,
+            "rule_id": "NSA:3"
+          },
+          {
+            "airline": "NSA",
+            "section": "3.1",
+            "page": 3,
+            "rule_id": "NSA:3.1"
+          },
+          {
+            "airline": "NSA",
+            "section": "3.2",
+            "page": 3,
+            "rule_id": "NSA:3.2"
+          },
+          {
+            "airline": "NSA",
+            "section": "5",
+            "page": 3,
+            "rule_id": "NSA:5"
+          },
+          {
+            "airline": "NSA",
+            "section": "1.1",
+            "page": 1,
+            "rule_id": "NSA:1.1"
+          },
+          {
+            "airline": "NSA",
+            "section": "8",
+            "page": 6,
+            "rule_id": "NSA:8"
+          }
+        ],
+        "simulated": true
+      }
+    ],
+    "ledger": [
+      {
+        "id": "ledger_a97eca32-3427-43fb-9d93-b8e140a57cbf",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "FARE",
+        "direction": "CREDIT",
+        "currency": "USD",
+        "units": "60",
+        "nanos": 0,
+        "data": "{\"ticket_id\":\"CANCEL-NSA-A\",\"segment_id\":null,\"entitlement_id\":\"CANCEL-NSA-A:fare\",\"kind\":\"FARE\",\"direction\":\"CREDIT\",\"amount\":{\"currencyCode\":\"USD\",\"units\":\"60\",\"nanos\":0},\"rule_id\":\"NSA:3\",\"payment_ref\":null}"
+      },
+      {
+        "id": "ledger_1acb5858-2d3c-43a3-8d44-a2ed602cacaf",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "CANCELLATION_FEE",
+        "direction": "FORFEIT",
+        "currency": "USD",
+        "units": "40",
+        "nanos": 0,
+        "data": "{\"ticket_id\":\"CANCEL-NSA-A\",\"segment_id\":null,\"entitlement_id\":\"CANCEL-NSA-A:fare-loss\",\"kind\":\"CANCELLATION_FEE\",\"direction\":\"FORFEIT\",\"amount\":{\"currencyCode\":\"USD\",\"units\":\"40\",\"nanos\":0},\"rule_id\":\"NSA:3\",\"payment_ref\":\"PAY-CANCEL-NSA-A\"}"
+      },
+      {
+        "id": "ledger_de1b8b5f-ad4b-49a0-b6d6-b293f0322474",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "TAX",
+        "direction": "REFUND",
+        "currency": "USD",
+        "units": "20",
+        "nanos": 0,
+        "data": "{\"ticket_id\":\"CANCEL-NSA-A\",\"segment_id\":\"CANCEL-NSA-A-S1\",\"entitlement_id\":\"CANCEL-NSA-A-S1:tax\",\"kind\":\"TAX\",\"direction\":\"REFUND\",\"amount\":{\"currencyCode\":\"USD\",\"units\":\"20\",\"nanos\":0},\"rule_id\":\"NSA:3.2\",\"payment_ref\":\"PAY-CANCEL-NSA-A\"}"
+      },
+      {
+        "id": "ledger_a9cfb169-3492-4e08-881c-a37c15934838",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "EXTRA",
+        "direction": "FORFEIT",
+        "currency": "USD",
+        "units": "10",
+        "nanos": 0,
+        "data": "{\"ticket_id\":\"CANCEL-NSA-A\",\"segment_id\":\"CANCEL-NSA-A-S1\",\"entitlement_id\":\"CANCEL-SEAT\",\"kind\":\"EXTRA\",\"direction\":\"FORFEIT\",\"amount\":{\"currencyCode\":\"USD\",\"units\":\"10\",\"nanos\":0},\"rule_id\":\"NSA:3.2\",\"payment_ref\":\"PAY-CANCEL-NSA-A\"}"
+      }
+    ],
+    "credits": [
+      {
+        "id": "credit_6eeb7680-daeb-4c70-aa68-7f51647dacaf",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "ticket_id": "CANCEL-NSA-A",
+        "traveler_id": "traveler-alice",
+        "airline": "NSA",
+        "issued_at_ms": 1789689600000,
+        "expires_at_ms": 1821225600000,
+        "currency": "USD",
+        "units": "60",
+        "nanos": 0
+      }
+    ],
+    "consumptions": [
+      {
+        "entitlement_id": "CANCEL-NSA-A:fare",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "CLOSE_TICKET",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8"
+      },
+      {
+        "entitlement_id": "CANCEL-NSA-A-S1:tax",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "REFUND",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8"
+      },
+      {
+        "entitlement_id": "CANCEL-SEAT",
+        "ticket_id": "CANCEL-NSA-A",
+        "kind": "CLOSE_EXTRA",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8"
+      }
+    ],
+    "submissions": [
+      {
+        "id": "submission_af33d88e-9dbe-4e24-812f-7db0422a3e83",
+        "quote_id": "quote_00a93a89-e344-40c2-aa91-391907ee7350",
+        "state": "SUCCEEDED",
+        "operation_id": "operation_c12c5840-3cdc-41fc-9810-d396c3bc73c8",
+        "error_code": null,
+        "received_at_ms": 1789689600000
+      }
+    ],
+    "reviews": []
+  },
+  "bundles": [
+    {
+      "id": "a4867b9552b0bd5d6aca7e61",
+      "release_id": "404f665e46351af9b4c4e50b",
+      "rules_hash": "dade8edfb91094752bd06a7953d339f11dbbea3db4a6e78d08980607eb06a94b",
+      "code_hash": "ce3f918532602d278b740e63b1918a96eb322da9955e408965adf4bcb6db6250"
+    }
+  ],
+  "skills_version": "b7846ab1fcba6350428cafaf"
+}

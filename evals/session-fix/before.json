@@ -1,0 +1,9 @@
+{
+  "scenario": "same browser cookie jar alternating localhost ports 3001/3000/3001",
+  "same_session_on_return": false,
+  "shared_cookie_names": [
+    "airline_session"
+  ],
+  "expected_same_session": true,
+  "status": "REPRODUCED_FAILURE"
+}

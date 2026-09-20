@@ -1,0 +1,24 @@
+{
+  "reviewed_at_utc": "2026-09-18T11:36:20.408353+00:00",
+  "method": "Source-grounded assistant review of controlled business cards and independent checks of persisted operations, credit/tax separation, authorization rejection, known review right and recovery uniqueness. Not an additional model judge.",
+  "status": "PASS",
+  "case_findings": {
+    "A01": "游客澄清、BHA Basic 行李与原文",
+    "A02": "本人权限、付款人声明及注入不赋权",
+    "A03": "两人两段改签，收 220",
+    "A04": "85/55 分界及跨 24h 后拒绝旧资格",
+    "A05": "国内/国际分段，收 85",
+    "A06": "额度 60、退税 20、扣除及不退 50",
+    "A07": "合格 Basic 航变原路模拟退 280",
+    "A08": "保留未用部分退款权，金额未知，未动资金",
+    "A09": "十会话隔离，同票一胜一冲突，不同票均可办",
+    "A10": "提交后丢响应，恢复同一操作，未重复退款"
+  },
+  "bundle_id": "a27fa087b5e40ec0be12d2a4",
+  "limitations": [
+    "Fixed fictional fixtures; no external bank or airline",
+    "Known provider transport/latency failures retained in earlier runs",
+    "A09 has 10 guest conversations plus 2 authorized conflict actors",
+    "No production capacity claim"
+  ]
+}

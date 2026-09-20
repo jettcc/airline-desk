@@ -1,0 +1,70 @@
+
+> airline-service-assistant@0.1.0 test:browser
+> playwright test
+
+
+Running 9 tests using 1 worker
+
+(node:76286) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests-browser/app.spec.ts:74:1 › Guest baggage, PDF source, language/timezone, mobile layout and keyboard (506ms)
+  ✓  2 tests-browser/app.spec.ts:101:1 › Quote/confirm creates one operation and refund versus credit stay separate after reload (714ms)
+  ✘  3 tests-browser/app.spec.ts:118:1 › Actual response loss, reload and original-request recovery never duplicate (628ms)
+(node:76303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 tests-browser/app.spec.ts:137:1 › Switching identity clears old private cards; same browser window notices changed session (480ms)
+  ✓  5 tests-browser/app.spec.ts:156:1 › Expired quote remains unexecuted even if browser clock is stale (633ms)
+  ✓  6 tests-browser/app.spec.ts:166:1 › Two travelers select four replacement segments in one card and confirm one atomic operation (1.5s)
+  ✓  7 tests-browser/app.spec.ts:198:1 › Public Chinese/English summary and guest login retain only verified public output, never user ticket claims (1.6s)
+  ✓  8 tests-browser/app.spec.ts:212:1 › Explicit medical review shows no approval or payment and persists conversation provenance (233ms)
+  ✓  9 tests-browser/app.spec.ts:229:1 › User HTML is rendered as inert text and cannot impersonate a business card (193ms)
+
+
+  1) tests-browser/app.spec.ts:118:1 › Actual response loss, reload and original-request recovery never duplicate 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 0
+
+      128 |   await page.locator('button.confirm').click();
+      129 |   await expect(page.getByRole('button', { name: '查询原请求', exact: true })).toBeVisible();
+    > 130 |   expect(h.store.get<any>('SELECT COUNT(*) n FROM operations')!.n).toBe(1);
+          |                                                                    ^
+      131 |   await page.reload();
+      132 |   await page.getByRole('button', { name: '查询原请求', exact: true }).click();
+      133 |   await expect(page.locator('.success-title')).toBeVisible();
+        at /Users/3commas/Documents/Codex/airline/tests-browser/app.spec.ts:130:68
+
+    Error: route.fetch: connect ECONNRESET 127.0.0.1:50696
+    Call log:
+      - → POST http://127.0.0.1:50696/api/confirm
+        - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36
+        - accept: */*
+        - accept-encoding: gzip,deflate,br
+        - accept-language: en-US
+        - content-type: application/json
+        - cookie: airline_session=[REDACTED]
+        - origin: http://127.0.0.1:50696
+        - referer: http://127.0.0.1:50696/
+        - x-csrf-token: [REDACTED]
+        - sec-ch-ua: "HeadlessChrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+        - sec-ch-ua-mobile: ?0
+        - sec-ch-ua-platform: "macOS"
+        - content-length: 178
+
+
+      123 |   await chat(page, '取消 CANCEL-NSA-A');
+      124 |   await page.route('**/api/confirm', async (route) => {
+    > 125 |     await route.fetch();
+          |                 ^
+      126 |     await route.abort();
+      127 |   });
+      128 |   await page.locator('button.confirm').click();
+        at /Users/3commas/Documents/Codex/airline/tests-browser/app.spec.ts:125:17
+
+    Error Context: test-results/app-Actual-response-loss-r-68a9a-st-recovery-never-duplicate/error-context.md
+
+  1 failed
+    tests-browser/app.spec.ts:118:1 › Actual response loss, reload and original-request recovery never duplicate 
+  8 passed (7.6s)

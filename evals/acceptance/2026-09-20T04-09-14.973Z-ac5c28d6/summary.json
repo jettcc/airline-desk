@@ -1,0 +1,105 @@
+{
+  "run_id": "2026-09-20T04-09-14.973Z-ac5c28d6",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "base_url": "https://www.rightapi.ai/codex/v1",
+  "status": "PASS",
+  "scope": "free-expression-D01-D08",
+  "cases": [
+    {
+      "id": "D01",
+      "status": "PASS",
+      "elapsed_ms": 28393,
+      "trace_status": "COMPLETE",
+      "model_calls": 5,
+      "usage": {
+        "input_tokens": 29757,
+        "output_tokens": 452
+      }
+    },
+    {
+      "id": "D02",
+      "status": "PASS",
+      "elapsed_ms": 11075,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 9964,
+        "output_tokens": 222
+      }
+    },
+    {
+      "id": "D03",
+      "status": "PASS",
+      "elapsed_ms": 16436,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11542,
+        "output_tokens": 240
+      }
+    },
+    {
+      "id": "D04",
+      "status": "PASS",
+      "elapsed_ms": 12850,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10876,
+        "output_tokens": 191
+      }
+    },
+    {
+      "id": "D05",
+      "status": "PASS",
+      "elapsed_ms": 11118,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10956,
+        "output_tokens": 206
+      }
+    },
+    {
+      "id": "D06",
+      "status": "PASS",
+      "elapsed_ms": 23709,
+      "trace_status": "COMPLETE",
+      "model_calls": 3,
+      "usage": {
+        "input_tokens": 18003,
+        "output_tokens": 288
+      }
+    },
+    {
+      "id": "D07",
+      "status": "PASS",
+      "elapsed_ms": 13753,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10967,
+        "output_tokens": 194
+      }
+    },
+    {
+      "id": "D08",
+      "status": "PASS",
+      "elapsed_ms": 8284,
+      "trace_status": "COMPLETE",
+      "model_calls": 1,
+      "usage": {
+        "input_tokens": 5378,
+        "output_tokens": 128
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "c38a5f458d37e4c643546c4d912118f0a1281c06633c6ffa060e14ff3536b09b",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

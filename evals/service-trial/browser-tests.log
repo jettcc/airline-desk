@@ -1,0 +1,27 @@
+
+> airline-service-assistant@0.1.0 test:browser
+> playwright test
+
+
+Running 16 tests using 1 worker
+
+(node:35164) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests-browser/app.spec.ts:75:1 › Guest baggage, PDF source, language/timezone, mobile layout and keyboard (288ms)
+  ✓   2 tests-browser/app.spec.ts:102:1 › Quote/confirm creates one operation and refund versus credit stay separate after reload (762ms)
+  ✓   3 tests-browser/app.spec.ts:119:1 › Actual response loss, reload and original-request recovery never duplicate (1.6s)
+  ✓   4 tests-browser/app.spec.ts:144:1 › Switching identity clears old private cards; same browser window notices changed session (532ms)
+  ✓   5 tests-browser/app.spec.ts:163:1 › Expired quote remains unexecuted even if browser clock is stale (651ms)
+  ✓   6 tests-browser/app.spec.ts:173:1 › Two travelers select four replacement segments in one card and confirm one atomic operation (1.6s)
+  ✓   7 tests-browser/app.spec.ts:205:1 › Public Chinese/English summary and guest login retain only verified public output, never user ticket claims (1.7s)
+  ✓   8 tests-browser/app.spec.ts:219:1 › Explicit medical review shows no approval or payment and persists conversation provenance (297ms)
+  ✓   9 tests-browser/app.spec.ts:236:1 › User HTML is rendered as inert text and cannot impersonate a business card (258ms)
+  ✓  10 tests-browser/app.spec.ts:247:1 › Two local app instances share a browser without replacing sessions or losing later chat turns (17.1s)
+  ✓  11 tests-browser/app.spec.ts:291:1 › Guest ticket actions are disabled; register, refresh, logout and password sign-in work with empty own tickets (837ms)
+  ✓  12 tests-browser/app.spec.ts:345:1 › First-time demo path is explicit, preserves a prepared request and never grants guest ticket access (287ms)
+  ✓  13 tests-browser/app.spec.ts:366:1 › Registration modal fits a narrow screen and duplicate names remain a visible error (476ms)
+  ✓  14 tests-browser/service.spec.ts:71:1 › Service: register → scoped sample claim → separate desk approval → cancel → unknown refund reconciliation → durable receipt (1.8s)
+  ✓  15 tests-browser/service.spec.ts:142:1 › Service: applicant and desk exchange information, handoff and guidance without approval; typing survives clock rerender and narrow viewport (2.3s)
+  ✓  16 tests-browser/service.spec.ts:192:1 › Service: compare group constraints, clear stale candidates when budget changes, quote without auto-commit and show flight change alert (1.4s)
+
+  16 passed (32.9s)

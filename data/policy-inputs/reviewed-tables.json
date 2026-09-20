@@ -1,0 +1,305 @@
+{
+  "BHA": {
+    "1": [],
+    "2": [
+      [
+        [
+          "Fare",
+          "Early: at least 24 hours",
+          "Late: more than 0, less than 24 hours"
+        ],
+        [
+          "Economy Basic",
+          "Not permitted",
+          "Not permitted"
+        ],
+        [
+          "Economy Standard",
+          "USD 55 current / USD 85 previous",
+          "Not permitted"
+        ],
+        [
+          "Economy Flex",
+          "USD 15",
+          "USD 45"
+        ]
+      ]
+    ],
+    "3": [
+      [
+        [
+          "Fare",
+          "Early: at least 24 hours",
+          "Late: more than 0, less than 24 hours"
+        ],
+        [
+          "Economy Basic",
+          "No fare refund or credit",
+          "No fare refund or credit"
+        ],
+        [
+          "Economy Standard",
+          "No fare refund or credit",
+          "No fare refund or credit"
+        ],
+        [
+          "Economy Flex",
+          "Travel credit less USD 30",
+          "No fare refund or credit"
+        ]
+      ]
+    ],
+    "4": [
+      [
+        [
+          "Option",
+          "What is included"
+        ],
+        [
+          "Replacement travel",
+          "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+        ],
+        [
+          "Refund before travel starts",
+          "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+        ],
+        [
+          "Refund after travel starts",
+          "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+        ]
+      ]
+    ],
+    "5": [
+      [
+        [
+          "Fare",
+          "Cabin bag allowance",
+          "Checked allowance"
+        ],
+        [
+          "Economy Basic",
+          "No cabin bag",
+          "No checked bag"
+        ],
+        [
+          "Economy Standard",
+          "1 cabin bag, 7 kg",
+          "No checked bag"
+        ],
+        [
+          "Economy Flex",
+          "1 cabin bag, 10 kg",
+          "1 bag, 20 kg"
+        ]
+      ]
+    ],
+    "6": [
+      [
+        [
+          "Original ticket issuance (UTC)",
+          "Early-window change fee"
+        ],
+        [
+          "Previous rule: before 2026-07-01 00:00:00",
+          "USD 85 per passenger per changed segment"
+        ],
+        [
+          "Current rule: at or after 2026-07-01 00:00:00",
+          "USD 55 per passenger per changed segment"
+        ]
+      ]
+    ]
+  },
+  "NSA": {
+    "1": [],
+    "2": [
+      [
+        [
+          "Fare",
+          "Early: at least 24 hours",
+          "Late: more than 0, less than 24 hours"
+        ],
+        [
+          "Economy Basic",
+          "USD 70",
+          "Not permitted"
+        ],
+        [
+          "Economy Standard",
+          "USD 25",
+          "USD 60"
+        ],
+        [
+          "Economy Flex",
+          "USD 0",
+          "USD 0"
+        ]
+      ]
+    ],
+    "3": [
+      [
+        [
+          "Fare",
+          "Early: at least 24 hours",
+          "Late: more than 0, less than 24 hours"
+        ],
+        [
+          "Economy Basic",
+          "No fare refund or credit",
+          "No fare refund or credit"
+        ],
+        [
+          "Economy Standard",
+          "Travel credit less USD 40",
+          "Travel credit less USD 80"
+        ],
+        [
+          "Economy Flex",
+          "Original payment; USD 0 fee",
+          "Original payment; USD 0 fee"
+        ]
+      ]
+    ],
+    "4": [
+      [
+        [
+          "Option",
+          "What is included"
+        ],
+        [
+          "Replacement travel",
+          "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+        ],
+        [
+          "Refund before travel starts",
+          "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+        ],
+        [
+          "Refund after travel starts",
+          "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+        ]
+      ]
+    ],
+    "5": [
+      [
+        [
+          "Fare",
+          "Cabin bag allowance",
+          "Checked allowance"
+        ],
+        [
+          "Economy Basic",
+          "1 cabin bag, 8 kg",
+          "1 bag, 23 kg"
+        ],
+        [
+          "Economy Standard",
+          "1 cabin bag, 8 kg",
+          "1 bag, 23 kg"
+        ],
+        [
+          "Economy Flex",
+          "1 cabin bag, 12 kg",
+          "2 bags, 23 kg each"
+        ]
+      ]
+    ],
+    "6": []
+  },
+  "STA": {
+    "1": [],
+    "2": [
+      [
+        [
+          "Fare",
+          "Early: at least 24 hours",
+          "Late: more than 0, less than 24 hours"
+        ],
+        [
+          "Economy Basic",
+          "Domestic USD 40; international not permitted",
+          "Not permitted"
+        ],
+        [
+          "Economy Standard",
+          "Domestic USD 20; international USD 65",
+          "Domestic USD 50; international USD 100"
+        ],
+        [
+          "Economy Flex",
+          "USD 0 on either route type",
+          "Domestic USD 0; international USD 25"
+        ]
+      ]
+    ],
+    "3": [
+      [
+        [
+          "Fare",
+          "Early: at least 24 hours",
+          "Late: more than 0, less than 24 hours"
+        ],
+        [
+          "Economy Basic",
+          "No fare refund or credit",
+          "No fare refund or credit"
+        ],
+        [
+          "Economy Standard",
+          "Domestic credit less USD 25; international no fare refund or credit",
+          "No fare refund or credit"
+        ],
+        [
+          "Economy Flex",
+          "Domestic original payment, USD 0 fee; international original payment less USD 50",
+          "Domestic original payment less USD 20; international credit less USD 75"
+        ]
+      ]
+    ],
+    "4": [
+      [
+        [
+          "Option",
+          "What is included"
+        ],
+        [
+          "Replacement travel",
+          "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+        ],
+        [
+          "Refund before travel starts",
+          "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+        ],
+        [
+          "Refund after travel starts",
+          "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+        ]
+      ]
+    ],
+    "5": [
+      [
+        [
+          "Fare",
+          "Cabin bag allowance",
+          "Checked allowance"
+        ],
+        [
+          "Economy Basic",
+          "1 cabin bag, 7 kg",
+          "Domestic: none; international: 1 bag, 20 kg"
+        ],
+        [
+          "Economy Standard",
+          "1 cabin bag, 10 kg",
+          "Domestic: 1 bag, 20 kg; international: 1 bag, 23 kg"
+        ],
+        [
+          "Economy Flex",
+          "1 cabin bag, 12 kg",
+          "Domestic: 2 bags, 20 kg each; international: 2 bags, 23 kg each"
+        ]
+      ]
+    ],
+    "6": []
+  }
+}

@@ -1,0 +1,5 @@
+# Preserve frozen rule hashes and historical evidence on every platform.
+* -text
+*.pdf binary
+*.sqlite binary
+*.png binary

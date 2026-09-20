@@ -1,0 +1,8 @@
+{
+  "scenario": "same cookie jar alternates fixed 3001 and legacy 3000",
+  "same_session_on_return": true,
+  "legacy_instance_also_stable": true,
+  "cookie_count": 2,
+  "status": "PASS",
+  "checked_at_utc": "2026-09-20T02:41:42.801757+00:00"
+}

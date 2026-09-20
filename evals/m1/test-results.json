@@ -1,0 +1,246 @@
+{
+  "code_sha256": {
+    "scripts/validate_m1.py": "9ad8abece3b50ba2181cc407f6db6d10d7c5d06e36dd6d8e04fa62f316c168b1",
+    "src/airline_kb/__init__.py": "68d6427ec741a57ec5c6f1e1cb8d2864c73b6f55dc8791f970714251b5b87dd9",
+    "src/airline_kb/__main__.py": "5b76a86dc47402b77ae43961438827b46191d87aa38fc5cdbf63993b31d5d1e5",
+    "src/airline_kb/build.py": "cee5fa0254c40cd1f6b095116c9398edbfa0732339e14896b3a299995a2321a8",
+    "src/airline_kb/query.py": "683a8b9de6afac3483492310e44dfc95bb6f1dfdb86319eaee72aa88d42cd735",
+    "src/airline_kb/storage.py": "49a50956cd95dc26a7fc348d49abf842c8c5bd76cfcb2c76a7741e10af709ac2",
+    "tests/test_policy_knowledge.py": "761360bf9174b671fad3805036867640967fbabb05cc640bb15b2448b74ce27a"
+  },
+  "passed": true,
+  "platform": "Darwin",
+  "publication": {
+    "chunks": 75,
+    "documents": 3,
+    "pages": 18,
+    "purpose": "evidence_only",
+    "release_id": "404f665e46351af9b4c4e50b",
+    "reused": true,
+    "status": "PUBLISHED",
+    "tables": 13
+  },
+  "python": "3.14.5",
+  "ran_at_utc": "2026-09-20T06:30:14.274856+00:00",
+  "records": [
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_airline_can_be_resolved_from_question",
+      "error": null,
+      "seconds": 0.0041,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_all_sources_pages_sections_and_tables",
+      "error": null,
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_baggage_has_size_weight_purchase_and_transfer_conditions",
+      "error": null,
+      "seconds": 0.0027,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_bluehaven_issuance_conditions_and_appendix_are_not_dropped",
+      "error": null,
+      "seconds": 0.0027,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_chinese_and_english_known_intents_have_same_essential_evidence",
+      "error": null,
+      "seconds": 0.006,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_comparison_is_explicit_and_grouped_by_source",
+      "error": null,
+      "seconds": 0.0044,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_compensation_returns_scope_statement",
+      "error": null,
+      "seconds": 0.002,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_concurrent_import_processes_publish_one_identical_snapshot",
+      "error": null,
+      "seconds": 1.6143,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_corrupted_index_is_unavailable_not_partial_success",
+      "error": null,
+      "seconds": 0.0053,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_documented_unknown_does_not_become_permission",
+      "error": null,
+      "seconds": 0.0023,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_every_citation_points_to_the_immutable_matching_pdf",
+      "error": null,
+      "seconds": 0.0026,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_every_non_footer_line_preserved_in_sections",
+      "error": null,
+      "seconds": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_explicit_airline_conflict_does_not_silently_choose",
+      "error": null,
+      "seconds": 0.0013,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_failure_before_pointer_replace_leaves_previous_release_active",
+      "error": null,
+      "seconds": 0.4597,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_full_text_fallback_returns_candidates_not_a_guaranteed_answer",
+      "error": null,
+      "seconds": 0.0021,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_identical_import_is_idempotent",
+      "error": null,
+      "seconds": 0.5752,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_input_metadata_describes_the_config_captured_at_build_start",
+      "error": null,
+      "seconds": 0.5934,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_invalid_inputs_and_release_path_traversal_fail_closed",
+      "error": null,
+      "seconds": 0.0001,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_missing_section_mapping_blocks_publication",
+      "error": null,
+      "seconds": 0.5198,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_netting_retrieves_explicit_non_offset_and_separate_tax_rules",
+      "error": null,
+      "seconds": 0.0026,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_new_publication_readers_and_explicit_history_are_consistent",
+      "error": null,
+      "seconds": 0.8638,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_no_assignment_in_business_corpus",
+      "error": null,
+      "seconds": 0.0003,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_no_generated_price_or_booking_authorization",
+      "error": null,
+      "seconds": 0.0026,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_nsa_change_brings_positive_difference_taxes_disruption_and_authority",
+      "error": null,
+      "seconds": 0.002,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_parallel_queries_never_mix_airlines",
+      "error": null,
+      "seconds": 0.6214,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_refund_brings_taxes_extras_scope_and_disruption_for_each_airline",
+      "error": null,
+      "seconds": 0.0061,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_refund_table_preserves_credit_vs_original_payment",
+      "error": null,
+      "seconds": 0.0002,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_request_before_effective_is_not_answered_with_current_rules",
+      "error": null,
+      "seconds": 0.0031,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_reviewed_change_table_values",
+      "error": null,
+      "seconds": 0.0002,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_source_change_cannot_publish_without_review",
+      "error": null,
+      "seconds": 0.0072,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_source_replaced_during_parse_cannot_change_verified_bytes",
+      "error": null,
+      "seconds": 0.5022,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_table_baseline_mismatch_blocks_publication",
+      "error": null,
+      "seconds": 0.1866,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_timezone_is_required_and_equivalent_instants_match",
+      "error": null,
+      "seconds": 0.0046,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_unknown_airline_requires_context",
+      "error": null,
+      "seconds": 0.0016,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_unknown_word_has_no_manufactured_evidence",
+      "error": null,
+      "seconds": 0.0026,
+      "status": "PASS"
+    },
+    {
+      "case": "test_policy_knowledge.PolicyKnowledgeTests.test_unreviewed_airline_is_not_substituted",
+      "error": null,
+      "seconds": 0.0013,
+      "status": "PASS"
+    }
+  ],
+  "scope": "M1_ONLY_NO_LLM_OR_BOOKING_EVALUATION",
+  "sqlite": "3.53.1",
+  "tests_run": 36
+}

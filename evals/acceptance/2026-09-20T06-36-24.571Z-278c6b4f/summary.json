@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-09-20T06-36-24.571Z-278c6b4f",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "base_url": "https://www.rightapi.ai/codex/v1",
+  "status": "PASS",
+  "scope": "service-trial-S01-S03",
+  "cases": [
+    {
+      "id": "S01",
+      "status": "PASS",
+      "elapsed_ms": 20601,
+      "trace_status": "COMPLETE",
+      "model_calls": 4,
+      "usage": {
+        "input_tokens": 25572,
+        "output_tokens": 158
+      }
+    },
+    {
+      "id": "S02",
+      "status": "PASS",
+      "elapsed_ms": 13927,
+      "trace_status": "COMPLETE",
+      "model_calls": 3,
+      "usage": {
+        "input_tokens": 18252,
+        "output_tokens": 226
+      }
+    },
+    {
+      "id": "S03",
+      "status": "PASS",
+      "elapsed_ms": 3921,
+      "trace_status": "COMPLETE",
+      "model_calls": 1,
+      "usage": {
+        "input_tokens": 5637,
+        "output_tokens": 22
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "c38a5f458d37e4c643546c4d912118f0a1281c06633c6ffa060e14ff3536b09b",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

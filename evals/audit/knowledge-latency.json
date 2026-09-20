@@ -1,0 +1,11 @@
+{
+  "runs": 5,
+  "elapsed_ms": [
+    94,
+    47,
+    48,
+    47,
+    47
+  ],
+  "scope": "Sequential local process startup + pinned knowledge lookup + reviewed summary, no model; not a production benchmark"
+}

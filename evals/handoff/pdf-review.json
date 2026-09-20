@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pages": 6,
+  "sha256": "c3c49edbb993fa97e10b05c3d4af8c89d08ba0ec359592f21b82f26f7719e0d0",
+  "all_six_pages_visually_reviewed": true,
+  "cjk_text_extractable": true,
+  "embedded_fonts": true,
+  "form_fields": false
+}

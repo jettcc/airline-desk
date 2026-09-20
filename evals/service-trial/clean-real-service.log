@@ -1,0 +1,7 @@
+S01 RUNNING
+S01 PASS (20601ms)
+S02 RUNNING
+S02 PASS (13927ms)
+S03 RUNNING
+S03 PASS (3921ms)
+{"summary":"/private/var/folders/pq/8fcrp5jx7m50djk738byxy2m0000gn/T/airline-service-delivery-aoz5rg3p/airline-desk/evals/acceptance/2026-09-20T06-36-24.571Z-278c6b4f/summary.json","status":"PASS","cases":[{"id":"S01","status":"PASS"},{"id":"S02","status":"PASS"},{"id":"S03","status":"PASS"}]}

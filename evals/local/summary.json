@@ -1,0 +1,9 @@
+{
+  "tests": 99,
+  "pass": 99,
+  "fail": 0,
+  "skipped": 0,
+  "scope": "LOCAL_RULES_API_DIALOGUE_PROCESS_CRASH_NO_REAL_MODEL",
+  "reported_at_utc": "2026-09-20T02:27:43.383244+00:00",
+  "evidence": "../audit/typescript-tests.tap"
+}

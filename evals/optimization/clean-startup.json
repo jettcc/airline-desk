@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "http_status": 200,
+  "model": {
+    "mode": "unconfigured",
+    "name": "\u672a\u914d\u7f6e\u6a21\u578b"
+  },
+  "actor_is_guest": true,
+  "demo_identities": 3,
+  "private_credentials_copied": false
+}

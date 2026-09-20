@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Independent persisted-state assertions for both real service runs",
+  "runs": [
+    {
+      "run_id": "2026-09-20T06-26-55.941Z-18bca8cf",
+      "cases": [
+        {
+          "id": "S01",
+          "operations": 1,
+          "service_tasks": 2,
+          "status": "PASS"
+        },
+        {
+          "id": "S02",
+          "operations": 0,
+          "service_tasks": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "S03",
+          "operations": 1,
+          "service_tasks": 2,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-09-20T06-36-24.571Z-278c6b4f",
+      "cases": [
+        {
+          "id": "S01",
+          "operations": 1,
+          "service_tasks": 2,
+          "status": "PASS"
+        },
+        {
+          "id": "S02",
+          "operations": 0,
+          "service_tasks": 0,
+          "status": "PASS"
+        },
+        {
+          "id": "S03",
+          "operations": 1,
+          "service_tasks": 2,
+          "status": "PASS"
+        }
+      ]
+    }
+  ]
+}

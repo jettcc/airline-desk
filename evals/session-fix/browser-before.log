@@ -1,0 +1,41 @@
+
+> airline-service-assistant@0.1.0 test:browser
+> playwright test --grep Two local app instances
+
+
+Running 1 test using 1 worker
+
+(node:85177) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests-browser/app.spec.ts:246:1 › Two local app instances share a browser without replacing sessions or losing later chat turns (5.6s)
+
+
+  1) tests-browser/app.spec.ts:246:1 › Two local app instances share a browser without replacing sessions or losing later chat turns 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.user-message')
+    Expected: 2
+    Received: 1
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.user-message') with timeout 5000ms
+      - waiting for locator('.user-message')
+        14 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      265 |     await page.evaluate(() => window.dispatchEvent(new Event('focus')));
+      266 |     await chat(page, '行李第二轮');
+    > 267 |     await expect(page.locator('.user-message')).toHaveCount(2);
+          |                                                 ^
+      268 |     // Cross the real 15-second background session check, rather than disabling it.
+      269 |     await page.waitForTimeout(16500);
+      270 |     await chat(page, '行李第三轮');
+        at /Users/3commas/Documents/Codex/airline/tests-browser/app.spec.ts:267:49
+
+    Error Context: test-results/app-Two-local-app-instance-954a3--or-losing-later-chat-turns/error-context.md
+
+  1 failed
+    tests-browser/app.spec.ts:246:1 › Two local app instances share a browser without replacing sessions or losing later chat turns 

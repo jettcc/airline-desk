@@ -1,0 +1,74 @@
+{
+  "started_at": "2026-09-18T09:48:19.250Z",
+  "runtime": "v22.22.3",
+  "provider": "rightcodes",
+  "base_url": "https://www.right.codes/codex/v1",
+  "requested_model": "gpt-6-astra",
+  "status": "FAIL",
+  "scope": "Provider authentication, text/instructions, function-call round trip only; no airline business acceptance.",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "User-reported provider key limit; not independently verified.",
+    "actual_cost_usd": null
+  },
+  "request_limits": {
+    "generation_requests": 3,
+    "max_output_tokens_per_request": 512,
+    "timeout_ms": 45000,
+    "automatic_retries": 0
+  },
+  "checks": [
+    {
+      "name": "authentication_and_requested_model_listed",
+      "passed": true
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/models",
+      "elapsed_ms": 1557,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "elapsed_ms": 9686,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "text/event-stream",
+      "response_id": "resp_0c65c7a66a02e21f016aad08e66ef087d0ab9e0882e09abe1e",
+      "returned_model": "gpt-5.6-luna",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 70,
+        "output_tokens": 40,
+        "total_tokens": 110,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 20
+      },
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "error": "Error: Returned model mismatch: gpt-5.6-luna"
+    }
+  ],
+  "available_model_ids": [
+    "codex-auto-review",
+    "gpt-5.5",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra"
+  ],
+  "error": "Error: Returned model mismatch: gpt-5.6-luna",
+  "finished_at": "2026-09-18T09:48:30.495Z",
+  "generation_requests_attempted": 1,
+  "usage_totals": {
+    "input_tokens": 70,
+    "output_tokens": 40,
+    "total_tokens": 110
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-09-20T03:17:25.034348+00:00",
+  "reviewer": "Codex evidence review, not independent human or second-model review",
+  "cases": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "finding": "缺航司先澄清；BHA Basic个人物品3kg/40×30×15，无免费客舱/托运，可购25/40美元且附来源；无订单访问。",
+      "evidence": "A01.json"
+    },
+    {
+      "id": "A02",
+      "status": "PASS",
+      "finding": "本人可见范围裁剪；付款人自述及注入未获同行权限，TARGET_UNAVAILABLE，无资金操作。",
+      "evidence": "A02.json"
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "finding": "两人各两段原子改签，收220美元，四段与两票版本更新，仅一笔操作。",
+      "evidence": "A03.json"
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "finding": "原出票分界85/55，加20差价报价105/75；跨24小时后旧资格拒绝，操作数零。",
+      "evidence": "A04.json"
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "finding": "STA国内/国际逐段20/65，共85美元，新航段保存。",
+      "evidence": "A05.json"
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "finding": "NSA取消：额度60、原路退税20、取消费40及座位10不退，365日额度，一笔操作。",
+      "evidence": "A06.json"
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "finding": "BHA Basic合格180分钟航变：整票未用原路模拟退280，一次消费权益。",
+      "evidence": "A07.json"
+    },
+    {
+      "id": "A08",
+      "status": "PASS",
+      "finding": "部分已用保留未用受影响部分退款权，审核金额UNKNOWN/null，不动资金。",
+      "evidence": "A08.json"
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "finding": "10个真实政策咨询按航司隔离；同票一胜一冲突，不同票两笔均成功。",
+      "evidence": "A09.json"
+    },
+    {
+      "id": "A10",
+      "status": "PASS",
+      "finding": "提交后丢响应，原键恢复及同报价换键/刷新保持同一操作，未重复退款。",
+      "evidence": "A10.json"
+    }
+  ],
+  "basis": [
+    "Actual web cards and recorded page text",
+    "Tool traces",
+    "Independent expected values and persisted-state Python audit",
+    "Unchanged reviewed policy bundle a4867b9552b0bd5d6aca7e61"
+  ],
+  "financial_audit": "financial-audit.json"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "initial_archive_sha256": "dfd75090a54f18dd97705d54de538f9d1c92d530d577a3f551a61a9bef0b51b3",
+  "checks": [
+    {
+      "name": "clean-install-in-path-with-spaces",
+      "status": "PASS",
+      "node_version": "v24.21.0",
+      "port": "http://127.0.0.1:3000/"
+    },
+    {
+      "name": "duplicate-launch-refused",
+      "status": "PASS"
+    },
+    {
+      "name": "bundled-key-real-baggage-chat",
+      "status": "PASS",
+      "model": "gpt-5.6-sol",
+      "fee_usd": "40.00",
+      "sources_verified": true,
+      "persisted_turn_checked": true,
+      "financial_operations": 0
+    },
+    {
+      "name": "restart-preserves-account-and-reuses-dependencies",
+      "status": "PASS"
+    },
+    {
+      "name": "classic-mode-without-key-still-preserves-data",
+      "status": "PASS"
+    },
+    {
+      "name": "shutdown-stops-only-owned-server",
+      "status": "PASS"
+    }
+  ]
+}

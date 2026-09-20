@@ -1,0 +1,27 @@
+TAP version 13
+# Subtest: I04: revoke then restore a grant cannot revive its old quote even without an intervening read
+not ok 1 - I04: revoke then restore a grant cannot revive its old quote even without an intervening read
+  ---
+  duration_ms: 18.576542
+  type: 'test'
+  location: '/Users/3commas/Documents/Codex/airline/tests-ts/audit.test.ts:1:28539'
+  failureType: 'testCodeFailure'
+  error: 'Missing expected rejection.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  operator: 'rejects'
+  stack: |-
+    async TestContext.<anonymous> (/Users/3commas/Documents/Codex/airline/tests-ts/audit.test.ts:958:5)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 270.148416

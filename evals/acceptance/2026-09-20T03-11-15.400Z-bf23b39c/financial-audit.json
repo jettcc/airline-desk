@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-20T03:15:03.703481+00:00",
+  "scope": "Independent Python integer and persisted-state assertions; no second-model or human review claimed",
+  "cases": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "operations": 0,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A02",
+      "status": "PASS",
+      "operations": 0,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "operations": 1,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "operations": 0,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "operations": 1,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "operations": 1,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "operations": 1,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A08",
+      "status": "PASS",
+      "operations": 0,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "operations": 3,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    },
+    {
+      "id": "A10",
+      "status": "PASS",
+      "operations": 1,
+      "totals_reconciled_from_ledger": true,
+      "trace_complete": true
+    }
+  ]
+}

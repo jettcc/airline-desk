@@ -1,0 +1,127 @@
+{
+  "run_id": "2026-09-20T04-12-11.378Z-d20011f9",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "base_url": "https://www.rightapi.ai/codex/v1",
+  "status": "PASS",
+  "scope": "full-A01-A10",
+  "cases": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "elapsed_ms": 12191,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10857,
+        "output_tokens": 147
+      }
+    },
+    {
+      "id": "A02",
+      "status": "PASS",
+      "elapsed_ms": 10322,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 18030,
+        "output_tokens": 121
+      }
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "elapsed_ms": 21037,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 12250,
+        "output_tokens": 307
+      }
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "elapsed_ms": 25767,
+      "trace_status": "COMPLETE",
+      "model_calls": 4,
+      "usage": {
+        "input_tokens": 20793,
+        "output_tokens": 373
+      }
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "elapsed_ms": 10241,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11605,
+        "output_tokens": 246
+      }
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "elapsed_ms": 12052,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11296,
+        "output_tokens": 174
+      }
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "elapsed_ms": 14222,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11459,
+        "output_tokens": 231
+      }
+    },
+    {
+      "id": "A08",
+      "status": "PASS",
+      "elapsed_ms": 12002,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11498,
+        "output_tokens": 225
+      }
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "elapsed_ms": 55411,
+      "trace_status": "COMPLETE",
+      "model_calls": 14,
+      "usage": {
+        "input_tokens": 76142,
+        "output_tokens": 1318
+      }
+    },
+    {
+      "id": "A10",
+      "status": "PASS",
+      "elapsed_ms": 12549,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11238,
+        "output_tokens": 173
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "c38a5f458d37e4c643546c4d912118f0a1281c06633c6ffa060e14ff3536b09b",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

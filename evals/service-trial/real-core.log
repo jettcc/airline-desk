@@ -1,0 +1,25 @@
+
+> airline-service-assistant@0.1.0 acceptance
+> node --env-file-if-exists=.env.rightcodes.local --import tsx scripts/acceptance.ts --real
+
+A01 RUNNING
+A01 PASS (7718ms)
+A02 RUNNING
+A02 PASS (9431ms)
+A03 RUNNING
+A03 PASS (10240ms)
+A04 RUNNING
+A04 PASS (22718ms)
+A05 RUNNING
+A05 PASS (17462ms)
+A06 RUNNING
+A06 PASS (10647ms)
+A07 RUNNING
+A07 PASS (11552ms)
+A08 RUNNING
+A08 PASS (11118ms)
+A09 RUNNING
+A09 PASS (37437ms)
+A10 RUNNING
+A10 PASS (11256ms)
+{"summary":"/Users/3commas/Documents/Codex/airline/evals/acceptance/2026-09-20T06-30-07.203Z-35269d1f/summary.json","status":"PASS","cases":[{"id":"A01","status":"PASS"},{"id":"A02","status":"PASS"},{"id":"A03","status":"PASS"},{"id":"A04","status":"PASS"},{"id":"A05","status":"PASS"},{"id":"A06","status":"PASS"},{"id":"A07","status":"PASS"},{"id":"A08","status":"PASS"},{"id":"A09","status":"PASS"},{"id":"A10","status":"PASS"}]}

@@ -1,0 +1,13 @@
+
+> airline-service-assistant@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 30 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/web/index.html                   0.47 kB │ gzip:  0.33 kB
+../dist/web/assets/index-Ocu99jHv.css   13.08 kB │ gzip:  3.86 kB
+../dist/web/assets/index-BFuQPmwY.js   261.92 kB │ gzip: 84.62 kB
+✓ built in 363ms

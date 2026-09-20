@@ -1,0 +1,88 @@
+Airline Desk：启动本地演示；不会清空已有账号或客票。
+正在准备 Node.js 24（仅下载到 npm 缓存，不替换系统版本）…
+首次准备项目依赖，耗时取决于网络…
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+
+added 138 packages in 3s
+正在创建项目 Python 环境…
+正在准备政策检索所需依赖…
+Collecting pdfplumber==0.11.9 (from -r requirements.txt (line 2))
+  Using cached pdfplumber-0.11.9-py3-none-any.whl.metadata (43 kB)
+Collecting pdfminer.six==20251230 (from pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pdfminer_six-20251230-py3-none-any.whl.metadata (4.3 kB)
+Collecting Pillow>=9.1 (from pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting pypdfium2>=4.18.0 (from pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pypdfium2-5.13.0-py3-none-macosx_13_0_arm64.whl.metadata (66 kB)
+Collecting charset-normalizer>=2.0.0 (from pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached charset_normalizer-3.5.1-cp314-cp314-macosx_10_15_universal2.whl.metadata (45 kB)
+Collecting cryptography>=36.0.0 (from pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl.metadata (4.3 kB)
+Collecting cffi>=2.0.0 (from cryptography>=36.0.0->pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=36.0.0->pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Using cached pdfplumber-0.11.9-py3-none-any.whl (60 kB)
+Using cached pdfminer_six-20251230-py3-none-any.whl (6.6 MB)
+Using cached charset_normalizer-3.5.1-cp314-cp314-macosx_10_15_universal2.whl (341 kB)
+Using cached cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl (4.0 MB)
+Using cached cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl (184 kB)
+Using cached pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl (4.8 MB)
+Using cached pypdfium2-5.13.0-py3-none-macosx_13_0_arm64.whl (3.5 MB)
+Using cached pycparser-3.0-py3-none-any.whl (48 kB)
+Installing collected packages: pypdfium2, pycparser, Pillow, charset-normalizer, cffi, cryptography, pdfminer.six, pdfplumber
+
+Successfully installed Pillow-12.3.0 cffi-2.1.1 charset-normalizer-3.5.1 cryptography-50.0.1 pdfminer.six-20251230 pdfplumber-0.11.9 pycparser-3.0 pypdfium2-5.13.0
+
+[notice] A new release of pip is available: 26.1.1 -> 26.2.1
+[notice] To update, run: /private/var/folders/pq/8fcrp5jx7m50djk738byxy2m0000gn/T/airline launch handoff bwbhdfyf/airline-desk/.venv/bin/python -m pip install --upgrade pip
+正在检查并构建网页…
+
+> airline-service-assistant@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 31 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/web/index.html                   0.47 kB │ gzip:  0.33 kB
+../dist/web/assets/index-CGT1Rexp.css   15.09 kB │ gzip:  4.33 kB
+../dist/web/assets/index-BRyG5tOR.js   285.05 kB │ gzip: 92.23 kB
+✓ built in 364ms
+{
+  "checks": [
+    {
+      "check": "Node.js",
+      "status": "PASS",
+      "detail": "Required 24.x; found 24.21.0"
+    },
+    {
+      "check": "SQLite and policy bundle",
+      "status": "PASS",
+      "detail": "1 verified bundle(s); no user database opened"
+    },
+    {
+      "check": "Python and FTS5",
+      "status": "PASS",
+      "detail": "Python >=3.10, PDF dependency and FTS5 available"
+    },
+    {
+      "check": "Web build",
+      "status": "PASS",
+      "detail": "Run npm run build before serving the web page"
+    },
+    {
+      "check": "Model configuration",
+      "status": "PASS",
+      "detail": "Credentials present; connectivity and billing were NOT probed"
+    }
+  ],
+  "status": "PASS",
+  "paid_requests": 0
+}
+正在启动；保持此窗口打开，按 Ctrl+C 停止。
+Airline demo: http://127.0.0.1:3000 | model=gpt-5.6-sol (real) | live UTC clock
+已就绪：http://127.0.0.1:3000/
+
+正在停止本次启动的服务，业务数据会保留。

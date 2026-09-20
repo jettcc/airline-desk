@@ -1,0 +1,30 @@
+Collecting pdfplumber==0.11.9 (from -r requirements.txt (line 2))
+  Using cached pdfplumber-0.11.9-py3-none-any.whl.metadata (43 kB)
+Collecting pdfminer.six==20251230 (from pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pdfminer_six-20251230-py3-none-any.whl.metadata (4.3 kB)
+Collecting Pillow>=9.1 (from pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting pypdfium2>=4.18.0 (from pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pypdfium2-5.13.0-py3-none-macosx_13_0_arm64.whl.metadata (66 kB)
+Collecting charset-normalizer>=2.0.0 (from pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached charset_normalizer-3.5.1-cp314-cp314-macosx_10_15_universal2.whl.metadata (45 kB)
+Collecting cryptography>=36.0.0 (from pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl.metadata (4.3 kB)
+Collecting cffi>=2.0.0 (from cryptography>=36.0.0->pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=36.0.0->pdfminer.six==20251230->pdfplumber==0.11.9->-r requirements.txt (line 2))
+  Using cached pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Using cached pdfplumber-0.11.9-py3-none-any.whl (60 kB)
+Using cached pdfminer_six-20251230-py3-none-any.whl (6.6 MB)
+Using cached charset_normalizer-3.5.1-cp314-cp314-macosx_10_15_universal2.whl (341 kB)
+Using cached cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl (4.0 MB)
+Using cached cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl (184 kB)
+Using cached pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl (4.8 MB)
+Using cached pypdfium2-5.13.0-py3-none-macosx_13_0_arm64.whl (3.5 MB)
+Using cached pycparser-3.0-py3-none-any.whl (48 kB)
+Installing collected packages: pypdfium2, pycparser, Pillow, charset-normalizer, cffi, cryptography, pdfminer.six, pdfplumber
+
+Successfully installed Pillow-12.3.0 cffi-2.1.1 charset-normalizer-3.5.1 cryptography-50.0.1 pdfminer.six-20251230 pdfplumber-0.11.9 pycparser-3.0 pypdfium2-5.13.0
+
+[notice] A new release of pip is available: 26.1.1 -> 26.2.1
+[notice] To update, run: /private/var/folders/pq/8fcrp5jx7m50djk738byxy2m0000gn/T/airline-service-delivery-aoz5rg3p/airline-desk/.venv/bin/python -m pip install --upgrade pip

@@ -1,0 +1,5 @@
+{
+  "note": "Two independently started supplemental runs shared the same millisecond directory. Their individual U01.json and U02.json results are authoritative; summary.json is the U02-only summary. Later run directories use a UUID suffix.",
+  "U01": "FAIL: CONTEXT_LIMIT after the combined candidate card",
+  "U02": "PASS"
+}

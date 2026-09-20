@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "http_status": 200,
+  "user_business_tables_unchanged": true,
+  "tables": {
+    "accounts": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "actors": {
+      "rows": 3,
+      "sha256": "89c5c459e6f489cd4acbd69cd0e5e1f58dc17730aea5b1a1f35c5dc86d51889d"
+    },
+    "tickets": {
+      "rows": 19,
+      "sha256": "4e5058ae7975b94345ba7c569eae3aeaddfd494b35c5ac5b603ed2b882cc35cf"
+    },
+    "operations": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "credits": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "review_cases": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "submissions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "policy_bundles": 2
+}

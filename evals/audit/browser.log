@@ -1,0 +1,20 @@
+
+> airline-service-assistant@0.1.0 test:browser
+> playwright test
+
+
+Running 9 tests using 1 worker
+
+(node:81284) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests-browser/app.spec.ts:74:1 › Guest baggage, PDF source, language/timezone, mobile layout and keyboard (245ms)
+  ✓  2 tests-browser/app.spec.ts:101:1 › Quote/confirm creates one operation and refund versus credit stay separate after reload (734ms)
+  ✓  3 tests-browser/app.spec.ts:118:1 › Actual response loss, reload and original-request recovery never duplicate (1.5s)
+  ✓  4 tests-browser/app.spec.ts:143:1 › Switching identity clears old private cards; same browser window notices changed session (459ms)
+  ✓  5 tests-browser/app.spec.ts:162:1 › Expired quote remains unexecuted even if browser clock is stale (637ms)
+  ✓  6 tests-browser/app.spec.ts:172:1 › Two travelers select four replacement segments in one card and confirm one atomic operation (1.6s)
+  ✓  7 tests-browser/app.spec.ts:204:1 › Public Chinese/English summary and guest login retain only verified public output, never user ticket claims (1.7s)
+  ✓  8 tests-browser/app.spec.ts:218:1 › Explicit medical review shows no approval or payment and persists conversation provenance (236ms)
+  ✓  9 tests-browser/app.spec.ts:235:1 › User HTML is rendered as inert text and cannot impersonate a business card (195ms)
+
+  9 passed (7.8s)

@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-09-20T02:27:43.383244+00:00",
+  "reviewer": "Codex source-and-evidence review; not an independent human or second-model review",
+  "basis": [
+    "Original assignment and three supplied policy PDFs",
+    "Actual web cards and page text",
+    "Tool traces",
+    "Persisted results; separate Python integer financial audit"
+  ],
+  "cases": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "finding": "先澄清航司；BHA Basic 随身个人物品 1 件 3kg/40×30×15，无免费客舱及托运；可购客舱25、托运40美元，来源第5页。未读取订单。",
+      "evidence": "A01.json"
+    },
+    {
+      "id": "A02",
+      "status": "PASS",
+      "finding": "本人视图被裁剪；付款人自述/注入未授权他人客票，返回 TARGET_UNAVAILABLE；无资金操作。",
+      "evidence": "A02.json"
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "finding": "两人各两段统一改签，收220美元；四段及两个版本原子更新，仅一笔操作。",
+      "evidence": "A03.json"
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "finding": "原出票分界两侧手续费85/55，加20差价报价105/75；跨24小时后旧资格拒绝，无支付。",
+      "evidence": "A04.json"
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "finding": "STA 国内/国际逐段采用20/65，合计85美元，替代航班已保存。",
+      "evidence": "A05.json"
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "finding": "取消票价100/税20/座位10：本人额度60、原路退税20、取消扣费40、座位不退10；一笔操作，一次额度，365日到期。",
+      "evidence": "A06.json"
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "finding": "BHA Basic 达180分钟航变保护：整票未用原路模拟退280；无取消费，一次消费权益。",
+      "evidence": "A07.json"
+    },
+    {
+      "id": "A08",
+      "status": "PASS",
+      "finding": "部分已用只确认未用受影响部分退款权；审核金额 UNKNOWN/null，无资金变化，不承诺已审批。",
+      "evidence": "A08.json"
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "finding": "10 个并发真实政策咨询按 NSA/BHA/STA 隔离；同票两个确认一胜一冲突，不同票两笔均成功。",
+      "evidence": "A09.json"
+    },
+    {
+      "id": "A10",
+      "status": "PASS",
+      "finding": "提交后丢响应，按原键恢复；同报价换键、刷新均不重复，一笔退款操作。",
+      "evidence": "A10.json"
+    }
+  ],
+  "financial_audit": "financial-audit.json",
+  "scope": "Finite assignment fixtures and bounded edge tests; no production or exhaustive natural-language guarantee"
+}

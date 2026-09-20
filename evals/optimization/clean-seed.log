@@ -1,0 +1,5 @@
+
+> airline-service-assistant@0.1.0 seed
+> node --import tsx scripts/seed.ts
+
+{"database":"airline.sqlite","tickets":19,"seed_at_ms":"1789877509487","reset":false}

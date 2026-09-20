@@ -1,0 +1,608 @@
+{
+  "airlines": [
+    "STA"
+  ],
+  "booking_decision": "NOT_EVALUATED",
+  "candidates": [],
+  "evidence": [
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          1
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:1",
+      "pages": [
+        1
+      ],
+      "section": "1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "1. Scope and definitions\nThis is a fictional policy publication. All airlines, rules, places, contacts and examples in this document are\ninvented. It applies only to tickets issued by this airline for flights operated by this airline, including direct and\ntravel-agency sales. Other carriers, codeshares, group contracts and award tickets are outside its scope.\nThe document governs requests received on or after its effective date. These rules apply regardless of original\nticket issuance date. Earlier request dates are outside this publication. A reissue does not change the original\nticket issuance timestamp for policy selection.\nFlight segment means one scheduled takeoff and landing. An itinerary comprises all segments on one\npassenger ticket. A booking may contain several passenger tickets. Travel has started once any segment on\nthat ticket has been flown. A wholly unused ticket has no flown segments.\nDomestic means both endpoints of a segment are in the fictional Republic of Aster; all other segments are\ninternational. Route type is assessed per segment for changes and baggage. For voluntary cancellation, an\nitinerary is international if any segment is international; otherwise it is domestic.",
+      "title": "1. Scope and definitions",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          1
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "1.1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:1.1",
+      "pages": [
+        1
+      ],
+      "section": "1.1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "1.1 Time and money conventions\nAll timestamps and elapsed-time calculations use UTC, without daylight-saving adjustments. Departure\nproximity is measured from receipt of a complete, authorized request to the scheduled departure time then\nrecorded on the ticket. For a change, use each affected segment; for cancellation of a wholly unused ticket, use\nits first segment. A pending incomplete request does not preserve an earlier deadline.\nThe early window is 24 hours or more before departure, including exactly 24 hours. The late window is less\nthan 24 hours but more than 0 hours. At exactly departure time or later, Section 5 applies. All money is USD;\nlisted fees include any fee-related taxes.",
+      "title": "1.1 Time and money conventions",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          2
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "2",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:2",
+      "pages": [
+        2
+      ],
+      "section": "2",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "2. Fare types and voluntary changes\nEconomy Basic, Economy Standard and Economy Flex describe the fare purchased on each ticket. A higher\ncabin-baggage allowance or a paid extra does not upgrade a fare. A ticket uses one fare type throughout;\nmixed-fare tickets require manual review under Section 9.",
+      "title": "2. Fare types and voluntary changes",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          2
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "2.1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:2.1",
+      "pages": [
+        2
+      ],
+      "section": "2.1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [
+        {
+          "page": 2,
+          "rows": [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "Domestic USD 40; international not permitted",
+              "Not permitted"
+            ],
+            [
+              "Economy Standard",
+              "Domestic USD 20; international USD 65",
+              "Domestic USD 50; international USD 100"
+            ],
+            [
+              "Economy Flex",
+              "USD 0 on either route type",
+              "Domestic USD 0; international USD 25"
+            ]
+          ]
+        }
+      ],
+      "text": "2.1 Change fee schedule\nThe following fees apply per passenger, per changed flight segment, per completed change request.\nMultiply by the number of passengers and changed segments. No additional per-booking fee is charged. A new\nrequest after a completed change is charged separately.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic Domestic USD 40; international not permitted Not permitted\nEconomy Standard Domestic USD 20; international USD 65 Domestic USD 50; international USD 100\nEconomy Flex USD 0 on either route type Domestic USD 0; international USD 25",
+      "title": "2.1 Change fee schedule",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          2
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "2.2",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:2.2",
+      "pages": [
+        2
+      ],
+      "section": "2.2",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "2.2 Fare difference and permitted changes\nEvery permitted change also requires payment of any positive fare difference for each affected passenger and\nsegment, even when the change fee is USD 0. Fare difference is the new segment fare minus the old segment\nfare, excluding taxes and optional extras. A lower fare creates no refund or credit and cannot offset a change\nfee. Changes in unused government taxes are collected or returned to the original payment method separately.\nDate or departure-time changes are allowed only where the table permits, subject to seat availability. Airline,\npassenger and route endpoint substitutions are not covered by a voluntary change; contact the service desk for\nreview. You may retain or upgrade the fare type, but not downgrade it. The existing fare determines the change\nfee; the replacement fare governs later requests.",
+      "title": "2.2 Fare difference and permitted changes",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          2
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "2.3",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:2.3",
+      "pages": [
+        2
+      ],
+      "section": "2.3",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "2.3 Travel already started\nAfter travel starts, changes to remaining unflown segments follow this table using each segment departure time,\nprovided no no-show has occurred. A missed segment takes priority over these rules. Voluntary refunds of partly\nused tickets are handled only under Section 9.\nExample: one Economy Standard traveler changes one domestic and one international segment, both 30 hours\nbefore departure. Fees are USD 20 + USD 65 = USD 85. Positive fare differences and any tax adjustment are\nadditional.",
+      "title": "2.3 Travel already started",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          3
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "3",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:3",
+      "pages": [
+        3
+      ],
+      "section": "3",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [
+        {
+          "page": 3,
+          "rows": [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "No fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Standard",
+              "Domestic credit less USD 25; international no fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Flex",
+              "Domestic original payment, USD 0 fee; international original payment less USD 50",
+              "Domestic original payment less USD 20; international credit less USD 75"
+            ]
+          ]
+        }
+      ],
+      "text": "3. Voluntary cancellation and refunds\nThis section applies when you choose not to travel and Section 6 does not apply. The table covers cancellation\nof the entire wholly unused itinerary for each selected passenger. Cancellation fees are per passenger, per\nitinerary, not per segment or per booking.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic No fare refund or credit No fare refund or credit\nEconomy Standard Domestic credit less USD 25; international No fare refund or credit\nno fare refund or credit\nEconomy Flex Domestic original payment, USD 0 fee; Domestic original payment less USD 20;\ninternational original payment less USD 50 international credit less USD 75",
+      "title": "3. Voluntary cancellation and refunds",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          3
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "3.1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:3.1",
+      "pages": [
+        3
+      ],
+      "section": "3.1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "3.1 Amount and payment destination\nFare means the ticket amount excluding separately itemized government taxes and optional services. Where the\ntable allows a refund or credit, subtract the stated fee from the eligible fare; the result cannot be below USD 0.\nNo additional balance is collected when the fee exceeds the fare. Unused government taxes are returned to the\noriginal payment method on request for every fare, including non-refundable fares and no-shows.\nAn original-payment refund returns to the payment instrument used for the original purchase. Paying for another\ntraveler does not make the fare transferable. A travel credit is issued in the named passenger's name, cannot be\ntransferred or exchanged for cash, and may be used only with this airline. Unused credit remains available until\nexpiry.",
+      "title": "3.1 Amount and payment destination",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          3
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "3.2",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:3.2",
+      "pages": [
+        3
+      ],
+      "section": "3.2",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "3.2 Credit validity and optional services\nA credit expires exactly 365 elapsed days after issue. It must be redeemed before that instant; redemption at the\nexpiry instant is not permitted. The new travel must also begin before that expiry instant. There is no extension\nunder the standard policy.\nPurchased baggage and seat extras are non-refundable for a voluntary cancellation. On an eligible date/time\nchange, unused extras transfer to the same passenger and route without a transfer fee, subject to availability;\nunavailable services require manual review. No automatic cash refund is promised for unavailable extras.",
+      "title": "3.2 Credit validity and optional services",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          3
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "4",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:4",
+      "pages": [
+        3
+      ],
+      "section": "4",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "4. Cancellation scope\nOne traveler may cancel their own whole ticket without cancelling other travelers in the booking, after authority is\nverified. A request to cancel selected segments only, or any refund after a segment has been flown, requires\nSection 9 review; do not apply the whole-ticket table to an assumed remaining balance.",
+      "title": "4. Cancellation scope",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          3
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "5",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:5",
+      "pages": [
+        3
+      ],
+      "section": "5",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "5. No-shows\nA traveler is a no-show if no complete authorized change/cancellation request was received before departure\nand the traveler does not take that flight. At exactly departure time, a new voluntary request is too late and\nreceives no-show treatment. All remaining segments are suspended pending service-desk contact; there is no\nautomatic reinstatement. The remaining fare has no standard refund or credit, including Flex. Unused\ngovernment taxes remain refundable. A qualifying airline disruption under Section 6 takes precedence; medical\ncircumstances may be reviewed under Section 9.",
+      "title": "5. No-shows",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          4
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "6",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:6",
+      "pages": [
+        4
+      ],
+      "section": "6",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "6. Airline-initiated disruptions\nThese protections apply when the airline cancels a segment or makes a qualifying schedule change. They\noverride the voluntary fare restrictions, change fees and no-show loss of value in Sections 2, 3 and 5 for the\naffected journey. A passenger choosing to cancel for personal reasons without a qualifying event remains\nsubject to the voluntary rules.",
+      "title": "6. Airline-initiated disruptions",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          4
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "6.1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:6.1",
+      "pages": [
+        4
+      ],
+      "section": "6.1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "6.1 Qualifying events\nA cancellation by Suntrail Air qualifies for all fare types. A schedule change qualifies when the absolute\ndifference between the original and revised scheduled departure time of a segment is 120 minutes or more,\nincluding exactly 120 minutes, whether moved earlier or later. Smaller changes do not qualify under this\ndocument. Compare the latest notice with the schedule confirmed at original ticket issuance, not successive\nnotice-to-notice differences.",
+      "title": "6.1 Qualifying events",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          4
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "6.2",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:6.2",
+      "pages": [
+        4
+      ],
+      "section": "6.2",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [
+        {
+          "page": 4,
+          "rows": [
+            [
+              "Option",
+              "What is included"
+            ],
+            [
+              "Replacement travel",
+              "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+            ],
+            [
+              "Refund before travel starts",
+              "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+            ],
+            [
+              "Refund after travel starts",
+              "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+            ]
+          ]
+        }
+      ],
+      "text": "6.2 Your choice\nOption What is included\nReplacement travel One rebooking on this airline to the same destination in the same fare type, within 7\ncalendar days before or after the original departure date, inclusive, subject to availability. No\nchange fee or fare difference.\nRefund before travel starts For a wholly unused affected itinerary, refund its full fare, unused government taxes and all\nunused purchased extras to the original payment method. No cancellation fee, including\nEconomy Basic.\nRefund after travel starts Manual review of the unflown portion and unused extras. The right to refund the unused\naffected portion remains; the amount and allocation require review. No refund is promised\nfor flown segments.\nYou may choose a refund instead of a credit. A credit is never required as the only remedy. If no suitable\nreplacement is available, the refund option remains. Choosing and completing a refund ends rebooking eligibility\nfor the refunded ticket; the same value cannot be refunded twice.",
+      "title": "6.2 Your choice",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          4
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "6.3",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:6.3",
+      "pages": [
+        4
+      ],
+      "section": "6.3",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "6.3 Request period and later changes\nSubmit the choice within 30 elapsed days after the disruption notice timestamp, including exactly 30 days. After\nthat period, eligibility requires manual review rather than automatic approval or rejection. If you accepted\nreplacement travel and later change your mind for personal reasons, normal voluntary rules apply to the\nreplacement ticket. A new qualifying disruption creates a new choice.\nKeep the disruption notice and identify affected passengers and segments. A pending request does not itself\nconfirm replacement seats. Hotel, meal and ground-transport compensation are not specified in this publication.",
+      "title": "6.3 Request period and later changes",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          6
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "8",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:8",
+      "pages": [
+        6
+      ],
+      "section": "8",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "8. Booking ownership and requests\nThe named adult traveler may request service for their own ticket after identity and booking details are verified. A\nbooking reference, shared surname, or possession of payment details alone is not authority. A payer or lead\nbooker may not change, cancel or view another adult traveler's private ticket information without that traveler's\nexplicit authorization and identity verification.\nA representative must supply the traveler's written authorization naming the representative, booking reference\nand permitted action, and complete service-desk verification of both identities. A parent or guardian requesting\nservice for a minor must provide evidence of guardianship for manual verification. Never send full payment-card\ndetails or identity documents through an unverified channel.",
+      "title": "8. Booking ownership and requests",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          6
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "8.1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:8.1",
+      "pages": [
+        6
+      ],
+      "section": "8.1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "8.1 How to submit a request\nFor direct bookings, use the fictional service portal https://service.suntrail-air.example or email\ncare@suntrail-air.example to begin verification. These are fictional contact details and are not live services. For\nagency-issued tickets, contact the issuing agency; this airline's service desk can review disruption assistance\nbut agency refunds are routed through the issuing agency to the original payment method.\nProvide booking reference, traveler names, requested action, affected segments, original issuance timestamp\nand any disruption notice. The service desk verifies authority, identifies the applicable rule and provides a quote\nor review outcome. Confirm the quoted change or cancellation before execution. A quote alone does not alter a\nbooking. A complete authorized request includes the required facts, verified authority and acceptance of any\nquoted charge; its receipt time determines the policy window.",
+      "title": "8.1 How to submit a request",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          6
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "9",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:9",
+      "pages": [
+        6
+      ],
+      "section": "9",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "9. Exceptions requiring manual review\nA serious medical event preventing travel may be submitted with dated supporting evidence. Request a secure\nsubmission route before supplying medical records. Approval, waived fees, cash refunds and credit are not\nguaranteed. Partly used itinerary refunds, selected-segment cancellations, mixed-fare tickets, disputed\nownership and guardianship also require review. For qualifying disruptions, Section 6 preserves the\nunused-portion refund entitlement while the amount is reviewed.",
+      "title": "9. Exceptions requiring manual review",
+      "version": "1.4"
+    },
+    {
+      "airline": "STA",
+      "citation": {
+        "airline": "STA",
+        "pages": [
+          6
+        ],
+        "release_id": "404f665e46351af9b4c4e50b",
+        "section": "9.1",
+        "snapshot_pdf": "/Users/3commas/Documents/Codex/airline/data/knowledge/releases/404f665e46351af9b4c4e50b/sources/STA.pdf",
+        "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+        "version": "1.4"
+      },
+      "effective_from": "2026-03-01T00:00:00Z",
+      "id": "STA:9.1",
+      "pages": [
+        6
+      ],
+      "section": "9.1",
+      "source_file": "sources/STA.pdf",
+      "source_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+      "tables": [],
+      "text": "9.1 Supporting information and review outcome\nKeep receipts and identify flown and unused segments when requesting a partial refund. The service desk\nconfirms what evidence is needed. A review request is not an approval, and the standard rules remain\napplicable unless a specific exception is approved. No fixed review or refund-processing turnaround is promised\nhere.",
+      "title": "9.1 Supporting information and review outcome",
+      "version": "1.4"
+    }
+  ],
+  "message": "Policy evidence located. Applicability to a specific booking, amounts, and authorization have not been evaluated.",
+  "purpose": "policy_evidence_only",
+  "release_id": "404f665e46351af9b4c4e50b",
+  "request_at": "2026-09-18T00:00:00+00:00",
+  "required_booking_facts": [
+    "affected_passengers_and_segments",
+    "complete_request_received_at",
+    "disruption_facts",
+    "eligible_fare",
+    "fare_type",
+    "first_departure",
+    "itinerary_route_types",
+    "new_fares_and_inventory",
+    "original_issued_at",
+    "sales_channel",
+    "scheduled_departures",
+    "selected_passenger_tickets",
+    "travel_and_no_show_state",
+    "unused_taxes_and_extras",
+    "verified_authority"
+  ],
+  "status": "FOUND",
+  "topics": [
+    "change",
+    "refund"
+  ],
+  "trace": {
+    "lexical_candidate_ids": [],
+    "method": "section_relations_plus_fts5",
+    "source": "reviewed_local_pdfs"
+  }
+}

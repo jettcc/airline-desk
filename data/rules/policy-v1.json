@@ -1,0 +1,24 @@
+{
+  "version": "rules-v1", "contract_version": "1", "knowledge_release": "404f665e46351af9b4c4e50b",
+  "effective_from": {"NSA":"2026-01-01T00:00:00Z","BHA":"2026-07-01T00:00:00Z","STA":"2026-03-01T00:00:00Z"},
+  "change": {
+    "NSA": {"Basic":[70,null],"Standard":[25,60],"Flex":[0,0]},
+    "BHA": {"Basic":[null,null],"Standard":[55,null],"Flex":[15,45]},
+    "STA_DOM": {"Basic":[40,null],"Standard":[20,50],"Flex":[0,0]},
+    "STA_INT": {"Basic":[null,null],"Standard":[65,100],"Flex":[0,25]}
+  },
+  "cancel": {
+    "NSA": {"Basic":[["NONE",0],["NONE",0]],"Standard":[["CREDIT",40],["CREDIT",80]],"Flex":[["REFUND",0],["REFUND",0]]},
+    "BHA": {"Basic":[["NONE",0],["NONE",0]],"Standard":[["NONE",0],["NONE",0]],"Flex":[["CREDIT",30],["NONE",0]]},
+    "STA_DOM": {"Basic":[["NONE",0],["NONE",0]],"Standard":[["CREDIT",25],["NONE",0]],"Flex":[["REFUND",0],["REFUND",20]]},
+    "STA_INT": {"Basic":[["NONE",0],["NONE",0]],"Standard":[["NONE",0],["NONE",0]],"Flex":[["REFUND",50],["CREDIT",75]]}
+  },
+  "disruption_minutes": {"NSA":120,"BHA":180,"STA":120},
+  "baggage": {
+    "NSA": {"Basic":[8,1,23],"Standard":[8,1,23],"Flex":[12,2,23]},
+    "BHA": {"Basic":[0,0,20],"Standard":[7,0,20],"Flex":[10,1,20]},
+    "STA_DOM": {"Basic":[7,0,20],"Standard":[10,1,20],"Flex":[12,2,20]},
+    "STA_INT": {"Basic":[7,1,20],"Standard":[10,1,23],"Flex":[12,2,23]}
+  },
+  "extra_bag": {"NSA":[45,23],"BHA":[40,20],"STA":[50,23]}
+}

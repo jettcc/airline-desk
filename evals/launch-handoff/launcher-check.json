@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "initial_archive_sha256": "2f38e7e68eec7b1611c34d5041ef4e56301a054e353f57ff6a440457f540f733",
+  "checks": [
+    {
+      "name": "clean-install-in-path-with-spaces",
+      "status": "PASS",
+      "node_version": "v24.21.0",
+      "port": "http://127.0.0.1:3000/"
+    },
+    {
+      "name": "duplicate-launch-refused",
+      "status": "PASS"
+    },
+    {
+      "name": "restart-preserves-account-and-reuses-dependencies",
+      "status": "PASS"
+    },
+    {
+      "name": "classic-mode-without-key-still-preserves-data",
+      "status": "PASS"
+    },
+    {
+      "name": "shutdown-stops-only-owned-server",
+      "status": "PASS"
+    }
+  ]
+}

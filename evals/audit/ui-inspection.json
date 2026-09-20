@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:3001",
+  "desktop": [
+    1360,
+    920
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "horizontal_overflow": false,
+  "model_badge": true
+}

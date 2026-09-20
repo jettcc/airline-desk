@@ -1,0 +1,185 @@
+{
+  "started_at": "2026-09-18T10:11:29.637Z",
+  "runtime": "v22.22.3",
+  "provider": "rightcodes",
+  "base_url": "https://www.right.codes/codex/v1",
+  "requested_model": "gpt-5.6-sol",
+  "status": "PASS",
+  "scope": "Provider authentication, text/instructions, function-call round trip only; no airline business acceptance.",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "User-reported provider key limit; not independently verified.",
+    "actual_cost_usd": null
+  },
+  "request_limits": {
+    "generation_requests": 3,
+    "max_output_tokens_per_request": 512,
+    "timeout_ms": 45000,
+    "automatic_retries": 0
+  },
+  "model_discovery": "REQUIRED",
+  "checks": [
+    {
+      "name": "authentication_and_requested_model_listed",
+      "passed": true
+    },
+    {
+      "name": "text_and_instructions",
+      "passed": true,
+      "output_text": "AIRLINE_CONNECT_OK"
+    },
+    {
+      "name": "structured_function_call",
+      "passed": true
+    },
+    {
+      "name": "function_arguments",
+      "passed": true
+    },
+    {
+      "name": "function_output_round_trip",
+      "passed": true,
+      "tool": "get_probe_status",
+      "tool_arguments": {
+        "scope": "airline"
+      },
+      "expected_receipt": "LOCAL_TOOL_2ede4b86-5de7-4d48-b866-4e4998a9b934",
+      "output_text": "LOCAL_TOOL_2ede4b86-5de7-4d48-b866-4e4998a9b934"
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/models",
+      "elapsed_ms": 1289,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "application/json",
+      "response_bytes": 235
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "elapsed_ms": 1574,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "text/event-stream",
+      "stream_event_counts": {
+        "codex.rate_limits": 1,
+        "codex.response.metadata": 1,
+        "response.created": 1,
+        "response.in_progress": 1,
+        "response.output_item.added": 2,
+        "response.output_item.done": 2,
+        "response.content_part.added": 1,
+        "response.output_text.delta": 4,
+        "response.output_text.done": 1,
+        "response.content_part.done": 1,
+        "responsesapi.websocket_timing": 1,
+        "response.completed": 1
+      },
+      "response_bytes": 16991,
+      "last_stream_event": "response.completed",
+      "response_id": "resp_0938841c577ca2f7016aad0e54422087d08cc6da35b1fcf34b",
+      "returned_model": "gpt-5.6-sol",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 70,
+        "output_tokens": 40,
+        "total_tokens": 110,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 20
+      },
+      "output_types": [
+        "reasoning",
+        "message"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "elapsed_ms": 22223,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "text/event-stream",
+      "stream_event_counts": {
+        "response.created": 2,
+        "response.in_progress": 2,
+        "response.output_item.added": 2,
+        "response.content_part.added": 1,
+        "response.output_text.delta": 1,
+        "response.function_call_arguments.delta": 6,
+        "response.function_call_arguments.done": 1,
+        "response.output_item.done": 1,
+        "response.completed": 1
+      },
+      "response_bytes": 10162,
+      "last_stream_event": "response.completed",
+      "response_id": "resp_01127c742fab6dea016aad0e60272087d0b011a7712a4d46e9",
+      "returned_model": "gpt-5.6-sol",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 186,
+        "output_tokens": 20,
+        "total_tokens": 206,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "output_types": [
+        "function_call"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "elapsed_ms": 19296,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "text/event-stream",
+      "stream_event_counts": {
+        "codex.rate_limits": 1,
+        "codex.response.metadata": 1,
+        "response.created": 1,
+        "response.in_progress": 1,
+        "response.output_item.added": 2,
+        "response.output_item.done": 2,
+        "response.content_part.added": 1,
+        "response.output_text.delta": 27,
+        "response.output_text.done": 1,
+        "response.content_part.done": 1,
+        "responsesapi.websocket_timing": 1,
+        "response.completed": 1
+      },
+      "response_bytes": 25356,
+      "last_stream_event": "response.completed",
+      "response_id": "resp_01127c742fab6dea016aad0e6d393887d08c1f7000552c0e7a",
+      "returned_model": "gpt-5.6-sol",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 370,
+        "output_tokens": 106,
+        "total_tokens": 476,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 40
+      },
+      "output_types": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "available_model_ids": [
+    "codex-auto-review",
+    "gpt-5.5",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra"
+  ],
+  "finished_at": "2026-09-18T10:12:14.022Z",
+  "generation_requests_attempted": 3,
+  "usage_totals": {
+    "input_tokens": 626,
+    "output_tokens": 166,
+    "total_tokens": 792
+  }
+}

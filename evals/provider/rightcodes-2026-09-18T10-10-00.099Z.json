@@ -1,0 +1,87 @@
+{
+  "started_at": "2026-09-18T10:10:00.099Z",
+  "runtime": "v22.22.3",
+  "provider": "rightcodes",
+  "base_url": "https://www.right.codes/codex/v1",
+  "requested_model": "gpt-5.6-sol",
+  "status": "FAIL",
+  "scope": "Provider authentication, text/instructions, function-call round trip only; no airline business acceptance.",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "User-reported provider key limit; not independently verified.",
+    "actual_cost_usd": null
+  },
+  "request_limits": {
+    "generation_requests": 3,
+    "max_output_tokens_per_request": 512,
+    "timeout_ms": 45000,
+    "automatic_retries": 0
+  },
+  "model_discovery": "REQUIRED",
+  "checks": [
+    {
+      "name": "authentication_and_requested_model_listed",
+      "passed": true
+    },
+    {
+      "name": "text_and_instructions",
+      "passed": true,
+      "output_text": "AIRLINE_CONNECT_OK"
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/models",
+      "elapsed_ms": 1276,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "elapsed_ms": 12795,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "text/event-stream",
+      "response_id": "resp_04cd98515615c79d016aad0dfb012c87d0b5080bff41033b6d",
+      "returned_model": "gpt-5.6-sol",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 70,
+        "output_tokens": 16,
+        "total_tokens": 86,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "output_types": [
+        "message"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/responses",
+      "elapsed_ms": 19212,
+      "http_status": 200,
+      "request_id": null,
+      "content_type": "text/event-stream",
+      "error": "Error: Stream ended without a terminal response."
+    }
+  ],
+  "available_model_ids": [
+    "codex-auto-review",
+    "gpt-5.5",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra"
+  ],
+  "error": "Error: Stream ended without a terminal response.",
+  "finished_at": "2026-09-18T10:10:33.384Z",
+  "generation_requests_attempted": 2,
+  "usage_totals": {
+    "input_tokens": 70,
+    "output_tokens": 16,
+    "total_tokens": 86
+  }
+}

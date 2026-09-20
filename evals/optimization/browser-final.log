@@ -1,0 +1,24 @@
+
+> airline-service-assistant@0.1.0 test:browser
+> playwright test
+
+
+Running 13 tests using 1 worker
+
+(node:7062) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests-browser/app.spec.ts:75:1 › Guest baggage, PDF source, language/timezone, mobile layout and keyboard (432ms)
+  ✓   2 tests-browser/app.spec.ts:102:1 › Quote/confirm creates one operation and refund versus credit stay separate after reload (778ms)
+  ✓   3 tests-browser/app.spec.ts:119:1 › Actual response loss, reload and original-request recovery never duplicate (1.7s)
+  ✓   4 tests-browser/app.spec.ts:144:1 › Switching identity clears old private cards; same browser window notices changed session (547ms)
+  ✓   5 tests-browser/app.spec.ts:163:1 › Expired quote remains unexecuted even if browser clock is stale (661ms)
+  ✓   6 tests-browser/app.spec.ts:173:1 › Two travelers select four replacement segments in one card and confirm one atomic operation (1.6s)
+  ✓   7 tests-browser/app.spec.ts:205:1 › Public Chinese/English summary and guest login retain only verified public output, never user ticket claims (1.7s)
+  ✓   8 tests-browser/app.spec.ts:219:1 › Explicit medical review shows no approval or payment and persists conversation provenance (275ms)
+  ✓   9 tests-browser/app.spec.ts:236:1 › User HTML is rendered as inert text and cannot impersonate a business card (194ms)
+  ✓  10 tests-browser/app.spec.ts:247:1 › Two local app instances share a browser without replacing sessions or losing later chat turns (17.1s)
+  ✓  11 tests-browser/app.spec.ts:291:1 › Guest ticket actions are disabled; register, refresh, logout and password sign-in work with empty own tickets (816ms)
+  ✓  12 tests-browser/app.spec.ts:345:1 › First-time demo path is explicit, preserves a prepared request and never grants guest ticket access (283ms)
+  ✓  13 tests-browser/app.spec.ts:366:1 › Registration modal fits a narrow screen and duplicate names remain a visible error (522ms)
+
+  13 passed (27.2s)

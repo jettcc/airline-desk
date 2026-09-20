@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.env.local
+.env.*.local
+tmp/
+data/knowledge/.publish.lock
+data/knowledge/.stage-*/
+data/knowledge/.current-*
+node_modules/
+dist/
+.runtime/
+var/
+test-results/
+playwright-report/
+*.tsbuildinfo
+deliverables/
+
+# Public repository: never commit credentials or private archives.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

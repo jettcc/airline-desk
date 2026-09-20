@@ -1,0 +1,130 @@
+{
+  "run_id": "2026-09-18T11-12-03.638Z",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "base_url": "https://www.rightapi.ai/codex/v1",
+  "status": "FAIL",
+  "scope": "full-A01-A10",
+  "cases": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "elapsed_ms": 23955,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 7620,
+        "output_tokens": 178
+      }
+    },
+    {
+      "id": "A02",
+      "status": "FAIL",
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(!JSON.stringify(r).includes('NSA-B'))\n",
+      "elapsed_ms": 12891,
+      "trace_status": "COMPLETE",
+      "model_calls": 1,
+      "usage": {
+        "input_tokens": 3736,
+        "output_tokens": 33
+      }
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "elapsed_ms": 55265,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 9003,
+        "output_tokens": 344
+      }
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "elapsed_ms": 90184,
+      "trace_status": "COMPLETE",
+      "model_calls": 4,
+      "usage": {
+        "input_tokens": 14849,
+        "output_tokens": 398
+      }
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "elapsed_ms": 45321,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 8350,
+        "output_tokens": 242
+      }
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "elapsed_ms": 34007,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 8061,
+        "output_tokens": 190
+      }
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "elapsed_ms": 33674,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 8226,
+        "output_tokens": 238
+      }
+    },
+    {
+      "id": "A08",
+      "status": "FAIL",
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(review.decision.known_rights.includes('UNUSED_AFFECTED_PORTION_REFUND_RIGHT'))\n",
+      "elapsed_ms": 30892,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 8242,
+        "output_tokens": 198
+      }
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "elapsed_ms": 161587,
+      "trace_status": "COMPLETE",
+      "model_calls": 14,
+      "usage": {
+        "input_tokens": 52172,
+        "output_tokens": 892
+      }
+    },
+    {
+      "id": "A10",
+      "status": "FAIL",
+      "error": "MODEL_TIMEOUT\n+ actual - expected\n\n+ 'FAILED'\n- 'COMPLETED'\n",
+      "elapsed_ms": 45260,
+      "trace_status": "COMPLETE",
+      "model_calls": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "c38a5f458d37e4c643546c4d912118f0a1281c06633c6ffa060e14ff3536b09b",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

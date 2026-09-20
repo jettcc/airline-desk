@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-09-18T11-05-33.581Z",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "status": "PASS",
+  "scope": "partial",
+  "cases": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "elapsed_ms": 15623,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 7620,
+        "output_tokens": 208
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "8027aa66a8b6b7c626ef2290b2a7e836abbba5733f96575afffb8dfb4b317c79",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

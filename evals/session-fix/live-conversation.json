@@ -1,0 +1,283 @@
+{
+  "scope": "FICTIONAL_DEMO_DIAGNOSTICS",
+  "conversation_id": "conversation_bc94f7cb-d929-4dc3-bde9-c181e0445f06",
+  "status": "COMPLETE",
+  "turns": [
+    {
+      "id": "turn_93eacf80-c328-45e4-a4c4-80ca39897b7b",
+      "state": "COMPLETED",
+      "created_at_ms": 1789872087318
+    },
+    {
+      "id": "turn_d18c6db0-7987-46b2-9e10-21eb210e0040",
+      "state": "COMPLETED",
+      "created_at_ms": 1789872112110
+    },
+    {
+      "id": "turn_ba7a5587-77ad-41de-8fe0-d4479d38d5bc",
+      "state": "COMPLETED",
+      "created_at_ms": 1789872137144
+    },
+    {
+      "id": "turn_0bca33ff-2028-4771-ac9f-c8b32f5ce304",
+      "state": "COMPLETED",
+      "created_at_ms": 1789872220907
+    }
+  ],
+  "traces": [
+    {
+      "id": "trace_18d2c19e-3018-4c63-a7f7-f0ce1158f4ad",
+      "turn_id": "turn_93eacf80-c328-45e4-a4c4-80ca39897b7b",
+      "created_at_ms": 1789872087320,
+      "event": "turn_started",
+      "mode": "real",
+      "model": "gpt-5.6-sol",
+      "skills_version": "b7846ab1fcba6350428cafaf",
+      "request_hash": "624db5962d1ec521143d97c4a697378480279c9bcbf79e7646703218d210ca3c",
+      "sequence": 1
+    },
+    {
+      "id": "trace_3dcf5152-2f9b-4291-b5cd-a80aa0dcb198",
+      "turn_id": "turn_93eacf80-c328-45e4-a4c4-80ca39897b7b",
+      "created_at_ms": 1789872090835,
+      "event": "model_response",
+      "model": "gpt-5.6-sol",
+      "response_id": "resp_0017a6ce06812173016aaf47da259887d09d95b84b2bc04478",
+      "usage": {
+        "input_tokens": 4626,
+        "output_tokens": 30,
+        "total_tokens": 4656
+      },
+      "attempts": 1,
+      "elapsed_ms": 3514,
+      "sequence": 2
+    },
+    {
+      "id": "trace_8d3c578b-0634-4dba-9968-e2ce657cb8c8",
+      "turn_id": "turn_93eacf80-c328-45e4-a4c4-80ca39897b7b",
+      "created_at_ms": 1789872090836,
+      "event": "tool_started",
+      "tool": "clarify",
+      "call_id": "call_WJnpIaRFqYQgd3wmnlaM0teO",
+      "input_hash": "1caf9450447d55d6709b618ff2b1de97870c7386b52b5aa55a607cc48005968f",
+      "sequence": 3
+    },
+    {
+      "id": "trace_6186a201-4dc7-4435-93a3-2de9cda70df7",
+      "turn_id": "turn_93eacf80-c328-45e4-a4c4-80ca39897b7b",
+      "created_at_ms": 1789872090837,
+      "event": "tool_result",
+      "call_id": "call_WJnpIaRFqYQgd3wmnlaM0teO",
+      "tool": "clarify",
+      "input_hash": "1caf9450447d55d6709b618ff2b1de97870c7386b52b5aa55a607cc48005968f",
+      "targets": [],
+      "status": "READ",
+      "sources": [],
+      "sequence": 4
+    },
+    {
+      "id": "trace_dbc45890-d0ad-4cd2-8d84-8525b7498712",
+      "turn_id": "turn_93eacf80-c328-45e4-a4c4-80ca39897b7b",
+      "created_at_ms": 1789872090837,
+      "event": "turn_finished",
+      "state": "COMPLETED",
+      "elapsed_ms": 3518,
+      "sequence": 5
+    },
+    {
+      "id": "trace_041c9e8f-b830-41ac-aa7a-aaa7e4bb10a6",
+      "turn_id": "turn_d18c6db0-7987-46b2-9e10-21eb210e0040",
+      "created_at_ms": 1789872112110,
+      "event": "turn_started",
+      "mode": "real",
+      "model": "gpt-5.6-sol",
+      "skills_version": "b7846ab1fcba6350428cafaf",
+      "request_hash": "306b2e612cbec4b553e1d5a9635572b498d866ef12545a92908a75e351f21b98",
+      "sequence": 1
+    },
+    {
+      "id": "trace_e9d935ed-744a-4782-8e0a-4aad1d989929",
+      "turn_id": "turn_d18c6db0-7987-46b2-9e10-21eb210e0040",
+      "created_at_ms": 1789872120358,
+      "event": "model_response",
+      "model": "gpt-5.6-sol",
+      "response_id": "resp_0c9ab1d450e2396a016aaf47f3dc6487d0883213481ddb03ab",
+      "usage": {
+        "input_tokens": 4788,
+        "output_tokens": 126,
+        "total_tokens": 4914
+      },
+      "attempts": 1,
+      "elapsed_ms": 8247,
+      "sequence": 2
+    },
+    {
+      "id": "trace_fb3d4ff6-c045-4d44-8ad7-d3d13ccbb309",
+      "turn_id": "turn_d18c6db0-7987-46b2-9e10-21eb210e0040",
+      "created_at_ms": 1789872120359,
+      "event": "tool_started",
+      "tool": "check_baggage",
+      "call_id": "call_YqmGDzbxzKOqzXE88H8A9xaq",
+      "input_hash": "d06d8e51c8392b2a0ac072ac35ffc41da001e78e7e33ba4b3d400066be61c818",
+      "sequence": 3
+    },
+    {
+      "id": "trace_8705e5d3-6623-4a39-a1f3-9e0472688cab",
+      "turn_id": "turn_d18c6db0-7987-46b2-9e10-21eb210e0040",
+      "created_at_ms": 1789872120360,
+      "event": "tool_result",
+      "call_id": "call_YqmGDzbxzKOqzXE88H8A9xaq",
+      "tool": "check_baggage",
+      "input_hash": "d06d8e51c8392b2a0ac072ac35ffc41da001e78e7e33ba4b3d400066be61c818",
+      "targets": [],
+      "status": "ALLOWED",
+      "sources": [
+        {
+          "airline": "BHA",
+          "section": "7",
+          "page": 5,
+          "rule_id": "BHA:7"
+        }
+      ],
+      "sequence": 4
+    },
+    {
+      "id": "trace_0728a965-4c24-4165-9ddc-52c31c68dc5a",
+      "turn_id": "turn_d18c6db0-7987-46b2-9e10-21eb210e0040",
+      "created_at_ms": 1789872120360,
+      "event": "turn_finished",
+      "state": "COMPLETED",
+      "elapsed_ms": 8250,
+      "sequence": 5
+    },
+    {
+      "id": "trace_25e36a73-f844-4622-883a-a93f5f622359",
+      "turn_id": "turn_ba7a5587-77ad-41de-8fe0-d4479d38d5bc",
+      "created_at_ms": 1789872137145,
+      "event": "turn_started",
+      "mode": "real",
+      "model": "gpt-5.6-sol",
+      "skills_version": "b7846ab1fcba6350428cafaf",
+      "request_hash": "0cd36e619e7a05ce33b34016b4e21a4ff0876f0b09a545de9c9095b135b672b4",
+      "sequence": 1
+    },
+    {
+      "id": "trace_e6501163-0f14-4f5e-91d7-3a72a12a75b9",
+      "turn_id": "turn_ba7a5587-77ad-41de-8fe0-d4479d38d5bc",
+      "created_at_ms": 1789872148624,
+      "event": "model_response",
+      "model": "gpt-5.6-sol",
+      "response_id": "resp_08f7dc2af48c7a65016aaf4812d72c87d2916000fbc26c2d07",
+      "usage": {
+        "input_tokens": 7088,
+        "output_tokens": 134,
+        "total_tokens": 7222
+      },
+      "attempts": 1,
+      "elapsed_ms": 11479,
+      "sequence": 2
+    },
+    {
+      "id": "trace_c2561b40-dcf3-437f-8a2c-06cf69db27d7",
+      "turn_id": "turn_ba7a5587-77ad-41de-8fe0-d4479d38d5bc",
+      "created_at_ms": 1789872148628,
+      "event": "tool_started",
+      "tool": "clarify",
+      "call_id": "call_sRNrQKzIEt8cg5IkHDQIdEBM",
+      "input_hash": "d73a1a62cc663333c305f792981054f4977ce651d7cc8fec8b8f614bfccad355",
+      "sequence": 3
+    },
+    {
+      "id": "trace_785ec048-7023-4a71-9884-363dd4f794b0",
+      "turn_id": "turn_ba7a5587-77ad-41de-8fe0-d4479d38d5bc",
+      "created_at_ms": 1789872148628,
+      "event": "tool_result",
+      "call_id": "call_sRNrQKzIEt8cg5IkHDQIdEBM",
+      "tool": "clarify",
+      "input_hash": "d73a1a62cc663333c305f792981054f4977ce651d7cc8fec8b8f614bfccad355",
+      "targets": [],
+      "status": "READ",
+      "sources": [],
+      "sequence": 4
+    },
+    {
+      "id": "trace_694f257a-8fc8-43ba-883d-0656eb91faa7",
+      "turn_id": "turn_ba7a5587-77ad-41de-8fe0-d4479d38d5bc",
+      "created_at_ms": 1789872148629,
+      "event": "turn_finished",
+      "state": "COMPLETED",
+      "elapsed_ms": 11483,
+      "sequence": 5
+    },
+    {
+      "id": "trace_1200cd2d-866d-4974-851f-79e980320b1b",
+      "turn_id": "turn_0bca33ff-2028-4771-ac9f-c8b32f5ce304",
+      "created_at_ms": 1789872220908,
+      "event": "turn_started",
+      "mode": "real",
+      "model": "gpt-5.6-sol",
+      "skills_version": "b7846ab1fcba6350428cafaf",
+      "request_hash": "eff71f7359f864678c66b34f738cb6dda04dc0a6a78426678c92c673c33884c2",
+      "sequence": 1
+    },
+    {
+      "id": "trace_6bcfbf41-c6cc-4a6b-b1e0-514b42d46af2",
+      "turn_id": "turn_0bca33ff-2028-4771-ac9f-c8b32f5ce304",
+      "created_at_ms": 1789872226746,
+      "event": "model_response",
+      "model": "gpt-5.6-sol",
+      "response_id": "resp_042232d896874146016aaf485fd89c87d08d8bd649488484ed",
+      "usage": {
+        "input_tokens": 5422,
+        "output_tokens": 126,
+        "total_tokens": 5548
+      },
+      "attempts": 1,
+      "elapsed_ms": 5838,
+      "sequence": 2
+    },
+    {
+      "id": "trace_63e0353b-4ca2-409c-a66a-228294527288",
+      "turn_id": "turn_0bca33ff-2028-4771-ac9f-c8b32f5ce304",
+      "created_at_ms": 1789872226747,
+      "event": "tool_started",
+      "tool": "check_baggage",
+      "call_id": "call_A6V5Jea4RCySTbpFBuYLQuLr",
+      "input_hash": "f4cb349b4660df53cb7b0498fbee94e4b387f860abb57450dbd990cfe2e56e68",
+      "sequence": 3
+    },
+    {
+      "id": "trace_1f0e7207-413a-47eb-883d-56d0a0bae7a5",
+      "turn_id": "turn_0bca33ff-2028-4771-ac9f-c8b32f5ce304",
+      "created_at_ms": 1789872226749,
+      "event": "tool_result",
+      "call_id": "call_A6V5Jea4RCySTbpFBuYLQuLr",
+      "tool": "check_baggage",
+      "input_hash": "f4cb349b4660df53cb7b0498fbee94e4b387f860abb57450dbd990cfe2e56e68",
+      "targets": [],
+      "status": "ALLOWED",
+      "sources": [
+        {
+          "airline": "BHA",
+          "section": "7",
+          "page": 5,
+          "rule_id": "BHA:7"
+        }
+      ],
+      "sequence": 4
+    },
+    {
+      "id": "trace_344504a0-bc49-4408-ba3e-00f4a36d0c98",
+      "turn_id": "turn_0bca33ff-2028-4771-ac9f-c8b32f5ce304",
+      "created_at_ms": 1789872226749,
+      "event": "turn_finished",
+      "state": "COMPLETED",
+      "elapsed_ms": 5841,
+      "sequence": 5
+    }
+  ],
+  "quotes": [],
+  "submissions": [],
+  "operations": [],
+  "reviews": []
+}

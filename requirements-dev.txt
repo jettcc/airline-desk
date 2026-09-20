@@ -1,0 +1,3 @@
+-r requirements.txt
+# Project skill-package validation only
+PyYAML==6.0.3

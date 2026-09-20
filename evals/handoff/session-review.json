@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "messages": 177,
+  "user_messages": 32,
+  "assistant_visible_messages": 145,
+  "source_segments_verified": 6,
+  "attached_user_images": 2,
+  "source_record_provenance_verified": true,
+  "raw_runtime_fields_in_export": false,
+  "cutoff_utc": "2026-09-20T07:13:42.913Z",
+  "credential_occurrences_redacted": 4,
+  "user_visible_roles_only": true
+}

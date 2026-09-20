@@ -1,0 +1,106 @@
+{
+  "run_id": "2026-09-20T04-05-13.623Z-56d1bc15",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "base_url": "https://www.rightapi.ai/codex/v1",
+  "status": "FAIL",
+  "scope": "free-expression-D01-D08",
+  "cases": [
+    {
+      "id": "D01",
+      "status": "PASS",
+      "elapsed_ms": 35805,
+      "trace_status": "COMPLETE",
+      "model_calls": 5,
+      "usage": {
+        "input_tokens": 29757,
+        "output_tokens": 436
+      }
+    },
+    {
+      "id": "D02",
+      "status": "PASS",
+      "elapsed_ms": 13756,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11614,
+        "output_tokens": 277
+      }
+    },
+    {
+      "id": "D03",
+      "status": "PASS",
+      "elapsed_ms": 23690,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11542,
+        "output_tokens": 242
+      }
+    },
+    {
+      "id": "D04",
+      "status": "PASS",
+      "elapsed_ms": 16448,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10876,
+        "output_tokens": 188
+      }
+    },
+    {
+      "id": "D05",
+      "status": "PASS",
+      "elapsed_ms": 13722,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10956,
+        "output_tokens": 196
+      }
+    },
+    {
+      "id": "D06",
+      "status": "PASS",
+      "elapsed_ms": 30890,
+      "trace_status": "COMPLETE",
+      "model_calls": 3,
+      "usage": {
+        "input_tokens": 18003,
+        "output_tokens": 343
+      }
+    },
+    {
+      "id": "D07",
+      "status": "PASS",
+      "elapsed_ms": 11055,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 10967,
+        "output_tokens": 200
+      }
+    },
+    {
+      "id": "D08",
+      "status": "FAIL",
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(\n",
+      "elapsed_ms": 10064,
+      "trace_status": "COMPLETE",
+      "model_calls": 1,
+      "usage": {
+        "input_tokens": 5378,
+        "output_tokens": 159
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "c38a5f458d37e4c643546c4d912118f0a1281c06633c6ffa060e14ff3536b09b",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

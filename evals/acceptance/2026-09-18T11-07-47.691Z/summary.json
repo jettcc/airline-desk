@@ -1,0 +1,28 @@
+{
+  "run_id": "2026-09-18T11-07-47.691Z",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "status": "FAIL",
+  "scope": "partial",
+  "cases": [
+    {
+      "id": "A06",
+      "status": "FAIL",
+      "error": "MODEL_CONNECTION_FAILED\n+ actual - expected\n\n+ 'FAILED'\n- 'COMPLETED'\n",
+      "elapsed_ms": 1275,
+      "trace_status": "COMPLETE",
+      "model_calls": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "9d3fa3773d94392196a76fb9c0aad056bdedb0c5e502a33b259b3d10fb736ce3",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

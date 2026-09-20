@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "pages": 2,
+  "visual_review": "Both rendered pages inspected; no clipping, overlap or orphan heading",
+  "chinese_text_extraction": true,
+  "sha256": "a6763a4469ee4939a111fabb63b061de8e3a8a9aed83ce00f9dd489a00c0683e"
+}

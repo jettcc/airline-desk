@@ -1,0 +1,105 @@
+{
+  "run_id": "2026-09-20T06-34-06.850Z-5e6edf41",
+  "model": "gpt-5.6-sol",
+  "mode": "real",
+  "base_url": "https://www.rightapi.ai/codex/v1",
+  "status": "PASS",
+  "scope": "free-expression-D01-D08",
+  "cases": [
+    {
+      "id": "D01",
+      "status": "PASS",
+      "elapsed_ms": 20429,
+      "trace_status": "COMPLETE",
+      "model_calls": 5,
+      "usage": {
+        "input_tokens": 31062,
+        "output_tokens": 364
+      }
+    },
+    {
+      "id": "D02",
+      "status": "PASS",
+      "elapsed_ms": 10132,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 12137,
+        "output_tokens": 216
+      }
+    },
+    {
+      "id": "D03",
+      "status": "PASS",
+      "elapsed_ms": 8335,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 12065,
+        "output_tokens": 245
+      }
+    },
+    {
+      "id": "D04",
+      "status": "PASS",
+      "elapsed_ms": 6561,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11399,
+        "output_tokens": 135
+      }
+    },
+    {
+      "id": "D05",
+      "status": "PASS",
+      "elapsed_ms": 13728,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11478,
+        "output_tokens": 250
+      }
+    },
+    {
+      "id": "D06",
+      "status": "PASS",
+      "elapsed_ms": 12881,
+      "trace_status": "COMPLETE",
+      "model_calls": 3,
+      "usage": {
+        "input_tokens": 18786,
+        "output_tokens": 286
+      }
+    },
+    {
+      "id": "D07",
+      "status": "PASS",
+      "elapsed_ms": 9215,
+      "trace_status": "COMPLETE",
+      "model_calls": 2,
+      "usage": {
+        "input_tokens": 11488,
+        "output_tokens": 249
+      }
+    },
+    {
+      "id": "D08",
+      "status": "PASS",
+      "elapsed_ms": 5571,
+      "trace_status": "COMPLETE",
+      "model_calls": 1,
+      "usage": {
+        "input_tokens": 5638,
+        "output_tokens": 166
+      }
+    }
+  ],
+  "runtime": "v24.21.0",
+  "package_lock_sha256": "c38a5f458d37e4c643546c4d912118f0a1281c06633c6ffa060e14ff3536b09b",
+  "budget": {
+    "user_authorized_usd": 5,
+    "enforcement": "Provider key limit supplied by user; no local pricing estimate",
+    "actual_cost_usd": null
+  }
+}

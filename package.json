@@ -1,0 +1,41 @@
+{
+  "name": "airline-service-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env.rightcodes.local --import tsx src/server/main.ts",
+    "start": "node --env-file-if-exists=.env.rightcodes.local --import tsx src/server/main.ts",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests-ts/*.test.ts",
+    "test:browser": "playwright test",
+    "seed": "node --import tsx scripts/seed.ts",
+    "acceptance": "node --env-file-if-exists=.env.rightcodes.local --import tsx scripts/acceptance.ts --real",
+    "format": "prettier --write \"src/**/*.ts\" \"web/**/*.{ts,tsx,css,html}\" \"tests-ts/**/*.ts\" \"tests-browser/**/*.ts\" \"scripts/*.ts\" *.config.ts",
+    "doctor": "node --env-file-if-exists=.env.rightcodes.local --import tsx scripts/doctor.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "11.1.2",
+    "@fastify/static": "10.1.4",
+    "better-sqlite3": "12.11.1",
+    "fastify": "5.12.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/better-sqlite3": "7.6.13",
+    "@types/node": "24.13.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "prettier": "3.9.8",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  }
+}

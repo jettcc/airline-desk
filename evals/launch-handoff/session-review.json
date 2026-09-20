@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "messages": 183,
+  "segments": 7,
+  "role_counts": {
+    "user": 33,
+    "assistant": 150
+  },
+  "attachments": 2,
+  "credential_redactions": 4,
+  "cutoff": "2026-09-20T07:39:44.904Z",
+  "source_record_role_phase_and_time_verified": true,
+  "raw_internal_messages_included": false
+}

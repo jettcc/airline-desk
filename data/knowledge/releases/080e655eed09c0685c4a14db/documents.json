@@ -1,0 +1,528 @@
+[
+  {
+    "airline": "BHA",
+    "aliases": [
+      "bha",
+      "bluehaven-airways",
+      "bluehaven airways",
+      "bluehaven"
+    ],
+    "effective_from": "2026-07-01T00:00:00Z",
+    "name": "Bluehaven Airways",
+    "page_count": 6,
+    "pages": [
+      {
+        "page": 1,
+        "tables": [],
+        "text": "Passenger Policies\nBluehaven Airways | BHA\nDocument version 3.0\nEffective 2026-07-01 at 00:00:00 UTC\nA low-cost airline with optional services priced separately.\n1. Scope and definitions\nThis is a fictional policy publication. All airlines, rules, places, contacts and examples in this document are\ninvented. It applies only to tickets issued by this airline for flights operated by this airline, including direct and\ntravel-agency sales. Other carriers, codeshares, group contracts and award tickets are outside its scope.\nThe document governs requests received on or after its effective date. Except for the issuance-based fee in\nAppendix A, these rules apply regardless of original ticket issuance date. Earlier request dates are outside this\npublication. A reissue does not change the original ticket issuance timestamp for policy selection.\nFlight segment means one scheduled takeoff and landing. An itinerary comprises all segments on one\npassenger ticket. A booking may contain several passenger tickets. Travel has started once any segment on\nthat ticket has been flown. A wholly unused ticket has no flown segments.\nDomestic means both endpoints of a segment are in the fictional Republic of Aster; all other segments are\ninternational. Route type is assessed per segment for changes and baggage. For voluntary cancellation, an\nitinerary is international if any segment is international; otherwise it is domestic.\n1.1 Time and money conventions\nAll timestamps and elapsed-time calculations use UTC, without daylight-saving adjustments. Departure\nproximity is measured from receipt of a complete, authorized request to the scheduled departure time then\nrecorded on the ticket. For a change, use each affected segment; for cancellation of a wholly unused ticket, use\nits first segment. A pending incomplete request does not preserve an earlier deadline.\nThe early window is 24 hours or more before departure, including exactly 24 hours. The late window is less\nthan 24 hours but more than 0 hours. At exactly departure time or later, Section 5 applies. All money is USD;\nlisted fees include any fee-related taxes.\nBluehaven Airways (BHA) | v3.0 | Passenger Policies 1 / 6"
+      },
+      {
+        "page": 2,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "Not permitted",
+              "Not permitted"
+            ],
+            [
+              "Economy Standard",
+              "USD 55 current / USD 85 previous",
+              "Not permitted"
+            ],
+            [
+              "Economy Flex",
+              "USD 15",
+              "USD 45"
+            ]
+          ]
+        ],
+        "text": "2. Fare types and voluntary changes\nEconomy Basic, Economy Standard and Economy Flex describe the fare purchased on each ticket. A higher\ncabin-baggage allowance or a paid extra does not upgrade a fare. A ticket uses one fare type throughout;\nmixed-fare tickets require manual review under Section 9.\n2.1 Change fee schedule\nThe following fees apply per passenger, per changed flight segment, per completed change request.\nMultiply by the number of passengers and changed segments. No additional per-booking fee is charged. A new\nrequest after a completed change is charged separately.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic Not permitted Not permitted\nEconomy Standard USD 55 current / USD 85 previous Not permitted\nEconomy Flex USD 15 USD 45\nStandard issuance rule: tickets originally issued before 2026-07-01 00:00:00 UTC pay USD 85; those issued at\nor after that exact instant pay USD 55. Both apply only in the early window. Appendix A on page 6 preserves the\nprevious and current rule. The request date or reissue date does not select the fee.\n2.2 Fare difference and permitted changes\nEvery permitted change also requires payment of any positive fare difference for each affected passenger and\nsegment, even when the change fee is USD 0. Fare difference is the new segment fare minus the old segment\nfare, excluding taxes and optional extras. A lower fare creates no refund or credit and cannot offset a change\nfee. Changes in unused government taxes are collected or returned to the original payment method separately.\nDate or departure-time changes are allowed only where the table permits, subject to seat availability. Airline,\npassenger and route endpoint substitutions are not covered by a voluntary change; contact the service desk for\nreview. You may retain or upgrade the fare type, but not downgrade it. The existing fare determines the change\nfee; the replacement fare governs later requests.\n2.3 Travel already started\nAfter travel starts, changes to remaining unflown segments follow this table using each segment departure time,\nprovided no no-show has occurred. A missed segment takes priority over these rules. Voluntary refunds of partly\nused tickets are handled only under Section 9.\nExample: two Economy Standard travelers on tickets issued on 2026-07-01 change one segment each 30\nhours before departure. Fees are 2 x USD 55 = USD 110. With a USD 20 fare increase each, total additional\npayment is USD 150, assuming unchanged taxes and no extras.\nBluehaven Airways (BHA) | v3.0 | Passenger Policies 2 / 6"
+      },
+      {
+        "page": 3,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "No fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Standard",
+              "No fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Flex",
+              "Travel credit less USD 30",
+              "No fare refund or credit"
+            ]
+          ]
+        ],
+        "text": "3. Voluntary cancellation and refunds\nThis section applies when you choose not to travel and Section 6 does not apply. The table covers cancellation\nof the entire wholly unused itinerary for each selected passenger. Cancellation fees are per passenger, per\nitinerary, not per segment or per booking.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic No fare refund or credit No fare refund or credit\nEconomy Standard No fare refund or credit No fare refund or credit\nEconomy Flex Travel credit less USD 30 No fare refund or credit\n3.1 Amount and payment destination\nFare means the ticket amount excluding separately itemized government taxes and optional services. Where the\ntable allows a refund or credit, subtract the stated fee from the eligible fare; the result cannot be below USD 0.\nNo additional balance is collected when the fee exceeds the fare. Unused government taxes are returned to the\noriginal payment method on request for every fare, including non-refundable fares and no-shows.\nAn original-payment refund returns to the payment instrument used for the original purchase. Paying for another\ntraveler does not make the fare transferable. A travel credit is issued in the named passenger's name, cannot be\ntransferred or exchanged for cash, and may be used only with this airline. Unused credit remains available until\nexpiry.\n3.2 Credit validity and optional services\nA credit expires exactly 365 elapsed days after issue. It must be redeemed before that instant; redemption at the\nexpiry instant is not permitted. The new travel must also begin before that expiry instant. There is no extension\nunder the standard policy.\nPurchased baggage and seat extras are non-refundable for a voluntary cancellation. On an eligible date/time\nchange, unused extras transfer to the same passenger and route without a transfer fee, subject to availability;\nunavailable services require manual review. No automatic cash refund is promised for unavailable extras.\n4. Cancellation scope\nOne traveler may cancel their own whole ticket without cancelling other travelers in the booking, after authority is\nverified. A request to cancel selected segments only, or any refund after a segment has been flown, requires\nSection 9 review; do not apply the whole-ticket table to an assumed remaining balance.\n5. No-shows\nA traveler is a no-show if no complete authorized change/cancellation request was received before departure\nand the traveler does not take that flight. At exactly departure time, a new voluntary request is too late and\nreceives no-show treatment. All remaining segments are suspended pending service-desk contact; there is no\nautomatic reinstatement. The remaining fare has no standard refund or credit, including Flex. Unused\ngovernment taxes remain refundable. A qualifying airline disruption under Section 6 takes precedence; medical\ncircumstances may be reviewed under Section 9.\nBluehaven Airways (BHA) | v3.0 | Passenger Policies 3 / 6"
+      },
+      {
+        "page": 4,
+        "tables": [
+          [
+            [
+              "Option",
+              "What is included"
+            ],
+            [
+              "Replacement travel",
+              "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+            ],
+            [
+              "Refund before travel starts",
+              "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+            ],
+            [
+              "Refund after travel starts",
+              "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+            ]
+          ]
+        ],
+        "text": "6. Airline-initiated disruptions\nThese protections apply when the airline cancels a segment or makes a qualifying schedule change. They\noverride the voluntary fare restrictions, change fees and no-show loss of value in Sections 2, 3 and 5 for the\naffected journey. A passenger choosing to cancel for personal reasons without a qualifying event remains\nsubject to the voluntary rules.\n6.1 Qualifying events\nA cancellation by Bluehaven Airways qualifies for all fare types. A schedule change qualifies when the absolute\ndifference between the original and revised scheduled departure time of a segment is 180 minutes or more,\nincluding exactly 180 minutes, whether moved earlier or later. Smaller changes do not qualify under this\ndocument. Compare the latest notice with the schedule confirmed at original ticket issuance, not successive\nnotice-to-notice differences.\n6.2 Your choice\nOption What is included\nReplacement travel One rebooking on this airline to the same destination in the same fare type, within 7\ncalendar days before or after the original departure date, inclusive, subject to availability. No\nchange fee or fare difference.\nRefund before travel starts For a wholly unused affected itinerary, refund its full fare, unused government taxes and all\nunused purchased extras to the original payment method. No cancellation fee, including\nEconomy Basic.\nRefund after travel starts Manual review of the unflown portion and unused extras. The right to refund the unused\naffected portion remains; the amount and allocation require review. No refund is promised\nfor flown segments.\nYou may choose a refund instead of a credit. A credit is never required as the only remedy. If no suitable\nreplacement is available, the refund option remains. Choosing and completing a refund ends rebooking eligibility\nfor the refunded ticket; the same value cannot be refunded twice.\n6.3 Request period and later changes\nSubmit the choice within 30 elapsed days after the disruption notice timestamp, including exactly 30 days. After\nthat period, eligibility requires manual review rather than automatic approval or rejection. If you accepted\nreplacement travel and later change your mind for personal reasons, normal voluntary rules apply to the\nreplacement ticket. A new qualifying disruption creates a new choice.\nKeep the disruption notice and identify affected passengers and segments. A pending request does not itself\nconfirm replacement seats. Hotel, meal and ground-transport compensation are not specified in this publication.\nBluehaven Airways (BHA) | v3.0 | Passenger Policies 4 / 6"
+      },
+      {
+        "page": 5,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Cabin bag allowance",
+              "Checked allowance"
+            ],
+            [
+              "Economy Basic",
+              "No cabin bag",
+              "No checked bag"
+            ],
+            [
+              "Economy Standard",
+              "1 cabin bag, 7 kg",
+              "No checked bag"
+            ],
+            [
+              "Economy Flex",
+              "1 cabin bag, 10 kg",
+              "1 bag, 20 kg"
+            ]
+          ]
+        ],
+        "text": "7. Cabin and checked baggage\nEach passenger has one free personal item up to 40 x 30 x 15 cm and 3 kg. The cabin allowance below is\nadditional to that personal item. All dimensions include handles and wheels; weights and dimension limits are\ninclusive. Allowances are per passenger on each segment and cannot be pooled between travelers.\nFare Cabin bag allowance Checked allowance\nEconomy Basic No cabin bag No checked bag\nEconomy Standard 1 cabin bag, 7 kg No checked bag\nEconomy Flex 1 cabin bag, 10 kg 1 bag, 20 kg\nEach permitted cabin bag must be no larger than 55 x 35 x 25 cm. Each checked bag must have length + width\n+ height no greater than 158 cm. A bag must satisfy both its weight and size limit. Allowances do not combine\ninto one heavier bag.\n7.1 Purchased baggage\nEconomy Basic may purchase one cabin bag up to 7 kg for USD 25 per passenger per segment, with the same\ncabin dimensions above. Standard and Flex cannot purchase a second cabin bag. These prices are the same\nonline and at the airport.\nOne additional checked bag may be purchased for USD 40 per passenger per segment, whether purchased\nonline or at the airport. Its weight limit is 20 kg and its size limit is 158 cm in summed dimensions. This\npurchased-bag limit applies even when a free bag has a different weight limit. No more than one additional\nchecked bag is covered by this price.\n7.2 Items requiring advance review\nOverweight, oversized or further additional bags require a service-desk quote and acceptance review; no fixed\ncharge or acceptance guarantee is provided here. Do not assume that paying an additional-bag fee makes an\noverweight bag acceptable. Dangerous goods and special-equipment handling are outside this publication.\n7.3 Segment-specific allowance\nFor a multi-segment journey, assess the allowance and any purchased bag charge on each segment. A\nbaggage purchase covers only the passenger and segments shown on its receipt. A two-segment trip therefore\nincurs two charges for one additional bag carried on both segments.\nExample: a Standard traveler taking two segments with one 18 kg checked bag pays 2 x USD 40 = USD 80.\nThe included cabin bag does not create a free checked allowance.\nBluehaven Airways (BHA) | v3.0 | Passenger Policies 5 / 6"
+      },
+      {
+        "page": 6,
+        "tables": [
+          [
+            [
+              "Original ticket issuance (UTC)",
+              "Early-window change fee"
+            ],
+            [
+              "Previous rule: before 2026-07-01 00:00:00",
+              "USD 85 per passenger per changed segment"
+            ],
+            [
+              "Current rule: at or after 2026-07-01 00:00:00",
+              "USD 55 per passenger per changed segment"
+            ]
+          ]
+        ],
+        "text": "8. Booking ownership and requests\nThe named adult traveler may request service for their own ticket after identity and booking details are verified. A\nbooking reference, shared surname, or possession of payment details alone is not authority. A payer or lead\nbooker may not change, cancel or view another adult traveler's private ticket information without that traveler's\nexplicit authorization and identity verification.\nA representative must supply the traveler's written authorization naming the representative, booking reference\nand permitted action, and complete service-desk verification of both identities. A parent or guardian requesting\nservice for a minor must provide evidence of guardianship for manual verification. Never send full payment-card\ndetails or identity documents through an unverified channel.\n8.1 How to submit a request\nFor direct bookings, use the fictional service portal https://service.bluehaven-airways.example or email\ncare@bluehaven-airways.example to begin verification. These are fictional contact details and are not live\nservices. For agency-issued tickets, contact the issuing agency; this airline's service desk can review disruption\nassistance but agency refunds are routed through the issuing agency to the original payment method.\nProvide booking reference, traveler names, requested action, affected segments, original issuance timestamp\nand any disruption notice. The service desk verifies authority, identifies the applicable rule and provides a quote\nor review outcome. Confirm the quoted change or cancellation before execution. A quote alone does not alter a\nbooking. A complete authorized request includes the required facts, verified authority and acceptance of any\nquoted charge; its receipt time determines the policy window.\n9. Exceptions requiring manual review\nA serious medical event preventing travel may be submitted with dated supporting evidence. Request a secure\nsubmission route before supplying medical records. Approval, waived fees, cash refunds and credit are not\nguaranteed. Partly used itinerary refunds, selected-segment cancellations, mixed-fare tickets, disputed\nownership and guardianship also require review. For qualifying disruptions, Section 6 preserves the\nunused-portion refund entitlement while the amount is reviewed.\nAppendix A. Economy Standard change-fee update\nOriginal ticket issuance (UTC) Early-window change fee\nPrevious rule: before 2026-07-01 00:00:00 USD 85 per passenger per changed segment\nCurrent rule: at or after 2026-07-01 00:00:00 USD 55 per passenger per changed segment\nThe late-window prohibition is unchanged. Positive fare differences still apply. The original issuance timestamp\nsurvives reissue. This appendix restates Section 2.1 and changes no other fee or eligibility rule.\n10. Topics not covered\nLounge access, pet transport, loyalty benefits and unaccompanied-minor travel services are not documented\nhere. Contact the service desk for the applicable information; absence of a rule is neither permission nor a\nprohibition.\nBluehaven Airways (BHA) | v3.0 | Passenger Policies 6 / 6"
+      }
+    ],
+    "path": "airline-policies/bluehaven-airways/Passenger_Policies.pdf",
+    "reviewed_sha256": "3d687c9419b8cbb2f6c6481b4ace069be959afd83a06dd434c0e6b56b4e2c642",
+    "sections": [
+      "document",
+      "1",
+      "1.1",
+      "2",
+      "2.1",
+      "2.2",
+      "2.3",
+      "3",
+      "3.1",
+      "3.2",
+      "4",
+      "5",
+      "6",
+      "6.1",
+      "6.2",
+      "6.3",
+      "7",
+      "7.1",
+      "7.2",
+      "7.3",
+      "8",
+      "8.1",
+      "9",
+      "Appendix A",
+      "10"
+    ],
+    "slug": "bluehaven-airways",
+    "snapshot_file": "sources/BHA.pdf",
+    "table_sections": {
+      "2": "2.1",
+      "3": "3",
+      "4": "6.2",
+      "5": "7",
+      "6": "Appendix A"
+    },
+    "version": "3.0"
+  },
+  {
+    "airline": "NSA",
+    "aliases": [
+      "nsa",
+      "northstar-air",
+      "northstar air",
+      "northstar"
+    ],
+    "effective_from": "2026-01-01T00:00:00Z",
+    "name": "Northstar Air",
+    "page_count": 6,
+    "pages": [
+      {
+        "page": 1,
+        "tables": [],
+        "text": "Passenger Policies\nNorthstar Air | NSA\nDocument version 2.0\nEffective 2026-01-01 at 00:00:00 UTC\nA full-service airline offering flexible travel choices.\n1. Scope and definitions\nThis is a fictional policy publication. All airlines, rules, places, contacts and examples in this document are\ninvented. It applies only to tickets issued by this airline for flights operated by this airline, including direct and\ntravel-agency sales. Other carriers, codeshares, group contracts and award tickets are outside its scope.\nThe document governs requests received on or after its effective date. These rules apply regardless of original\nticket issuance date. Earlier request dates are outside this publication. A reissue does not change the original\nticket issuance timestamp for policy selection.\nFlight segment means one scheduled takeoff and landing. An itinerary comprises all segments on one\npassenger ticket. A booking may contain several passenger tickets. Travel has started once any segment on\nthat ticket has been flown. A wholly unused ticket has no flown segments.\nDomestic means both endpoints of a segment are in the fictional Republic of Aster; all other segments are\ninternational. Route type is assessed per segment for changes and baggage. For voluntary cancellation, an\nitinerary is international if any segment is international; otherwise it is domestic.\n1.1 Time and money conventions\nAll timestamps and elapsed-time calculations use UTC, without daylight-saving adjustments. Departure\nproximity is measured from receipt of a complete, authorized request to the scheduled departure time then\nrecorded on the ticket. For a change, use each affected segment; for cancellation of a wholly unused ticket, use\nits first segment. A pending incomplete request does not preserve an earlier deadline.\nThe early window is 24 hours or more before departure, including exactly 24 hours. The late window is less\nthan 24 hours but more than 0 hours. At exactly departure time or later, Section 5 applies. All money is USD;\nlisted fees include any fee-related taxes.\nNorthstar Air (NSA) | v2.0 | Passenger Policies 1 / 6"
+      },
+      {
+        "page": 2,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "USD 70",
+              "Not permitted"
+            ],
+            [
+              "Economy Standard",
+              "USD 25",
+              "USD 60"
+            ],
+            [
+              "Economy Flex",
+              "USD 0",
+              "USD 0"
+            ]
+          ]
+        ],
+        "text": "2. Fare types and voluntary changes\nEconomy Basic, Economy Standard and Economy Flex describe the fare purchased on each ticket. A higher\ncabin-baggage allowance or a paid extra does not upgrade a fare. A ticket uses one fare type throughout;\nmixed-fare tickets require manual review under Section 9.\n2.1 Change fee schedule\nThe following fees apply per passenger, per changed flight segment, per completed change request.\nMultiply by the number of passengers and changed segments. No additional per-booking fee is charged. A new\nrequest after a completed change is charged separately.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic USD 70 Not permitted\nEconomy Standard USD 25 USD 60\nEconomy Flex USD 0 USD 0\n2.2 Fare difference and permitted changes\nEvery permitted change also requires payment of any positive fare difference for each affected passenger and\nsegment, even when the change fee is USD 0. Fare difference is the new segment fare minus the old segment\nfare, excluding taxes and optional extras. A lower fare creates no refund or credit and cannot offset a change\nfee. Changes in unused government taxes are collected or returned to the original payment method separately.\nDate or departure-time changes are allowed only where the table permits, subject to seat availability. Airline,\npassenger and route endpoint substitutions are not covered by a voluntary change; contact the service desk for\nreview. You may retain or upgrade the fare type, but not downgrade it. The existing fare determines the change\nfee; the replacement fare governs later requests.\n2.3 Travel already started\nAfter travel starts, changes to remaining unflown segments follow this table using each segment departure time,\nprovided no no-show has occurred. A missed segment takes priority over these rules. Voluntary refunds of partly\nused tickets are handled only under Section 9.\nExample: two Economy Standard travelers change two segments each in the early window. Fees are 2 x 2 x\nUSD 25 = USD 100. If each changed segment costs USD 30 more, total additional payment is USD 220,\nassuming unchanged taxes and no extras.\nNorthstar Air (NSA) | v2.0 | Passenger Policies 2 / 6"
+      },
+      {
+        "page": 3,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "No fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Standard",
+              "Travel credit less USD 40",
+              "Travel credit less USD 80"
+            ],
+            [
+              "Economy Flex",
+              "Original payment; USD 0 fee",
+              "Original payment; USD 0 fee"
+            ]
+          ]
+        ],
+        "text": "3. Voluntary cancellation and refunds\nThis section applies when you choose not to travel and Section 6 does not apply. The table covers cancellation\nof the entire wholly unused itinerary for each selected passenger. Cancellation fees are per passenger, per\nitinerary, not per segment or per booking.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic No fare refund or credit No fare refund or credit\nEconomy Standard Travel credit less USD 40 Travel credit less USD 80\nEconomy Flex Original payment; USD 0 fee Original payment; USD 0 fee\n3.1 Amount and payment destination\nFare means the ticket amount excluding separately itemized government taxes and optional services. Where the\ntable allows a refund or credit, subtract the stated fee from the eligible fare; the result cannot be below USD 0.\nNo additional balance is collected when the fee exceeds the fare. Unused government taxes are returned to the\noriginal payment method on request for every fare, including non-refundable fares and no-shows.\nAn original-payment refund returns to the payment instrument used for the original purchase. Paying for another\ntraveler does not make the fare transferable. A travel credit is issued in the named passenger's name, cannot be\ntransferred or exchanged for cash, and may be used only with this airline. Unused credit remains available until\nexpiry.\n3.2 Credit validity and optional services\nA credit expires exactly 365 elapsed days after issue. It must be redeemed before that instant; redemption at the\nexpiry instant is not permitted. The new travel must also begin before that expiry instant. There is no extension\nunder the standard policy.\nPurchased baggage and seat extras are non-refundable for a voluntary cancellation. On an eligible date/time\nchange, unused extras transfer to the same passenger and route without a transfer fee, subject to availability;\nunavailable services require manual review. No automatic cash refund is promised for unavailable extras.\n4. Cancellation scope\nOne traveler may cancel their own whole ticket without cancelling other travelers in the booking, after authority is\nverified. A request to cancel selected segments only, or any refund after a segment has been flown, requires\nSection 9 review; do not apply the whole-ticket table to an assumed remaining balance.\n5. No-shows\nA traveler is a no-show if no complete authorized change/cancellation request was received before departure\nand the traveler does not take that flight. At exactly departure time, a new voluntary request is too late and\nreceives no-show treatment. All remaining segments are suspended pending service-desk contact; there is no\nautomatic reinstatement. The remaining fare has no standard refund or credit, including Flex. Unused\ngovernment taxes remain refundable. A qualifying airline disruption under Section 6 takes precedence; medical\ncircumstances may be reviewed under Section 9.\nNorthstar Air (NSA) | v2.0 | Passenger Policies 3 / 6"
+      },
+      {
+        "page": 4,
+        "tables": [
+          [
+            [
+              "Option",
+              "What is included"
+            ],
+            [
+              "Replacement travel",
+              "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+            ],
+            [
+              "Refund before travel starts",
+              "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+            ],
+            [
+              "Refund after travel starts",
+              "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+            ]
+          ]
+        ],
+        "text": "6. Airline-initiated disruptions\nThese protections apply when the airline cancels a segment or makes a qualifying schedule change. They\noverride the voluntary fare restrictions, change fees and no-show loss of value in Sections 2, 3 and 5 for the\naffected journey. A passenger choosing to cancel for personal reasons without a qualifying event remains\nsubject to the voluntary rules.\n6.1 Qualifying events\nA cancellation by Northstar Air qualifies for all fare types. A schedule change qualifies when the absolute\ndifference between the original and revised scheduled departure time of a segment is 120 minutes or more,\nincluding exactly 120 minutes, whether moved earlier or later. Smaller changes do not qualify under this\ndocument. Compare the latest notice with the schedule confirmed at original ticket issuance, not successive\nnotice-to-notice differences.\n6.2 Your choice\nOption What is included\nReplacement travel One rebooking on this airline to the same destination in the same fare type, within 7\ncalendar days before or after the original departure date, inclusive, subject to availability. No\nchange fee or fare difference.\nRefund before travel starts For a wholly unused affected itinerary, refund its full fare, unused government taxes and all\nunused purchased extras to the original payment method. No cancellation fee, including\nEconomy Basic.\nRefund after travel starts Manual review of the unflown portion and unused extras. The right to refund the unused\naffected portion remains; the amount and allocation require review. No refund is promised\nfor flown segments.\nYou may choose a refund instead of a credit. A credit is never required as the only remedy. If no suitable\nreplacement is available, the refund option remains. Choosing and completing a refund ends rebooking eligibility\nfor the refunded ticket; the same value cannot be refunded twice.\n6.3 Request period and later changes\nSubmit the choice within 30 elapsed days after the disruption notice timestamp, including exactly 30 days. After\nthat period, eligibility requires manual review rather than automatic approval or rejection. If you accepted\nreplacement travel and later change your mind for personal reasons, normal voluntary rules apply to the\nreplacement ticket. A new qualifying disruption creates a new choice.\nKeep the disruption notice and identify affected passengers and segments. A pending request does not itself\nconfirm replacement seats. Hotel, meal and ground-transport compensation are not specified in this publication.\nNorthstar Air (NSA) | v2.0 | Passenger Policies 4 / 6"
+      },
+      {
+        "page": 5,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Cabin bag allowance",
+              "Checked allowance"
+            ],
+            [
+              "Economy Basic",
+              "1 cabin bag, 8 kg",
+              "1 bag, 23 kg"
+            ],
+            [
+              "Economy Standard",
+              "1 cabin bag, 8 kg",
+              "1 bag, 23 kg"
+            ],
+            [
+              "Economy Flex",
+              "1 cabin bag, 12 kg",
+              "2 bags, 23 kg each"
+            ]
+          ]
+        ],
+        "text": "7. Cabin and checked baggage\nEach passenger has one free personal item up to 40 x 30 x 15 cm and 3 kg. The cabin allowance below is\nadditional to that personal item. All dimensions include handles and wheels; weights and dimension limits are\ninclusive. Allowances are per passenger on each segment and cannot be pooled between travelers.\nFare Cabin bag allowance Checked allowance\nEconomy Basic 1 cabin bag, 8 kg 1 bag, 23 kg\nEconomy Standard 1 cabin bag, 8 kg 1 bag, 23 kg\nEconomy Flex 1 cabin bag, 12 kg 2 bags, 23 kg each\nEach permitted cabin bag must be no larger than 55 x 35 x 25 cm. Each checked bag must have length + width\n+ height no greater than 158 cm. A bag must satisfy both its weight and size limit. Allowances do not combine\ninto one heavier bag.\n7.1 Purchased baggage\nA second cabin bag cannot be purchased under this policy. Items beyond the cabin allowance must meet the\nchecked-baggage rules or be reviewed before acceptance.\nOne additional checked bag may be purchased for USD 45 per passenger per segment, whether purchased\nonline or at the airport. Its weight limit is 23 kg and its size limit is 158 cm in summed dimensions. This\npurchased-bag limit applies even when a free bag has a different weight limit. No more than one additional\nchecked bag is covered by this price.\n7.2 Items requiring advance review\nOverweight, oversized or further additional bags require a service-desk quote and acceptance review; no fixed\ncharge or acceptance guarantee is provided here. Do not assume that paying an additional-bag fee makes an\noverweight bag acceptable. Dangerous goods and special-equipment handling are outside this publication.\n7.3 Segment-specific allowance\nFor a multi-segment journey, assess the allowance and any purchased bag charge on each segment. A\nbaggage purchase covers only the passenger and segments shown on its receipt. A two-segment trip therefore\nincurs two charges for one additional bag carried on both segments.\nExample: a Flex traveler may carry two separate checked bags weighing 23 kg each. A single 30 kg bag\nexceeds the per-bag limit and requires review even though the combined allowance is 46 kg.\nNorthstar Air (NSA) | v2.0 | Passenger Policies 5 / 6"
+      },
+      {
+        "page": 6,
+        "tables": [],
+        "text": "8. Booking ownership and requests\nThe named adult traveler may request service for their own ticket after identity and booking details are verified. A\nbooking reference, shared surname, or possession of payment details alone is not authority. A payer or lead\nbooker may not change, cancel or view another adult traveler's private ticket information without that traveler's\nexplicit authorization and identity verification.\nA representative must supply the traveler's written authorization naming the representative, booking reference\nand permitted action, and complete service-desk verification of both identities. A parent or guardian requesting\nservice for a minor must provide evidence of guardianship for manual verification. Never send full payment-card\ndetails or identity documents through an unverified channel.\n8.1 How to submit a request\nFor direct bookings, use the fictional service portal https://service.northstar-air.example or email\ncare@northstar-air.example to begin verification. These are fictional contact details and are not live services.\nFor agency-issued tickets, contact the issuing agency; this airline's service desk can review disruption\nassistance but agency refunds are routed through the issuing agency to the original payment method.\nProvide booking reference, traveler names, requested action, affected segments, original issuance timestamp\nand any disruption notice. The service desk verifies authority, identifies the applicable rule and provides a quote\nor review outcome. Confirm the quoted change or cancellation before execution. A quote alone does not alter a\nbooking. A complete authorized request includes the required facts, verified authority and acceptance of any\nquoted charge; its receipt time determines the policy window.\n9. Exceptions requiring manual review\nA serious medical event preventing travel may be submitted with dated supporting evidence. Request a secure\nsubmission route before supplying medical records. Approval, waived fees, cash refunds and credit are not\nguaranteed. Partly used itinerary refunds, selected-segment cancellations, mixed-fare tickets, disputed\nownership and guardianship also require review. For qualifying disruptions, Section 6 preserves the\nunused-portion refund entitlement while the amount is reviewed.\n9.1 Supporting information and review outcome\nKeep receipts and identify flown and unused segments when requesting a partial refund. The service desk\nconfirms what evidence is needed. A review request is not an approval, and the standard rules remain\napplicable unless a specific exception is approved. No fixed review or refund-processing turnaround is promised\nhere.\n10. Topics not covered\nLounge access, pet transport, loyalty benefits and unaccompanied-minor travel services are not documented\nhere. Contact the service desk for the applicable information; absence of a rule is neither permission nor a\nprohibition.\nNorthstar Air (NSA) | v2.0 | Passenger Policies 6 / 6"
+      }
+    ],
+    "path": "airline-policies/northstar-air/Passenger_Policies.pdf",
+    "reviewed_sha256": "e1c615d648c81088c1ac1c0aafb5cff05b53b2021847e6920eef80db2a249203",
+    "sections": [
+      "document",
+      "1",
+      "1.1",
+      "2",
+      "2.1",
+      "2.2",
+      "2.3",
+      "3",
+      "3.1",
+      "3.2",
+      "4",
+      "5",
+      "6",
+      "6.1",
+      "6.2",
+      "6.3",
+      "7",
+      "7.1",
+      "7.2",
+      "7.3",
+      "8",
+      "8.1",
+      "9",
+      "9.1",
+      "10"
+    ],
+    "slug": "northstar-air",
+    "snapshot_file": "sources/NSA.pdf",
+    "table_sections": {
+      "2": "2.1",
+      "3": "3",
+      "4": "6.2",
+      "5": "7"
+    },
+    "version": "2.0"
+  },
+  {
+    "airline": "STA",
+    "aliases": [
+      "sta",
+      "suntrail-air",
+      "suntrail air",
+      "suntrail"
+    ],
+    "effective_from": "2026-03-01T00:00:00Z",
+    "name": "Suntrail Air",
+    "page_count": 6,
+    "pages": [
+      {
+        "page": 1,
+        "tables": [],
+        "text": "Passenger Policies\nSuntrail Air | STA\nDocument version 1.4\nEffective 2026-03-01 at 00:00:00 UTC\nA hybrid airline with separate domestic and international fare conditions.\n1. Scope and definitions\nThis is a fictional policy publication. All airlines, rules, places, contacts and examples in this document are\ninvented. It applies only to tickets issued by this airline for flights operated by this airline, including direct and\ntravel-agency sales. Other carriers, codeshares, group contracts and award tickets are outside its scope.\nThe document governs requests received on or after its effective date. These rules apply regardless of original\nticket issuance date. Earlier request dates are outside this publication. A reissue does not change the original\nticket issuance timestamp for policy selection.\nFlight segment means one scheduled takeoff and landing. An itinerary comprises all segments on one\npassenger ticket. A booking may contain several passenger tickets. Travel has started once any segment on\nthat ticket has been flown. A wholly unused ticket has no flown segments.\nDomestic means both endpoints of a segment are in the fictional Republic of Aster; all other segments are\ninternational. Route type is assessed per segment for changes and baggage. For voluntary cancellation, an\nitinerary is international if any segment is international; otherwise it is domestic.\n1.1 Time and money conventions\nAll timestamps and elapsed-time calculations use UTC, without daylight-saving adjustments. Departure\nproximity is measured from receipt of a complete, authorized request to the scheduled departure time then\nrecorded on the ticket. For a change, use each affected segment; for cancellation of a wholly unused ticket, use\nits first segment. A pending incomplete request does not preserve an earlier deadline.\nThe early window is 24 hours or more before departure, including exactly 24 hours. The late window is less\nthan 24 hours but more than 0 hours. At exactly departure time or later, Section 5 applies. All money is USD;\nlisted fees include any fee-related taxes.\nSuntrail Air (STA) | v1.4 | Passenger Policies 1 / 6"
+      },
+      {
+        "page": 2,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "Domestic USD 40; international not permitted",
+              "Not permitted"
+            ],
+            [
+              "Economy Standard",
+              "Domestic USD 20; international USD 65",
+              "Domestic USD 50; international USD 100"
+            ],
+            [
+              "Economy Flex",
+              "USD 0 on either route type",
+              "Domestic USD 0; international USD 25"
+            ]
+          ]
+        ],
+        "text": "2. Fare types and voluntary changes\nEconomy Basic, Economy Standard and Economy Flex describe the fare purchased on each ticket. A higher\ncabin-baggage allowance or a paid extra does not upgrade a fare. A ticket uses one fare type throughout;\nmixed-fare tickets require manual review under Section 9.\n2.1 Change fee schedule\nThe following fees apply per passenger, per changed flight segment, per completed change request.\nMultiply by the number of passengers and changed segments. No additional per-booking fee is charged. A new\nrequest after a completed change is charged separately.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic Domestic USD 40; international not permitted Not permitted\nEconomy Standard Domestic USD 20; international USD 65 Domestic USD 50; international USD 100\nEconomy Flex USD 0 on either route type Domestic USD 0; international USD 25\n2.2 Fare difference and permitted changes\nEvery permitted change also requires payment of any positive fare difference for each affected passenger and\nsegment, even when the change fee is USD 0. Fare difference is the new segment fare minus the old segment\nfare, excluding taxes and optional extras. A lower fare creates no refund or credit and cannot offset a change\nfee. Changes in unused government taxes are collected or returned to the original payment method separately.\nDate or departure-time changes are allowed only where the table permits, subject to seat availability. Airline,\npassenger and route endpoint substitutions are not covered by a voluntary change; contact the service desk for\nreview. You may retain or upgrade the fare type, but not downgrade it. The existing fare determines the change\nfee; the replacement fare governs later requests.\n2.3 Travel already started\nAfter travel starts, changes to remaining unflown segments follow this table using each segment departure time,\nprovided no no-show has occurred. A missed segment takes priority over these rules. Voluntary refunds of partly\nused tickets are handled only under Section 9.\nExample: one Economy Standard traveler changes one domestic and one international segment, both 30 hours\nbefore departure. Fees are USD 20 + USD 65 = USD 85. Positive fare differences and any tax adjustment are\nadditional.\nSuntrail Air (STA) | v1.4 | Passenger Policies 2 / 6"
+      },
+      {
+        "page": 3,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Early: at least 24 hours",
+              "Late: more than 0, less than 24 hours"
+            ],
+            [
+              "Economy Basic",
+              "No fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Standard",
+              "Domestic credit less USD 25; international no fare refund or credit",
+              "No fare refund or credit"
+            ],
+            [
+              "Economy Flex",
+              "Domestic original payment, USD 0 fee; international original payment less USD 50",
+              "Domestic original payment less USD 20; international credit less USD 75"
+            ]
+          ]
+        ],
+        "text": "3. Voluntary cancellation and refunds\nThis section applies when you choose not to travel and Section 6 does not apply. The table covers cancellation\nof the entire wholly unused itinerary for each selected passenger. Cancellation fees are per passenger, per\nitinerary, not per segment or per booking.\nFare Early: at least 24 hours Late: more than 0, less than 24 hours\nEconomy Basic No fare refund or credit No fare refund or credit\nEconomy Standard Domestic credit less USD 25; international No fare refund or credit\nno fare refund or credit\nEconomy Flex Domestic original payment, USD 0 fee; Domestic original payment less USD 20;\ninternational original payment less USD 50 international credit less USD 75\n3.1 Amount and payment destination\nFare means the ticket amount excluding separately itemized government taxes and optional services. Where the\ntable allows a refund or credit, subtract the stated fee from the eligible fare; the result cannot be below USD 0.\nNo additional balance is collected when the fee exceeds the fare. Unused government taxes are returned to the\noriginal payment method on request for every fare, including non-refundable fares and no-shows.\nAn original-payment refund returns to the payment instrument used for the original purchase. Paying for another\ntraveler does not make the fare transferable. A travel credit is issued in the named passenger's name, cannot be\ntransferred or exchanged for cash, and may be used only with this airline. Unused credit remains available until\nexpiry.\n3.2 Credit validity and optional services\nA credit expires exactly 365 elapsed days after issue. It must be redeemed before that instant; redemption at the\nexpiry instant is not permitted. The new travel must also begin before that expiry instant. There is no extension\nunder the standard policy.\nPurchased baggage and seat extras are non-refundable for a voluntary cancellation. On an eligible date/time\nchange, unused extras transfer to the same passenger and route without a transfer fee, subject to availability;\nunavailable services require manual review. No automatic cash refund is promised for unavailable extras.\n4. Cancellation scope\nOne traveler may cancel their own whole ticket without cancelling other travelers in the booking, after authority is\nverified. A request to cancel selected segments only, or any refund after a segment has been flown, requires\nSection 9 review; do not apply the whole-ticket table to an assumed remaining balance.\n5. No-shows\nA traveler is a no-show if no complete authorized change/cancellation request was received before departure\nand the traveler does not take that flight. At exactly departure time, a new voluntary request is too late and\nreceives no-show treatment. All remaining segments are suspended pending service-desk contact; there is no\nautomatic reinstatement. The remaining fare has no standard refund or credit, including Flex. Unused\ngovernment taxes remain refundable. A qualifying airline disruption under Section 6 takes precedence; medical\ncircumstances may be reviewed under Section 9.\nSuntrail Air (STA) | v1.4 | Passenger Policies 3 / 6"
+      },
+      {
+        "page": 4,
+        "tables": [
+          [
+            [
+              "Option",
+              "What is included"
+            ],
+            [
+              "Replacement travel",
+              "One rebooking on this airline to the same destination in the same fare type, within 7 calendar days before or after the original departure date, inclusive, subject to availability. No change fee or fare difference."
+            ],
+            [
+              "Refund before travel starts",
+              "For a wholly unused affected itinerary, refund its full fare, unused government taxes and all unused purchased extras to the original payment method. No cancellation fee, including Economy Basic."
+            ],
+            [
+              "Refund after travel starts",
+              "Manual review of the unflown portion and unused extras. The right to refund the unused affected portion remains; the amount and allocation require review. No refund is promised for flown segments."
+            ]
+          ]
+        ],
+        "text": "6. Airline-initiated disruptions\nThese protections apply when the airline cancels a segment or makes a qualifying schedule change. They\noverride the voluntary fare restrictions, change fees and no-show loss of value in Sections 2, 3 and 5 for the\naffected journey. A passenger choosing to cancel for personal reasons without a qualifying event remains\nsubject to the voluntary rules.\n6.1 Qualifying events\nA cancellation by Suntrail Air qualifies for all fare types. A schedule change qualifies when the absolute\ndifference between the original and revised scheduled departure time of a segment is 120 minutes or more,\nincluding exactly 120 minutes, whether moved earlier or later. Smaller changes do not qualify under this\ndocument. Compare the latest notice with the schedule confirmed at original ticket issuance, not successive\nnotice-to-notice differences.\n6.2 Your choice\nOption What is included\nReplacement travel One rebooking on this airline to the same destination in the same fare type, within 7\ncalendar days before or after the original departure date, inclusive, subject to availability. No\nchange fee or fare difference.\nRefund before travel starts For a wholly unused affected itinerary, refund its full fare, unused government taxes and all\nunused purchased extras to the original payment method. No cancellation fee, including\nEconomy Basic.\nRefund after travel starts Manual review of the unflown portion and unused extras. The right to refund the unused\naffected portion remains; the amount and allocation require review. No refund is promised\nfor flown segments.\nYou may choose a refund instead of a credit. A credit is never required as the only remedy. If no suitable\nreplacement is available, the refund option remains. Choosing and completing a refund ends rebooking eligibility\nfor the refunded ticket; the same value cannot be refunded twice.\n6.3 Request period and later changes\nSubmit the choice within 30 elapsed days after the disruption notice timestamp, including exactly 30 days. After\nthat period, eligibility requires manual review rather than automatic approval or rejection. If you accepted\nreplacement travel and later change your mind for personal reasons, normal voluntary rules apply to the\nreplacement ticket. A new qualifying disruption creates a new choice.\nKeep the disruption notice and identify affected passengers and segments. A pending request does not itself\nconfirm replacement seats. Hotel, meal and ground-transport compensation are not specified in this publication.\nSuntrail Air (STA) | v1.4 | Passenger Policies 4 / 6"
+      },
+      {
+        "page": 5,
+        "tables": [
+          [
+            [
+              "Fare",
+              "Cabin bag allowance",
+              "Checked allowance"
+            ],
+            [
+              "Economy Basic",
+              "1 cabin bag, 7 kg",
+              "Domestic: none; international: 1 bag, 20 kg"
+            ],
+            [
+              "Economy Standard",
+              "1 cabin bag, 10 kg",
+              "Domestic: 1 bag, 20 kg; international: 1 bag, 23 kg"
+            ],
+            [
+              "Economy Flex",
+              "1 cabin bag, 12 kg",
+              "Domestic: 2 bags, 20 kg each; international: 2 bags, 23 kg each"
+            ]
+          ]
+        ],
+        "text": "7. Cabin and checked baggage\nEach passenger has one free personal item up to 40 x 30 x 15 cm and 3 kg. The cabin allowance below is\nadditional to that personal item. All dimensions include handles and wheels; weights and dimension limits are\ninclusive. Allowances are per passenger on each segment and cannot be pooled between travelers.\nFare Cabin bag allowance Checked allowance\nEconomy Basic 1 cabin bag, 7 kg Domestic: none; international: 1 bag, 20 kg\nEconomy Standard 1 cabin bag, 10 kg Domestic: 1 bag, 20 kg; international: 1 bag,\n23 kg\nEconomy Flex 1 cabin bag, 12 kg Domestic: 2 bags, 20 kg each; international:\n2 bags, 23 kg each\nEach permitted cabin bag must be no larger than 55 x 35 x 25 cm. Each checked bag must have length + width\n+ height no greater than 158 cm. A bag must satisfy both its weight and size limit. Allowances do not combine\ninto one heavier bag.\n7.1 Purchased baggage\nA second cabin bag cannot be purchased under this policy. Items beyond the cabin allowance must meet the\nchecked-baggage rules or be reviewed before acceptance.\nOne additional checked bag may be purchased for USD 50 per passenger per segment, whether purchased\nonline or at the airport. Its weight limit is 23 kg and its size limit is 158 cm in summed dimensions. This\npurchased-bag limit applies even when a free bag has a different weight limit. No more than one additional\nchecked bag is covered by this price.\n7.2 Items requiring advance review\nOverweight, oversized or further additional bags require a service-desk quote and acceptance review; no fixed\ncharge or acceptance guarantee is provided here. Do not assume that paying an additional-bag fee makes an\noverweight bag acceptable. Dangerous goods and special-equipment handling are outside this publication.\n7.3 Segment-specific allowance\nFor a multi-segment journey, assess the allowance and any purchased bag charge on each segment. A\nbaggage purchase covers only the passenger and segments shown on its receipt. A two-segment trip therefore\nincurs two charges for one additional bag carried on both segments.\nExample: Economy Basic includes no checked bag on an Aster domestic segment and one 20 kg checked bag\non an international segment. Carrying a 19 kg bag on both requires a USD 50 purchase on the domestic\nsegment only; the international segment includes it.\nSuntrail Air (STA) | v1.4 | Passenger Policies 5 / 6"
+      },
+      {
+        "page": 6,
+        "tables": [],
+        "text": "8. Booking ownership and requests\nThe named adult traveler may request service for their own ticket after identity and booking details are verified. A\nbooking reference, shared surname, or possession of payment details alone is not authority. A payer or lead\nbooker may not change, cancel or view another adult traveler's private ticket information without that traveler's\nexplicit authorization and identity verification.\nA representative must supply the traveler's written authorization naming the representative, booking reference\nand permitted action, and complete service-desk verification of both identities. A parent or guardian requesting\nservice for a minor must provide evidence of guardianship for manual verification. Never send full payment-card\ndetails or identity documents through an unverified channel.\n8.1 How to submit a request\nFor direct bookings, use the fictional service portal https://service.suntrail-air.example or email\ncare@suntrail-air.example to begin verification. These are fictional contact details and are not live services. For\nagency-issued tickets, contact the issuing agency; this airline's service desk can review disruption assistance\nbut agency refunds are routed through the issuing agency to the original payment method.\nProvide booking reference, traveler names, requested action, affected segments, original issuance timestamp\nand any disruption notice. The service desk verifies authority, identifies the applicable rule and provides a quote\nor review outcome. Confirm the quoted change or cancellation before execution. A quote alone does not alter a\nbooking. A complete authorized request includes the required facts, verified authority and acceptance of any\nquoted charge; its receipt time determines the policy window.\n9. Exceptions requiring manual review\nA serious medical event preventing travel may be submitted with dated supporting evidence. Request a secure\nsubmission route before supplying medical records. Approval, waived fees, cash refunds and credit are not\nguaranteed. Partly used itinerary refunds, selected-segment cancellations, mixed-fare tickets, disputed\nownership and guardianship also require review. For qualifying disruptions, Section 6 preserves the\nunused-portion refund entitlement while the amount is reviewed.\n9.1 Supporting information and review outcome\nKeep receipts and identify flown and unused segments when requesting a partial refund. The service desk\nconfirms what evidence is needed. A review request is not an approval, and the standard rules remain\napplicable unless a specific exception is approved. No fixed review or refund-processing turnaround is promised\nhere.\n10. Topics not covered\nLounge access, pet transport, loyalty benefits and unaccompanied-minor travel services are not documented\nhere. Contact the service desk for the applicable information; absence of a rule is neither permission nor a\nprohibition.\nSuntrail Air (STA) | v1.4 | Passenger Policies 6 / 6"
+      }
+    ],
+    "path": "airline-policies/suntrail-air/Passenger_Policies.pdf",
+    "reviewed_sha256": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d",
+    "sections": [
+      "document",
+      "1",
+      "1.1",
+      "2",
+      "2.1",
+      "2.2",
+      "2.3",
+      "3",
+      "3.1",
+      "3.2",
+      "4",
+      "5",
+      "6",
+      "6.1",
+      "6.2",
+      "6.3",
+      "7",
+      "7.1",
+      "7.2",
+      "7.3",
+      "8",
+      "8.1",
+      "9",
+      "9.1",
+      "10"
+    ],
+    "slug": "suntrail-air",
+    "snapshot_file": "sources/STA.pdf",
+    "table_sections": {
+      "2": "2.1",
+      "3": "3",
+      "4": "6.2",
+      "5": "7"
+    },
+    "version": "1.4"
+  }
+]

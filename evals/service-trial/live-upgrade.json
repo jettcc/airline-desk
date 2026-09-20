@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "backup_file": "var/pre-service-trial-20260920.sqlite",
+  "at_utc": "2026-09-20T06:34:07.595297+00:00",
+  "before_schema": 2,
+  "tables_before": {
+    "actors": {
+      "rows": 3,
+      "sha256": "3434dce2af26e5f9e2eba87643fef48d4295babcaa989bd922675afca0bffaa4"
+    },
+    "accounts": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sessions": {
+      "rows": 27,
+      "sha256": "49095bca6f8f0a0336b138ea97ef576af9e375318e95119bfb0973c2d65ae0ee"
+    },
+    "tickets": {
+      "rows": 19,
+      "sha256": "07fdd76ea3e03e4ba9023c4d141769490c9a1fa64865672be0ce006bb6f3a24c"
+    },
+    "grants": {
+      "rows": 19,
+      "sha256": "ed0727061805f54bfeb99a69c2bf4052973109fa676cf5248dec131509a01f70"
+    },
+    "conversations": {
+      "rows": 22,
+      "sha256": "d297afb24ec1fc7940e75af00c21e0bd280c78f54f645a66c0515bde80f01d47"
+    },
+    "quotes": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "submissions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "operations": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "credits": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "consumptions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "inventory": {
+      "rows": 53,
+      "sha256": "35b221e9efc4e4a627e8260494e7fec224f720f441cf0f73ffbcb679dc2cf86a"
+    },
+    "reservations": {
+      "rows": 21,
+      "sha256": "603da98995c6943220576a6eddd240ac8b64634b4b2a07cdec8256bb18c8e886"
+    },
+    "review_cases": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "after_schema": 3,
+  "tables_after": {
+    "actors": {
+      "rows": 3,
+      "sha256": "3434dce2af26e5f9e2eba87643fef48d4295babcaa989bd922675afca0bffaa4"
+    },
+    "accounts": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sessions": {
+      "rows": 27,
+      "sha256": "49095bca6f8f0a0336b138ea97ef576af9e375318e95119bfb0973c2d65ae0ee"
+    },
+    "tickets": {
+      "rows": 19,
+      "sha256": "07fdd76ea3e03e4ba9023c4d141769490c9a1fa64865672be0ce006bb6f3a24c"
+    },
+    "grants": {
+      "rows": 19,
+      "sha256": "ed0727061805f54bfeb99a69c2bf4052973109fa676cf5248dec131509a01f70"
+    },
+    "conversations": {
+      "rows": 22,
+      "sha256": "d297afb24ec1fc7940e75af00c21e0bd280c78f54f645a66c0515bde80f01d47"
+    },
+    "quotes": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "submissions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "operations": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "credits": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "consumptions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "inventory": {
+      "rows": 53,
+      "sha256": "35b221e9efc4e4a627e8260494e7fec224f720f441cf0f73ffbcb679dc2cf86a"
+    },
+    "reservations": {
+      "rows": 21,
+      "sha256": "603da98995c6943220576a6eddd240ac8b64634b4b2a07cdec8256bb18c8e886"
+    },
+    "review_cases": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "http_status": 200
+}

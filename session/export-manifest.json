@@ -1,0 +1,97 @@
+{
+  "thread_id": "01a0aec0-c218-7081-abcf-d1fee653dbac",
+  "title": "整理项目内容与要求",
+  "cutoff_utc": "2026-09-20T07:39:44.904Z",
+  "format": "user-visible-conversation-v1",
+  "sources": [
+    {
+      "segment": 1,
+      "source_name": "rollout-2026-09-17T17-44-23-01a0aec0-c218-7081-abcf-d1fee653dbac.jsonl",
+      "snapshot_sha256": "f7164668ec691015e6756e44614b8b2fa30f13d582d926bbeda04be68ff2ef21",
+      "snapshot_bytes": 5891587,
+      "exported_messages": 21
+    },
+    {
+      "segment": 2,
+      "source_name": "rollout-2026-09-18T15-17-33-01a0aec0-c218-7081-abcf-d1fee653dbac_01a0b360-b026-7e71-bb22-c7296c792342.jsonl",
+      "snapshot_sha256": "ac2f05d816684f61ca7dad5255562ed781b868459b7426f07c97ca7bfa910a65",
+      "snapshot_bytes": 6045942,
+      "exported_messages": 13
+    },
+    {
+      "segment": 3,
+      "source_name": "rollout-2026-09-18T16-07-27-01a0aec0-c218-7081-abcf-d1fee653dbac_01a0b38e-6100-7743-b1b3-6ac90fcd06d6.jsonl",
+      "snapshot_sha256": "bafca9f1e2e8fb5bc7adc4d120d4c1e44a5fa7f386544ac7ae3ac2ca38c02eff",
+      "snapshot_bytes": 6114603,
+      "exported_messages": 36
+    },
+    {
+      "segment": 4,
+      "source_name": "rollout-2026-09-18T17-57-22-01a0aec0-c218-7081-abcf-d1fee653dbac_01a0b3f3-035e-7e52-885e-968e71ffa73d.jsonl",
+      "snapshot_sha256": "6fc3d3eca532dd5e6892a0afaca831dbfa2c9175db4c70538d160f80b74322c2",
+      "snapshot_bytes": 397795,
+      "exported_messages": 5
+    },
+    {
+      "segment": 5,
+      "source_name": "rollout-2026-09-18T18-01-05-01a0aec0-c218-7081-abcf-d1fee653dbac_01a0b3f6-6714-73a2-8f7d-58c6d77e68df.jsonl",
+      "snapshot_sha256": "25699ef8aae7a5a7eaeb7199169659003f2bbe8c5abbd4a19171bd5481224c62",
+      "snapshot_bytes": 286370,
+      "exported_messages": 3
+    },
+    {
+      "segment": 6,
+      "source_name": "rollout-2026-09-18T18-04-38-01a0aec0-c218-7081-abcf-d1fee653dbac_01a0b3f9-a94a-7d43-a4da-8f86b630a052.jsonl",
+      "snapshot_sha256": "e17334eaf1b9e247a0757b215ce601a90b800a6efd8f614a7ab0459d6e5126e2",
+      "snapshot_bytes": 26938263,
+      "exported_messages": 104
+    },
+    {
+      "segment": 7,
+      "source_name": "rollout-2026-09-20T15-39-40-01a0aec0-c218-7081-abcf-d1fee653dbac_01a0bdc1-a66c-7db0-95fb-8476dda185c8.jsonl",
+      "snapshot_sha256": "3981cecca1b18a8a17314d8292a868e519b14a00703547fd6c3f667d00610490",
+      "snapshot_bytes": 525780,
+      "exported_messages": 1
+    }
+  ],
+  "messages": 183,
+  "role_counts": {
+    "user": 33,
+    "assistant": 150
+  },
+  "phase_counts": {
+    "user": 33,
+    "commentary": 122,
+    "final_answer": 28
+  },
+  "start_utc": "2026-09-17T09:44:36.491Z",
+  "end_utc": "2026-09-20T07:39:44.904Z",
+  "sanitization": {
+    "automatic_context_blocks_removed": 39,
+    "credential_occurrences_redacted": 4,
+    "nonconversation_messages_omitted": 3,
+    "question_replies_rendered": 3
+  },
+  "attachments": [
+    {
+      "path": "attachments/user-image-01.png",
+      "sha256": "db785e37783bf4128ca936748c9b5cc2d61fc59c5b9fe3d2b62ed64e73adc8d1",
+      "bytes": 22970
+    },
+    {
+      "path": "attachments/user-image-02.png",
+      "sha256": "949924b82177a1dc4046945d6233e1343b8c8554a8e1b9a5b91723b8534b2548",
+      "bytes": 103556
+    }
+  ],
+  "scope": "All locally available visible user/assistant messages in 7 continuation/revision segments through the packaging request; not a raw runtime log.",
+  "excluded": [
+    "system/developer/environment messages",
+    "hidden reasoning",
+    "compaction summaries",
+    "tool arguments/outputs",
+    "provider metadata",
+    "credentials",
+    "post-cutoff messages"
+  ]
+}

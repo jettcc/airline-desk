@@ -1,0 +1,540 @@
+{
+  "not_covered": [
+    {
+      "aliases": [
+        "宠物",
+        "猫咪",
+        "宠物狗",
+        "pet",
+        "pets"
+      ],
+      "name": "pet_transport",
+      "sections": [
+        "10"
+      ]
+    },
+    {
+      "aliases": [
+        "贵宾室",
+        "休息室",
+        "lounge"
+      ],
+      "name": "lounge",
+      "sections": [
+        "10"
+      ]
+    },
+    {
+      "aliases": [
+        "会员权益",
+        "里程",
+        "积分",
+        "loyalty",
+        "miles"
+      ],
+      "name": "loyalty",
+      "sections": [
+        "10"
+      ]
+    },
+    {
+      "aliases": [
+        "无人陪伴",
+        "unaccompanied"
+      ],
+      "name": "unaccompanied_minor_service",
+      "sections": [
+        "10"
+      ]
+    },
+    {
+      "aliases": [
+        "赔偿",
+        "酒店",
+        "餐饮",
+        "地面交通",
+        "hotel",
+        "meal",
+        "compensation"
+      ],
+      "name": "compensation",
+      "sections": [
+        "6.3"
+      ]
+    },
+    {
+      "aliases": [
+        "危险品",
+        "特殊设备",
+        "dangerous goods",
+        "special equipment"
+      ],
+      "name": "special_items",
+      "sections": [
+        "7.2"
+      ]
+    }
+  ],
+  "schema": 1,
+  "topics": {
+    "authorization": {
+      "aliases": [
+        "授权",
+        "身份",
+        "代办",
+        "付款人",
+        "同行人",
+        "监护",
+        "订单号",
+        "预订编号",
+        "代理商",
+        "旅行社",
+        "ownership",
+        "authority",
+        "authorization",
+        "payer",
+        "guardian",
+        "agency",
+        "identity",
+        "booking reference",
+        "representative"
+      ],
+      "booking_facts": [
+        "verified_actor",
+        "target_traveler",
+        "requested_action",
+        "written_authorization_if_representative",
+        "guardianship_if_minor",
+        "sales_channel"
+      ],
+      "sections": [
+        "1",
+        "4",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "baggage": {
+      "aliases": [
+        "行李",
+        "托运",
+        "登机箱",
+        "随身",
+        "箱子",
+        "超重",
+        "超尺寸",
+        "baggage",
+        "luggage",
+        "bag",
+        "bags",
+        "carry on",
+        "carry-on",
+        "overweight",
+        "oversized",
+        "personal item"
+      ],
+      "booking_facts": [
+        "fare_type",
+        "route_type_per_segment",
+        "bags_per_passenger",
+        "weight_and_dimensions_per_bag",
+        "purchased_baggage_receipts"
+      ],
+      "sections": [
+        "1",
+        "2",
+        "3.2",
+        "7",
+        "7.1",
+        "7.2",
+        "7.3",
+        "9"
+      ]
+    },
+    "change": {
+      "airline_sections": {
+        "BHA": [
+          "Appendix A"
+        ]
+      },
+      "aliases": [
+        "改签",
+        "改期",
+        "改到",
+        "改时间",
+        "改航班",
+        "换航班",
+        "升档",
+        "升舱",
+        "降档",
+        "改名字",
+        "换人",
+        "差价",
+        "涨价",
+        "降价",
+        "轧差",
+        "抵扣",
+        "补款",
+        "change",
+        "changes",
+        "changing",
+        "reschedule",
+        "rescheduling",
+        "rebook",
+        "rebooking",
+        "upgrade",
+        "downgrade",
+        "fare difference",
+        "offset",
+        "netting"
+      ],
+      "booking_facts": [
+        "verified_authority",
+        "original_issued_at",
+        "fare_type",
+        "affected_passengers_and_segments",
+        "complete_request_received_at",
+        "scheduled_departures",
+        "travel_and_no_show_state",
+        "disruption_facts",
+        "new_fares_and_inventory",
+        "unused_taxes_and_extras"
+      ],
+      "sections": [
+        "1",
+        "1.1",
+        "2",
+        "2.1",
+        "2.2",
+        "2.3",
+        "3.1",
+        "3.2",
+        "5",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "credit": {
+      "aliases": [
+        "旅行额度",
+        "代金券",
+        "抵用金",
+        "有效期",
+        "过期",
+        "到期",
+        "转让",
+        "提现",
+        "credit",
+        "voucher",
+        "expiry",
+        "expiration",
+        "expire",
+        "expires",
+        "transferable"
+      ],
+      "booking_facts": [
+        "named_passenger",
+        "issuing_airline",
+        "credit_issued_at",
+        "redemption_at",
+        "new_travel_start_at",
+        "remaining_credit"
+      ],
+      "sections": [
+        "1",
+        "1.1",
+        "3",
+        "3.1",
+        "3.2",
+        "4",
+        "5",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "disruption": {
+      "airline_sections": {
+        "NSA": [
+          "9.1"
+        ],
+        "STA": [
+          "9.1"
+        ]
+      },
+      "aliases": [
+        "航司取消",
+        "航空公司取消",
+        "航班取消",
+        "航变",
+        "时刻变化",
+        "提前起飞",
+        "延误",
+        "晚点",
+        "航班推迟",
+        "disruption",
+        "disruptions",
+        "schedule change",
+        "delay",
+        "delayed",
+        "airline cancelled",
+        "airline canceled",
+        "flight cancelled",
+        "flight canceled"
+      ],
+      "booking_facts": [
+        "verified_authority",
+        "original_issuance_schedule",
+        "latest_notified_schedule",
+        "notice_timestamp",
+        "request_timestamp",
+        "travel_state",
+        "affected_itinerary",
+        "unused_taxes_and_extras",
+        "replacement_inventory"
+      ],
+      "sections": [
+        "1",
+        "1.1",
+        "3.1",
+        "4",
+        "5",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "extras": {
+      "aliases": [
+        "选座",
+        "座位费",
+        "附加服务",
+        "附加费",
+        "seat extra",
+        "seat fee",
+        "extras",
+        "optional services"
+      ],
+      "booking_facts": [
+        "requested_action",
+        "same_passenger_and_route",
+        "unused_services",
+        "availability",
+        "disruption_facts"
+      ],
+      "sections": [
+        "2.2",
+        "3.1",
+        "3.2",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "7.1",
+        "9"
+      ]
+    },
+    "no_show": {
+      "aliases": [
+        "误机",
+        "没赶上",
+        "没登机",
+        "错过航班",
+        "no-show",
+        "no show",
+        "missed flight",
+        "missed segment"
+      ],
+      "booking_facts": [
+        "scheduled_departure",
+        "complete_request_received_at",
+        "flight_taken",
+        "disruption_facts",
+        "unused_taxes"
+      ],
+      "sections": [
+        "1.1",
+        "2.3",
+        "3.1",
+        "4",
+        "5",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "refund": {
+      "airline_sections": {
+        "NSA": [
+          "9.1"
+        ],
+        "STA": [
+          "9.1"
+        ]
+      },
+      "aliases": [
+        "退票",
+        "退款",
+        "退钱",
+        "取消",
+        "不去了",
+        "不坐了",
+        "不飞了",
+        "退税",
+        "税费",
+        "税款",
+        "手续费",
+        "退款到账",
+        "refund",
+        "refunds",
+        "refundable",
+        "cancel",
+        "cancellation",
+        "tax",
+        "taxes",
+        "taxation",
+        "money back",
+        "not travelling",
+        "not traveling",
+        "fee",
+        "fees"
+      ],
+      "booking_facts": [
+        "verified_authority",
+        "selected_passenger_tickets",
+        "complete_request_received_at",
+        "first_departure",
+        "fare_type",
+        "itinerary_route_types",
+        "travel_and_no_show_state",
+        "eligible_fare",
+        "unused_taxes_and_extras",
+        "sales_channel",
+        "disruption_facts"
+      ],
+      "sections": [
+        "1",
+        "1.1",
+        "2.2",
+        "3",
+        "3.1",
+        "3.2",
+        "4",
+        "5",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "review": {
+      "airline_sections": {
+        "NSA": [
+          "9.1"
+        ],
+        "STA": [
+          "9.1"
+        ]
+      },
+      "aliases": [
+        "人工",
+        "生病",
+        "医疗",
+        "已经飞",
+        "已使用",
+        "只退一段",
+        "部分退款",
+        "混合票价",
+        "medical",
+        "illness",
+        "partly used",
+        "partially used",
+        "partial refund",
+        "mixed fare",
+        "manual review"
+      ],
+      "booking_facts": [
+        "verified_authority",
+        "requested_action",
+        "flown_and_unused_segments",
+        "supporting_evidence_via_secure_channel",
+        "disruption_facts"
+      ],
+      "sections": [
+        "1",
+        "2",
+        "2.3",
+        "3.1",
+        "4",
+        "5",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "8.1",
+        "9"
+      ]
+    },
+    "scope": {
+      "airline_sections": {
+        "BHA": [
+          "Appendix A"
+        ]
+      },
+      "aliases": [
+        "国内",
+        "国际",
+        "适用范围",
+        "政策版本",
+        "生效",
+        "出票",
+        "domestic",
+        "international",
+        "effective",
+        "issuance",
+        "reissue",
+        "scope",
+        "codeshare",
+        "award ticket",
+        "group contract"
+      ],
+      "booking_facts": [
+        "request_timestamp",
+        "issuing_and_operating_airline",
+        "ticket_type",
+        "route_endpoints",
+        "original_issued_at"
+      ],
+      "sections": [
+        "document",
+        "1",
+        "1.1",
+        "2",
+        "8.1",
+        "9"
+      ]
+    }
+  }
+}

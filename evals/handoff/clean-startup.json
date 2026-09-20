@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "service_trial": false,
+      "http_status": 200,
+      "model": "unconfigured",
+      "schema": 3
+    },
+    {
+      "service_trial": true,
+      "http_status": 200,
+      "model": "unconfigured",
+      "schema": 3
+    }
+  ]
+}

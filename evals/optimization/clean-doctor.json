@@ -1,0 +1,36 @@
+
+> airline-service-assistant@0.1.0 doctor
+> node --env-file-if-exists=.env.rightcodes.local --import tsx scripts/doctor.ts
+
+.env.rightcodes.local not found. Continuing without it.
+{
+  "checks": [
+    {
+      "check": "Node.js",
+      "status": "PASS",
+      "detail": "Required 24.x; found 24.21.0"
+    },
+    {
+      "check": "SQLite and policy bundle",
+      "status": "PASS",
+      "detail": "1 verified bundle(s); no user database opened"
+    },
+    {
+      "check": "Python and FTS5",
+      "status": "PASS",
+      "detail": "Python >=3.10, PDF dependency and FTS5 available"
+    },
+    {
+      "check": "Web build",
+      "status": "PASS",
+      "detail": "Run npm run build before serving the web page"
+    },
+    {
+      "check": "Model configuration",
+      "status": "WARN",
+      "detail": "No complete model configuration. Local tests work; natural-language chat needs your own key"
+    }
+  ],
+  "status": "PASS",
+  "paid_requests": 0
+}

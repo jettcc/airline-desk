@@ -1,0 +1,37 @@
+[
+  {
+    "skill": "baggage-check",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "review-and-recovery",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "cancel-refund",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "booking-lookup",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "policy-consultation",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "disruption-options",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "change-quote",
+    "status": "PASS",
+    "output": "Skill is valid!\n"
+  }
+]

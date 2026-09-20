@@ -1,0 +1,604 @@
+TAP version 13
+# Subtest: HTTP same-origin CSRF, private scope, forged amounts, sources and quote confirmation
+ok 1 - HTTP same-origin CSRF, private scope, forged amounts, sources and quote confirmation
+  ---
+  duration_ms: 119.736958
+  type: 'test'
+  ...
+# Subtest: Conversation tools perform real KB search; message idempotency, repair and no free-text business facts
+ok 2 - Conversation tools perform real KB search; message idempotency, repair and no free-text business facts
+  ---
+  duration_ms: 135.028417
+  type: 'test'
+  ...
+# Subtest: Busy conversation prevents old confirmation; explanation preserves quote; logout discards late output
+ok 3 - Busy conversation prevents old confirmation; explanation preserves quote; logout discards late output
+  ---
+  duration_ms: 13.30775
+  type: 'test'
+  ...
+# Subtest: Revoked grant is checked before historical model context; unrelated user context never included
+ok 4 - Revoked grant is checked before historical model context; unrelated user context never included
+  ---
+  duration_ms: 9.589875
+  type: 'test'
+  ...
+# Subtest: Model SSE requires a complete matching response; errors do not expose provider messages or keys
+ok 5 - Model SSE requires a complete matching response; errors do not expose provider messages or keys
+  ---
+  duration_ms: 7.228542
+  type: 'test'
+  ...
+# Subtest: Bounded pool admits only configured workers and rejects excess queue
+ok 6 - Bounded pool admits only configured workers and rejects excess queue
+  ---
+  duration_ms: 0.120958
+  type: 'test'
+  ...
+# Subtest: Ten independent conversations retain separate histories with deterministic model
+ok 7 - Ten independent conversations retain separate histories with deterministic model
+  ---
+  duration_ms: 11.005959
+  type: 'test'
+  ...
+# Subtest: Clarification continuation keeps the prior task and repairs a generic repeated question once
+ok 8 - Clarification continuation keeps the prior task and repairs a generic repeated question once
+  ---
+  duration_ms: 12.336958
+  type: 'test'
+  ...
+# Subtest: R01: ±7 UTC calendar dates inclusive, both eighth dates rejected; successive notices use original issuance
+ok 9 - R01: ±7 UTC calendar dates inclusive, both eighth dates rejected; successive notices use original issuance
+  ---
+  duration_ms: 0.974084
+  type: 'test'
+  ...
+# Subtest: R02: upgrade fees use old fare; downgrade/partial mixed fare/route/service/used segment are distinct
+ok 10 - R02: upgrade fees use old fare; downgrade/partial mixed fare/route/service/used segment are distinct
+  ---
+  duration_ms: 0.259667
+  type: 'test'
+  ...
+# Subtest: R03: invalid facts and contradictory selected segments fail closed
+ok 11 - R03: invalid facts and contradictory selected segments fail closed
+  ---
+  duration_ms: 0.073834
+  type: 'test'
+  ...
+# Subtest: R04: bag allocation is independent of input order; exact dimensions, paid cabin and excess piece boundaries
+ok 12 - R04: bag allocation is independent of input order; exact dimensions, paid cabin and excess piece boundaries
+  ---
+  duration_ms: 0.182125
+  type: 'test'
+  ...
+# Subtest: R05: every baggage allowance matches independently transcribed PDF rows
+ok 13 - R05: every baggage allowance matches independently transcribed PDF rows
+  ---
+  duration_ms: 0.407541
+  type: 'test'
+  ...
+# Subtest: R06: signed lower int64, carry and JSON preserve nanos; credit redemption and departure checked independently
+ok 14 - R06: signed lower int64, carry and JSON preserve nanos; credit redemption and departure checked independently
+  ---
+  duration_ms: 0.178625
+  type: 'test'
+  ...
+# Subtest: B01: standalone tax refund never cancels ticket or repeats; active travel requires review
+ok 15 - B01: standalone tax refund never cancels ticket or repeats; active travel requires review
+  ---
+  duration_ms: 15.878958
+  type: 'test'
+  ...
+# Subtest: B02: tax already refunded is not refunded again during cancellation; extras/fare stay separate
+ok 16 - B02: tax already refunded is not refunded again during cancellation; extras/fare stay separate
+  ---
+  duration_ms: 5.338666
+  type: 'test'
+  ...
+# Subtest: B03: accepted disruption rebooking uses normal later rules and a distinct new event has one new right
+ok 17 - B03: accepted disruption rebooking uses normal later rules and a distinct new event has one new right
+  ---
+  duration_ms: 6.325667
+  type: 'test'
+  ...
+# Subtest: B04: completed upgrade changes later fee but preserves original issuance; lower price forces historical refund review
+ok 18 - B04: completed upgrade changes later fee but preserves original issuance; lower price forces historical refund review
+  ---
+  duration_ms: 6.739459
+  type: 'test'
+  ...
+# Subtest: B05: group candidates are all-or-nothing for scope, booking and duplicates
+ok 19 - B05: group candidates are all-or-nothing for scope, booking and duplicates
+  ---
+  duration_ms: 6.594875
+  type: 'test'
+  ...
+# Subtest: I01 read-only: action/time grant boundaries are server enforced
+ok 20 - I01 read-only: action/time grant boundaries are server enforced
+  ---
+  duration_ms: 6.779375
+  type: 'test'
+  ...
+# Subtest: I01 change-only: action/time grant boundaries are server enforced
+ok 21 - I01 change-only: action/time grant boundaries are server enforced
+  ---
+  duration_ms: 5.707041
+  type: 'test'
+  ...
+# Subtest: I01 not-yet: action/time grant boundaries are server enforced
+ok 22 - I01 not-yet: action/time grant boundaries are server enforced
+  ---
+  duration_ms: 3.930125
+  type: 'test'
+  ...
+# Subtest: I01 expired: action/time grant boundaries are server enforced
+ok 23 - I01 expired: action/time grant boundaries are server enforced
+  ---
+  duration_ms: 6.324625
+  type: 'test'
+  ...
+# Subtest: I01 revoked: action/time grant boundaries are server enforced
+ok 24 - I01 revoked: action/time grant boundaries are server enforced
+  ---
+  duration_ms: 4.999917
+  type: 'test'
+  ...
+# Subtest: I02: operation after mixed-target grant revocation shows only visible lines/subtotal; prior successful commit is retained
+ok 25 - I02: operation after mixed-target grant revocation shows only visible lines/subtotal; prior successful commit is retained
+  ---
+  duration_ms: 8.135584
+  type: 'test'
+  ...
+# Subtest: I03: logout before final transaction rejects; logout after commit and relogin recovers one operation
+ok 26 - I03: logout before final transaction rejects; logout after commit and relogin recovers one operation
+  ---
+  duration_ms: 9.944292
+  type: 'test'
+  ...
+# Subtest: P01: all required policy tables validated; failed activation cannot publish an in-memory bundle
+ok 27 - P01: all required policy tables validated; failed activation cannot publish an in-memory bundle
+  ---
+  duration_ms: 6.428417
+  type: 'test'
+  ...
+# Subtest: P02: policy activation between receipt and commit rejects old quote; committed history keeps original source
+ok 28 - P02: policy activation between receipt and commit rejects old quote; committed history keeps original source
+  ---
+  duration_ms: 9.641583
+  type: 'test'
+  ...
+# Subtest: P03: mixed evidence releases only emit each airline assigned to that exact release; child gets no credentials
+ok 29 - P03: mixed evidence releases only emit each airline assigned to that exact release; child gets no credentials
+  ---
+  duration_ms: 5.631458
+  type: 'test'
+  ...
+# Subtest: M01: actual policy retrieval has bilingual conditions and source-bound airline tables; unknown stays unknown
+ok 30 - M01: actual policy retrieval has bilingual conditions and source-bound airline tables; unknown stays unknown
+  ---
+  duration_ms: 212.009
+  type: 'test'
+  ...
+# Subtest: V01: review dedup, parameter mismatch, changed-fact linkage, insertion failure and restricted view
+ok 31 - V01: review dedup, parameter mismatch, changed-fact linkage, insertion failure and restricted view
+  ---
+  duration_ms: 7.159083
+  type: 'test'
+  ...
+# Subtest: V02: medical review is unverified with unknown amount; guardianship never grants access or looks up targets
+ok 32 - V02: medical review is unverified with unknown amount; guardianship never grants access or looks up targets
+  ---
+  duration_ms: 5.455125
+  type: 'test'
+  ...
+# Subtest: V03: failed tool name recorded; missing interior diagnostics cannot claim COMPLETE or affect business result
+ok 33 - V03: failed tool name recorded; missing interior diagnostics cannot claim COMPLETE or affect business result
+  ---
+  duration_ms: 54.658625
+  type: 'test'
+  ...
+# Subtest: F01: actual SQLite busy after receipt never duplicates; restart interrupts uncommitted receipt
+ok 34 - F01: actual SQLite busy after receipt never duplicates; restart interrupts uncommitted receipt
+  ---
+  duration_ms: 36.996583
+  type: 'test'
+  ...
+# Subtest: F02: actual SQLite page exhaustion rolls back ticket, ledger and credit
+ok 35 - F02: actual SQLite page exhaustion rolls back ticket, ledger and credit
+  ---
+  duration_ms: 7.447667
+  type: 'test'
+  ...
+# Subtest: F03: old process generation cannot commit after restart; busy turn is released
+ok 36 - F03: old process generation cannot commit after restart; busy turn is released
+  ---
+  duration_ms: 9.316125
+  type: 'test'
+  ...
+# Subtest: M02: tool loop hits exact limit and unblocks conversation; forged quote arguments cannot execute
+ok 37 - M02: tool loop hits exact limit and unblocks conversation; forged quote arguments cannot execute
+  ---
+  duration_ms: 13.3895
+  type: 'test'
+  ...
+# Subtest: M03: streamed quota failure and aborted request do not consume an automatic retry
+ok 38 - M03: streamed quota failure and aborted request do not consume an automatic retry
+  ---
+  duration_ms: 8.121666
+  type: 'test'
+  ...
+# Subtest: B06: credit usability requires current authorization, named credit airline and strict departure expiry
+ok 39 - B06: credit usability requires current authorization, named credit airline and strict departure expiry
+  ---
+  duration_ms: 4.815375
+  type: 'test'
+  ...
+# Subtest: P04: missing current policy pauses quotes but keeps bootstrap and completed records available
+ok 40 - P04: missing current policy pauses quotes but keeps bootstrap and completed records available
+  ---
+  duration_ms: 15.649542
+  type: 'test'
+  ...
+# Subtest: B07: schema initialization is versioned and repeatable; a newer unsupported schema fails closed
+ok 41 - B07: schema initialization is versioned and repeatable; a newer unsupported schema fails closed
+  ---
+  duration_ms: 7.099875
+  type: 'test'
+  ...
+# Subtest: M04: large group candidate card is compacted before the selected-flight turn enters model context
+ok 42 - M04: large group candidate card is compacted before the selected-flight turn enters model context
+  ---
+  duration_ms: 9.071708
+  type: 'test'
+  ...
+# Subtest: P05: missing source declarations cannot form a joint bundle even with a valid release identifier
+ok 43 - P05: missing source declarations cannot form a joint bundle even with a valid release identifier
+  ---
+  duration_ms: 4.584125
+  type: 'test'
+  ...
+# Subtest: I04: revoke then restore a grant cannot revive its old quote even without an intervening read
+ok 44 - I04: revoke then restore a grant cannot revive its old quote even without an intervening read
+  ---
+  duration_ms: 4.369708
+  type: 'test'
+  ...
+# Subtest: I05: grant revision during model wait discards output before another tool or history replay
+ok 45 - I05: grant revision during model wait discards output before another tool or history replay
+  ---
+  duration_ms: 7.14775
+  type: 'test'
+  ...
+# Subtest: M05: generic baggage retrieval also supplies complete translated allowances without re-asking known fare
+ok 46 - M05: generic baggage retrieval also supplies complete translated allowances without re-asking known fare
+  ---
+  duration_ms: 70.671333
+  type: 'test'
+  ...
+# Subtest: A02: actor object permissions, agent scope and no access through payer/name
+ok 47 - A02: actor object permissions, agent scope and no access through payer/name
+  ---
+  duration_ms: 25.420791
+  type: 'test'
+  ...
+# Subtest: A03: two people/two segments collect 220; mutation only after confirmation
+ok 48 - A03: two people/two segments collect 220; mutation only after confirmation
+  ---
+  duration_ms: 19.693209
+  type: 'test'
+  ...
+# Subtest: A04: original issuance 85/55 and crossing 24h does not reserve early eligibility
+ok 49 - A04: original issuance 85/55 and crossing 24h does not reserve early eligibility
+  ---
+  duration_ms: 9.284125
+  type: 'test'
+  ...
+# Subtest: A05: Suntrail mixed route fee 85, not full-itinerary fee
+ok 50 - A05: Suntrail mixed route fee 85, not full-itinerary fee
+  ---
+  duration_ms: 9.563708
+  type: 'test'
+  ...
+# Subtest: A06/A10: credit 60 + tax 20; retries, expiry, new key and login do not duplicate
+ok 51 - A06/A10: credit 60 + tax 20; retries, expiry, new key and login do not duplicate
+  ---
+  duration_ms: 7.789584
+  type: 'test'
+  ...
+# Subtest: A07: Basic disruption pays 280; consumed protection cannot be spent twice
+ok 52 - A07: Basic disruption pays 280; consumed protection cannot be spent twice
+  ---
+  duration_ms: 6.272417
+  type: 'test'
+  ...
+# Subtest: A08 and authorization review: local case preserves rights, does not grant access or mutate tickets
+ok 53 - A08 and authorization review: local case preserves rights, does not grant access or mutate tickets
+  ---
+  duration_ms: 5.697291
+  type: 'test'
+  ...
+# Subtest: A09: same-ticket race conflicts, unrelated tickets can both succeed
+ok 54 - A09: same-ticket race conflicts, unrelated tickets can both succeed
+  ---
+  duration_ms: 13.530375
+  type: 'test'
+  ...
+# Subtest: All-or-nothing after second-ticket fault; necessary financial record failure rolls back
+ok 55 - All-or-nothing after second-ticket fault; necessary financial record failure rolls back
+  ---
+  duration_ms: 23.783875
+  type: 'test'
+  ...
+# Subtest: Lost response after COMMIT is recoverable and repeat is safe
+ok 56 - Lost response after COMMIT is recoverable and repeat is safe
+  ---
+  duration_ms: 4.978042
+  type: 'test'
+  ...
+# Subtest: Quote TTL before/equal/after; valid receive time preserved through queue
+ok 57 - Quote TTL before/equal/after; valid receive time preserved through queue
+  ---
+  duration_ms: 17.563125
+  type: 'test'
+  ...
+# Subtest: Revocation before commit blocks all targets, revocation after commit does not undo it
+ok 58 - Revocation before commit blocks all targets, revocation after commit does not undo it
+  ---
+  duration_ms: 3.946916
+  type: 'test'
+  ...
+# Subtest: New quote supersedes old server-side; wrong session, wrong token and different key payload reject
+ok 59 - New quote supersedes old server-side; wrong session, wrong token and different key payload reject
+  ---
+  duration_ms: 6.003166
+  type: 'test'
+  ...
+# Subtest: Sessions expire exactly at idle/absolute boundaries and polling does not renew
+ok 60 - Sessions expire exactly at idle/absolute boundaries and polling does not renew
+  ---
+  duration_ms: 6.3745
+  type: 'test'
+  ...
+# Subtest: Future policy activation does not invalidate a still-applicable quote; effective change does
+ok 61 - Future policy activation does not invalidate a still-applicable quote; effective change does
+  ---
+  duration_ms: 13.53075
+  type: 'test'
+  ...
+# Subtest: Restart recovers a committed result and interrupts an uncommitted receipt
+ok 62 - Restart recovers a committed result and interrupts an uncommitted receipt
+  ---
+  duration_ms: 10.931791
+  type: 'test'
+  ...
+# Subtest: Partial disruption refund selected by unused segment retains established rights and unknown amount
+ok 63 - Partial disruption refund selected by unused segment retains established rights and unknown amount
+  ---
+  duration_ms: 5.029
+  type: 'test'
+  ...
+# Subtest: Real process SIGKILL after_receipt: restart reads atomic state
+ok 64 - Real process SIGKILL after_receipt: restart reads atomic state
+  ---
+  duration_ms: 154.27475
+  type: 'test'
+  ...
+# Subtest: Real process SIGKILL before_commit: restart reads atomic state
+ok 65 - Real process SIGKILL before_commit: restart reads atomic state
+  ---
+  duration_ms: 166.926542
+  type: 'test'
+  ...
+# Subtest: Real process SIGKILL after_commit: restart reads atomic state
+ok 66 - Real process SIGKILL after_commit: restart reads atomic state
+  ---
+  duration_ms: 155.289334
+  type: 'test'
+  ...
+# Subtest: Two tickets compete for final seat: at most one consumes inventory
+ok 67 - Two tickets compete for final seat: at most one consumes inventory
+  ---
+  duration_ms: 7.659291
+  type: 'test'
+  ...
+# Subtest: Money exact decimals, signed nanos, large int64 and settlement boundaries
+ok 68 - Money exact decimals, signed nanos, large int64 and settlement boundaries
+  ---
+  duration_ms: 0.817459
+  type: 'test'
+  ...
+# Subtest: UTC milliseconds and exact duration boundaries
+ok 69 - UTC milliseconds and exact duration boundaries
+  ---
+  duration_ms: 0.09975
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table NSA/Basic/true
+ok 70 - Independent change-fee table NSA/Basic/true
+  ---
+  duration_ms: 0.085375
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table NSA/Standard/true
+ok 71 - Independent change-fee table NSA/Standard/true
+  ---
+  duration_ms: 0.033625
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table NSA/Flex/true
+ok 72 - Independent change-fee table NSA/Flex/true
+  ---
+  duration_ms: 0.036
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table BHA/Basic/true
+ok 73 - Independent change-fee table BHA/Basic/true
+  ---
+  duration_ms: 0.035875
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table BHA/Standard/true
+ok 74 - Independent change-fee table BHA/Standard/true
+  ---
+  duration_ms: 0.039583
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table BHA/Flex/true
+ok 75 - Independent change-fee table BHA/Flex/true
+  ---
+  duration_ms: 0.028292
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table STA/Basic/true
+ok 76 - Independent change-fee table STA/Basic/true
+  ---
+  duration_ms: 0.036125
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table STA/Basic/false
+ok 77 - Independent change-fee table STA/Basic/false
+  ---
+  duration_ms: 0.063584
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table STA/Standard/true
+ok 78 - Independent change-fee table STA/Standard/true
+  ---
+  duration_ms: 0.039083
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table STA/Standard/false
+ok 79 - Independent change-fee table STA/Standard/false
+  ---
+  duration_ms: 0.030584
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table STA/Flex/true
+ok 80 - Independent change-fee table STA/Flex/true
+  ---
+  duration_ms: 0.02375
+  type: 'test'
+  ...
+# Subtest: Independent change-fee table STA/Flex/false
+ok 81 - Independent change-fee table STA/Flex/false
+  ---
+  duration_ms: 0.018917
+  type: 'test'
+  ...
+# Subtest: Bluehaven original issuance, including exact cutoff and retained old issuance
+ok 82 - Bluehaven original issuance, including exact cutoff and retained old issuance
+  ---
+  duration_ms: 0.043834
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table NSA/Basic/true
+ok 83 - Independent cancellation table NSA/Basic/true
+  ---
+  duration_ms: 0.056125
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table NSA/Standard/true
+ok 84 - Independent cancellation table NSA/Standard/true
+  ---
+  duration_ms: 0.022416
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table NSA/Flex/true
+ok 85 - Independent cancellation table NSA/Flex/true
+  ---
+  duration_ms: 0.018375
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table BHA/Basic/true
+ok 86 - Independent cancellation table BHA/Basic/true
+  ---
+  duration_ms: 0.0185
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table BHA/Standard/true
+ok 87 - Independent cancellation table BHA/Standard/true
+  ---
+  duration_ms: 0.027375
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table BHA/Flex/true
+ok 88 - Independent cancellation table BHA/Flex/true
+  ---
+  duration_ms: 0.019125
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table STA/Basic/true
+ok 89 - Independent cancellation table STA/Basic/true
+  ---
+  duration_ms: 0.021209
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table STA/Basic/false
+ok 90 - Independent cancellation table STA/Basic/false
+  ---
+  duration_ms: 0.015792
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table STA/Standard/true
+ok 91 - Independent cancellation table STA/Standard/true
+  ---
+  duration_ms: 0.031417
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table STA/Standard/false
+ok 92 - Independent cancellation table STA/Standard/false
+  ---
+  duration_ms: 0.018041
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table STA/Flex/true
+ok 93 - Independent cancellation table STA/Flex/true
+  ---
+  duration_ms: 0.016542
+  type: 'test'
+  ...
+# Subtest: Independent cancellation table STA/Flex/false
+ok 94 - Independent cancellation table STA/Flex/false
+  ---
+  duration_ms: 0.015167
+  type: 'test'
+  ...
+# Subtest: Per-segment positive difference: collect 88, tax refund 5, no 40 offset
+ok 95 - Per-segment positive difference: collect 88, tax refund 5, no 40 offset
+  ---
+  duration_ms: 1.864208
+  type: 'test'
+  ...
+# Subtest: Nonrefundable fare still permits cancellation/tax; floor at zero; no tax guessing
+ok 96 - Nonrefundable fare still permits cancellation/tax; floor at zero; no tax guessing
+  ---
+  duration_ms: 0.485042
+  type: 'test'
+  ...
+# Subtest: Disruption thresholds, notice period, used portion, no-show priority
+ok 97 - Disruption thresholds, notice period, used portion, no-show priority
+  ---
+  duration_ms: 0.263042
+  type: 'test'
+  ...
+# Subtest: Baggage purchase weight separate from free weight and no pooling
+ok 98 - Baggage purchase weight separate from free weight and no pooling
+  ---
+  duration_ms: 0.275417
+  type: 'test'
+  ...
+# Subtest: Missed earlier unused segment blocks changing a future segment; used segment does not
+ok 99 - Missed earlier unused segment blocks changing a future segment; used segment does not
+  ---
+  duration_ms: 0.202209
+  type: 'test'
+  ...
+1..99
+# tests 99
+# suites 0
+# pass 99
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 824.320667

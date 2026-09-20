@@ -1,0 +1,31 @@
+{
+  "business_rules_package": null,
+  "counts": {
+    "chunks": 75,
+    "documents": 3,
+    "pages": 18,
+    "tables": 13
+  },
+  "files": {
+    "chunks.json": "f1c2f0ec052b3367d577c77b7b4180b7c2a0a99610af15634d4774de927f8741",
+    "documents.json": "c49a3d707179c406a84d8bd20465910d86ef033427a227c6fe20bdaf839b2f48",
+    "index.sqlite": "4fe5b76448f9b1202198cd5023fd95d8a28ac0fbb3e697e40f300cc966683857",
+    "retrieval.json": "10cf30f70e5a51b8d1a7454b976fa03168ad189b5ee882d34e619195d071ccb4",
+    "sources/BHA.pdf": "3d687c9419b8cbb2f6c6481b4ace069be959afd83a06dd434c0e6b56b4e2c642",
+    "sources/NSA.pdf": "e1c615d648c81088c1ac1c0aafb5cff05b53b2021847e6920eef80db2a249203",
+    "sources/STA.pdf": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d"
+  },
+  "input_checksums": {
+    "catalog.json": "c0c12a2ec19551abe426088c41fb247a31236d7bd6035df2ccf769819b72dfc2",
+    "retrieval.json": "3f9509bab39572d38d6934fb96f73c198c75b819af67ec0506de66f926066eab",
+    "reviewed-tables.json": "e499cbe02a279ae06280092a68809687499552ec87fb61b105665375b52c30dd"
+  },
+  "purpose": "evidence_only",
+  "release_id": "080e655eed09c0685c4a14db",
+  "reviewed_sources": {
+    "BHA": "3d687c9419b8cbb2f6c6481b4ace069be959afd83a06dd434c0e6b56b4e2c642",
+    "NSA": "e1c615d648c81088c1ac1c0aafb5cff05b53b2021847e6920eef80db2a249203",
+    "STA": "52883158753d3ff3a9e1084b4e017d7e8527ec14d9b8e95e2dfe534251bcb15d"
+  },
+  "schema": 1
+}

@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-09-20T03:17:25.034348+00:00",
+  "status": "PASS_SCOPED_ASSIGNMENT_DELIVERY",
+  "scope": "Three supplied PDFs, local web chat, local accounts and simulated booking/financial backend",
+  "local_tests": {
+    "pass": 111,
+    "fail": 0,
+    "evidence": "../accounts/typescript-tests.tap"
+  },
+  "browser_tests": {
+    "pass": 12,
+    "fail": 0,
+    "evidence": "../accounts/browser-results.json"
+  },
+  "clean_install": {
+    "status": "PASS",
+    "tests": 111,
+    "knowledge_tests": 36,
+    "retrieval_cases": 10,
+    "startup": "clean-startup.json"
+  },
+  "real_acceptance": {
+    "pass": 10,
+    "fail": 0,
+    "scope": "Current code after session isolation and account features",
+    "evidence": "../acceptance/2026-09-20T03-11-15.400Z-bf23b39c/summary.json"
+  },
+  "financial_audit": "../acceptance/2026-09-20T03-11-15.400Z-bf23b39c/financial-audit.json",
+  "six_hour_requirement_met": false,
+  "six_hour_waived_by_user": true,
+  "production_ready": false,
+  "current_scope_blocking_issues": []
+}
